@@ -4,7 +4,7 @@
 title: "Ashutosh"
 description: "Personal page using Jack's JalPC Jekyll theme"
 keywords: "Ashutosh,AmJ,Profile, Blog,Jekyll,github,gh-page"
-baseurl: "/"
+baseurl: "/homepage/"
 url: "https://ashutoshmjain.github.io"
 # url: "http://127.0.0.1:4000"
 
