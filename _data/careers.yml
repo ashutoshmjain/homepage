@@ -1,56 +1,127 @@
 # careers section data
 - name:
-    detail: Method360
-    i18n: method360
+    detail: Time off to simplify life
+    i18n: TO
   desc:
-    detail: I am currently working with Method360 as Senior Director Business Development.
-    i18n: method360_des
+    detail: In addition to simplifying my physical and digital life, I am investing  2017 in preparing for full marathon; learning  slackware, git and ruby; modertaing SAP Gurus - my SAP community on Google+ and  bulding up my medium publications smbstack.com and thinkinginsap.com. Also doing some consulting work in enterprise apps to pay the bills :-)
+    i18n: TO_desc
   date:
-    detail: Apr. 2016
-    i18n: method360_date
+    detail: January 2017
+    i18n: TO_date
   job:
-    detail: Sr. Director Sales
-    i18n: method360_job
-  icon: fa-plus-square
-
-- name:
-    detail: Netease Game
-    i18n: netease
-  desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
-  date:
-    detail: Jun. 2015
-    i18n: nextcode_date
-  job:
-    detail: Dev Ops
-    i18n: netease_job
+    detail: Time off (Bay Area)
+    i18n: TO_job
   icon: fa-gamepad
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: Sr. Director Business Development
+    i18n: M360
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    detail: Method360 is a small consulting service out of SF focused on Big data, BI visualization and Financial Services. I was responsible for building new business in and around Bay Area. I reported to VP business development who in turn reported to founder / CEO.  
+    i18n: M360_desc
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
+    detail: April 2016
+    i18n: M360_date
   job:
-    detail: Dev Ops
-    i18n: ucloud_job
+    detail: Method 360 (San Francisco-CA)
+    i18n: M360_job
   icon: fa-cloud
 
 - name:
-    detail: Graduation
-    i18n: college
+    detail: Client Partner
+    i18n: Bcone
   desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
-    i18n: college_des
+    detail: Bristlecone is a Supply chanin consulting firm based out of Bay Area. They are a fully owned susidiary of Mahindra Group. That makes them a sister company of Tech Mahindra. As client partner, I was responsible for delivery of customer projects on west coast. In all , I handled 17 accounts on west coast. Around 25 % of Bristlecone's total revenue. I reported to VP client engagement who in turn reported to CEO.
+    i18n: Bcone_desc
   date:
-    detail: Jul. 2013
-    i18n: college_date
+    detail: March 2014
+    i18n: Bcone_date
   job:
-    detail: Student
-    i18n: college_job
-  icon: fa-book
+    detail: Bristlecone (San Jose -CA)
+    i18n: Bcone_job
+  icon: fa-cloud
+
+- name:
+    detail: Director-SAP Practice
+    i18n: Wipro
+  desc:
+    detail: Wipro is among the largest Indian systems integrators. As practice director based out of Mountain View, I was responsible for interlocking SAP practice with High Tech customers on US west coast. The work involved chasing and running large integrated deals that had SAP as one of the core technolgies. Working with other practices to build value propositions, present the proposals and single point contact for all the SAP related delivery issues. Worked for an quarteyly revenue and bookings target with customer sat being the key performance metric. 
+    i18n: Wipro_desc
+  date:
+    detail: July 2009
+    i18n: Wipro_date
+  job:
+    detail: Wipro (Mountain View- CA)
+    i18n: Wipro_job
+  icon: fa-cloud
+
+- name:
+    detail: Sr. Project Manager
+    i18n: IBM
+  desc:
+    detail: As part of Global Technology Services IT , I was responsible for implementing business systems for Applications on Demand group. IBM AoD was an application hosting business built on IBM's acqusition of Corio who pineered the concept of 'pay as you go model' for hosted enterprise apps. We implemented a manufacturing approach for service delivery using SAP as back bone integrated with number of home grown technologies. Together with strategic outsourcing , AoD later transformed into what we now know as IBM cloud business. 
+    i18n: IBM_desc
+  date:
+    detail: December 2005
+    i18n: IBM_date
+  job:
+    detail: IBM (San Jose-CA)
+    i18n: IBM_job
+  icon: fa-cloud
+
+- name:
+    detail: Sr. Consultant
+    i18n: DC
+  desc:
+    detail: As a Sr. Consultant, based out of San Jose CA, took a leadership role in proposal work for Solectron, HP and DNR (WA). Led solution design and delivery at Advanced Medical Optics (AMO) and Department of Natural Resources, State of WA (DNR). Conducted post-merger systems integration study for Tellabs and Advanced Fiber Communications (AFC) & contributed in Deloitte's Fast Track SAP delivery method and SMB solution for high tech.
+    i18n: DC_desc
+  date:
+    detail: October 2004
+    i18n: DC_date
+  job:
+    detail: Deloitte (San Jose- CA)
+    i18n: DC_job
+  icon: fa-cloud
+
+- name:
+    detail: Program Manager
+    i18n: Sat
+  desc:
+    detail: Led SAP implementations at Welspun-Wapi. Built the offshore delivery model at GSK-London and turned into a platinum account for Satyam in one year. Led the SAP upgrade project for TRW at Sterling Heights Michigan. 
+    i18n: Sat_desc
+  date:
+    detail: April 2001
+    i18n: Sat_date
+  job:
+    detail: Satyam (London- UK)
+    i18n: Sat_job
+  icon: fa-cloud
+
+- name:
+    detail: SAP Implementation Team Member
+    i18n: LnT
+  desc:
+    detail: Larsen & Toubro is an engineering giant in India. Started as a sales engineer and later leveraged my sales processes knowledge to design, implement and rollout SAP for the cement group. 
+    i18n: LnT_desc
+  date:
+    detail: Dec 1995
+    i18n: LnT_date
+  job:
+    detail: Larsen & Toubro (Mumbai- India)
+    i18n: LnT_job
+  icon: fa-plus-square
+
+- name:
+    detail: Project Manager, Construction Engineer
+    i18n: IRCON
+  desc:
+    detail: Part of mahjor railway projects in East India.
+    i18n: IRCON_desc
+  date:
+    detail: Nov 1990
+    i18n: IRCON_date
+  job:
+    detail: Indian Railway Construction Company (IRCON) (Calcutta- India)
+    i18n: IRCON_job
+  icon: fa-plus-square
+
