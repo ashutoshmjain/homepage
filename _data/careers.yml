@@ -1,15 +1,15 @@
 # careers section data
 - name:
-    detail: Preparing for Full Marathon
+    detail: Director of the Career Exploration Committee
     i18n: TO
   desc:
-    detail: It started last year. Took on a friendly challenge to run a half marathon and to my surprise,  I could do it:-) Benefits were  amazing. Over six months of training, I could cut down thirty five pounds of flab and four inches off my waistline. My dibetes is gone. 'I am hooked' is an understatement:-)  And this year I am dreaming big - Run a full marathon ! Goal is to run a major league with in four hours though I am my keeping expectations low. 
+    detail: I recently became the newest member of Berkeley's Undergraduate Statistics Association's Executive Team, serving as Director of the Career Exploration Committee. As Director, my job will be to plan and organize speaker sessions for prospective students in the Statistics field to hear about the possibilities that lay ahead from industry experts. The club fosters thoughtful discussions regarding statistical concepts and problems.
     i18n: TO_desc
   date:
-    detail: January 2017
+    detail: December 2017
     i18n: TO_date
   job:
-    detail: Time off (Bay Area)
+    detail: Berkeley's Undergraduate Statistics Association (Berkeley, CA)
     i18n: TO_job
   icon: fa-gamepad
 
