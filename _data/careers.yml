@@ -129,12 +129,12 @@
     detail: Black Belt 
     i18n: tkd
   desc:
-    detail: /
+    detail: In-training for eight years. Received 1st degree Black-belt and served as an assistant black belt coach for lower ranks. 
     i18n: tkd_desc
   date:
-    detail: August 2012 - April 2014
+    detail: May 2008 - August 2016
     i18n: tkd_date
   job:
-    detail: Synopsys Science Fair (Santa Clara, CA)
+    detail: Mightyfist Taekwondo (San Jose, CA)
     i18n: tkd_job
-  icon: fa-book
+  icon: fa-gamepad
