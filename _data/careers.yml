@@ -67,7 +67,7 @@
   job:
     detail: Lynbrook High School (San Jose, CA)
     i18n: IBM_job
-    icon: fa-book
+  icon: fa-plus-square
 
 - name:
     detail: Data Analyst Intern 
