@@ -9,7 +9,7 @@
   i18n: 'icebox'
   repo: 'jalpc_jekyll_theme'
   img: 'static/img/landing/jekyll.png'
-  desc: "Aimed to determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. Was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go. Took it a step further by integrating our compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system."
+  desc: "The IceBox is a thermoelectric cooler that uses temperature differentials to produce electricity (by way of the Peltier effect) to charge a smartphone. It is portable, environmentally friendly, and solves the issue of poor battery performance from smartphones by serving as a self-sustainable power source that can also store food and drinks. With this project, I aimed to determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. I was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go, and then took it a step further by integrating the compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system."
 
 - name: 'SeniorStudentConnect'
   i18n: 'ssc'
