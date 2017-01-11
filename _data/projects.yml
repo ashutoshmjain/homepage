@@ -1,22 +1,22 @@
 # projects section data
 
-- name: 'Business Transformation Project'
+- name: 'Lynbrook Speech & Debate Summer Camp'
   i18n: 'HCC'
   repo: 
   img: 'static/img/landing/HCC.png'
-  desc: 'Hilmar Cheese Company is among the largest cheese manufacturers in North America.  From an IT standpoint, Dairy Industry poses a unique set of challenges. Milk is not only a highly-regulated product, both raw material as well as finished product are perishable and industry operates on thin margin. They need to continuously evolve their products and at the same time keep strict control on cost to hedge themselves in commodity markets.  They embarked on Business Transformation Project in early 2014 with an objective to streamline manufacturing, order to cash, quality management, materials management, plant maintenace and finance with  SAP business suite on HANA  for back office, Salesforce for customer relationship and SAP Integrated business planning for demand , supply & milk planning. They hired Bristlecone as their IT partner to help them realize this implementation. I managed the project as program manager running five broad tracks. The role included project planning , financials , resource management, Integration leadership and weekly reporting steering committee.'
+  desc: 'Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club.'
 
-- name: 'Billing Simplification Project'
+- name: 'IceBox'
   i18n: 'Farmers'
   repo: 
   img: 'static/img/landing/Farmers.png'
-  desc: " Farmers Insurance is among the top ten life and auto insurance providers in USA. Their old billing system 'EasyPay' was lacking features expected by modern consumer and had integration challenges for realtime information. Farmers contracted Wipro in 2008 to help simplify the billing processes and implement scalable, future proof IT infrastructure. They decided to implement SAP IS insurance to help transform the billing landscape.  The project was assembled into multiple peripheral teams such as Mainframe Dev, Systems integration bus, Testing and Finance with SAP  in the center. My role was to manage the SAP Dev team for complete billing functionality and integration. The project involved major customization to SAP FS-CD module and implementation of SAP Biller Direct to meet the needs of Auto, Home, Fire and commercial business lines. Roll out was planned state by state to meet different business needs for each of the US states. My main responsibilities were - : release scope planning; resource allocation and development followup; daily status reporting; supporting testing; production deployment; bug triage "
+  desc: "Aimed to determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. Was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go. Took it a step further by integrating our compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system."
 
-- name: 'Project SCORE'
+- name: 'SeniorStudentConnect'
   i18n: 'IBM'
   repo: 
   img: 'static/img/landing/IBM.png'
-  desc: "IBM's services business is spread among two major business groups - Global Business Services (GBS) and Global Technology Services (GTS).  GTS is primarily focused on technical services such as cloud infrastructure, application hosting, data center operations , desktop support and call centers etc thru strategic outsourcing (SO), e-business (eBus) and Applications on Demand (AoD) divisions. AoD provided PAY AS YOU GO  hosting solutions for the enterprise software such as SAP, Oracle, JDE, PeopleSoft, and Ariba. AoD was built on IBM's acquisition of Corio, an enterprise applications services provider that had around 150 global customers hosted in various data centers. AoD later morphed into IBM cloud business. As a part of AoD IT services, I was responsible for streamlining 'Quote to Cash' and 'Contract to Procurement' processes. The program was named SCORE (SAP for core operations re-engineering) project and was originally planned  for two releases,  later expanded to three. SCORE was IBM's 18th independent SAP implementation. I joined IBM in Nov 2005 specifically for this project and was involved from conceptualization, estimation, business case, funding rounds, vendor management and execution."
+  desc: "In light of growing dependency on technology, aimed to determine whether senior citizens could also benefit from such technology usage, especially as a means of social interaction. Developed a website to connect senior citizens with other senior citizens (achieve social interaction) and with students (to teach). Overall, found data was inconclusive, but that there were signs of decreased feelings of social isolation amongst participating senior citizens."
 
 - name: 'Flex Implementation'
   i18n: 'DNR'
