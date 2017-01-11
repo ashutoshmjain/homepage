@@ -124,18 +124,3 @@
     detail: Synopsys Science Fair (Santa Clara, CA)
     i18n: IRCON_job
   icon: fa-book
-  
-  - name:
-    detail: Black Belt Instructor
-    i18n: Tkd
-  desc:
-    detail: In-training for eight years. Received 1st degree Black-belt and served as an assistant black belt coach for lower ranks. 
-    i18n: Tkd_desc
-  date:
-    detail: May 2008 - August 2016
-    i18n: Tkd_date
-  job:
-    detail: Mightyfist Taekwondo (San Jose, CA)
-    i18n: Tkd_job
-  icon: fa-gamepad
-  
