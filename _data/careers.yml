@@ -67,7 +67,7 @@
   job:
     detail: Lynbrook High School (San Jose, CA)
     i18n: IBM_job
-  icon: fa-plus-square
+    icon: fa-plus-square
 
 - name:
     detail: Data Analyst Intern 
@@ -84,7 +84,7 @@
   icon: fa-cloud
   
 - name:
-    detail: Secretary of Lynbrook Distribution Education Clubs of America
+    detail: Secretary of Lynbrook DECA
     i18n: DC
   desc:
     detail: As Secretary, administrative tasks involved managing events for 100+ students and facilitating district and state business conferences. Competed in International Business and Food Marketing Services divisions.
@@ -97,31 +97,45 @@
     i18n: DC_job
   icon: fa-cloud
 
-- name:
-    detail: SAP Implementation Team Member
+- name: 
+    detail: Volunteer Basketball Coach at YMCA
     i18n: LnT
   desc:
-    detail: Larsen & Toubro is an engineering giant in India. Started as a sales engineer and later leveraged my sales processes knowledge to design, implement and rollout SAP for the cement group. 
+    detail: Coached 4th/5th graders twice per week on fundamentals of basketball; attended weekend games; sent weekly emails updating parents on student progress.
     i18n: LnT_desc
   date:
-    detail: Dec 1995
+    detail: October 2012
     i18n: LnT_date
   job:
-    detail: Larsen & Toubro (Mumbai- India)
+    detail: YMCA (San Jose, CA)
     i18n: LnT_job
-  icon: fa-plus-square
+  icon: fa-gamepad
 
 - name:
-    detail: Project Manager, Construction Engineer
+    detail: Student Researcher 
     i18n: IRCON
   desc:
-    detail: Part of mahjor railway projects in East India.
+    detail: Researched and competed in the Santa Clara Valley Science & Engineering Fair (Regional level) and was awarded a cordial invitation to compete in the California State level fair. Competed in divisions of Social Sciences and Engineering. Also took part in Google Science Fair competition. Gained experience in project design and experimentation.
     i18n: IRCON_desc
   date:
-    detail: Nov 1990
+    detail: August 2012 - April 2014
     i18n: IRCON_date
   job:
-    detail: Indian Railway Construction Company (IRCON) (Calcutta- India)
+    detail: Synopsys Science Fair(Santa Clara, CA)
     i18n: IRCON_job
-  icon: fa-plus-square
+  icon: fa-book
+  
+  - name:
+    detail: Black Belt Coach 
+    i18n: IRCON
+  desc:
+    detail: In-training for eight years. Received 1st degree Black-belt and served as an black belt coach for lower ranks. 
+    i18n: IRCON_desc
+  date:
+    detail: May 2008 - August 2016
+    i18n: IRCON_date
+  job:
+    detail: Mightyfist Taekwondo (San Jose, CA)
+    i18n: IRCON_job
+  icon: fa-gamepad
 
