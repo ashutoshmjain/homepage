@@ -67,7 +67,7 @@
   job:
     detail: Lynbrook High School (San Jose, CA)
     i18n: IBM_job
-    icon: fa-plus-square
+    icon: fa-book
 
 - name:
     detail: Data Analyst Intern 
@@ -121,7 +121,7 @@
     detail: August 2012 - April 2014
     i18n: IRCON_date
   job:
-    detail: Synopsys Science Fair(Santa Clara, CA)
+    detail: Synopsys Science Fair (Santa Clara, CA)
     i18n: IRCON_job
   icon: fa-book
   
