@@ -39,62 +39,62 @@
   job:
     detail: UC Berkeley (Berkeley, CA)
     i18n: Bcone_job
-  icon: fa-cloud
+  icon: fa-book
 
 - name:
-    detail: Director-SAP Practice
+    detail: President of Lynbrook Speech & Debate
     i18n: Wipro
   desc:
-    detail: Wipro is among the largest Indian systems integrators. As practice director based out of Mountain View, I was responsible for interlocking SAP practice with High Tech customers on US west coast. The work involved chasing and running large integrated deals that had SAP as one of the core technolgies. Working with other practices to build value propositions, present the proposals and single point contact for all the SAP related delivery issues. Worked for an quarteyly revenue and bookings target with customer sat being the key performance metric. 
+    detail: After having served as Vice President the preceding year, and as Secretary/Treasurer the year before that, my Speech and Debate journey culminated in a presidency in my final year. As president, administrative tasks involved managing speech and debate events for 250+ students, running the local middle school program, creating financial projections for year’s activities, hiring a new Head Coach, and acting as a liaison between school admin and coaches.  
     i18n: Wipro_desc
   date:
-    detail: July 2009
+    detail: August 2015 
     i18n: Wipro_date
   job:
-    detail: Wipro (Mountain View- CA)
+    detail: Lynbrook High School (San Jose, CA)
     i18n: Wipro_job
-  icon: fa-cloud
+  icon: fa-plus-square
 
 - name:
-    detail: Sr. Project Manager
+    detail: Treasurer of Lynbrook National Honor Society
     i18n: IBM
   desc:
-    detail: As part of Global Technology Services IT , I was responsible for implementing business systems for Applications on Demand group. IBM AoD was an application hosting business built on IBM's acqusition of 'Corio' who finessed 'pay as you go model' for hosted enterprise apps. We implemented a manufacturing approach for service delivery using SAP as back bone integrated with number of home grown technologies. Together with strategic outsourcing , AoD later transformed into what we now know as IBM cloud business. 
+    detail: As Treasurer, fundraised $1,250 for Reading Partners charity, facilitated the development of a school-wide tutoring service to assist falling-behind students, and committed to 100+ hours of volunteer work. 
     i18n: IBM_desc
   date:
-    detail: December 2005
+    detail: August 2015 
     i18n: IBM_date
   job:
-    detail: IBM (San Jose-CA)
+    detail: Lynbrook High School (San Jose, CA)
     i18n: IBM_job
-  icon: fa-cloud
+  icon: fa-plus-square
 
 - name:
-    detail: Sr. Consultant
-    i18n: DC
-  desc:
-    detail: As a Sr. Consultant, based out of San Jose CA, took a leadership role in proposal work for Solectron, HP and DNR (WA). Led solution design and delivery at Advanced Medical Optics (AMO) and Department of Natural Resources, State of WA (DNR). Conducted post-merger systems integration study for Tellabs and Advanced Fiber Communications (AFC) & contributed in Deloitte's Fast Track SAP delivery method and SMB solution for high tech.
-    i18n: DC_desc
-  date:
-    detail: October 2004
-    i18n: DC_date
-  job:
-    detail: Deloitte (San Jose- CA)
-    i18n: DC_job
-  icon: fa-cloud
-
-- name:
-    detail: Program Manager
+    detail: Data Analyst Intern 
     i18n: Sat
   desc:
-    detail: Led SAP implementations at Welspun-Wapi. Built the offshore delivery model at GSK-London and turned into a platinum account for Satyam in one year. Led the SAP upgrade project for TRW at Sterling Heights Michigan. 
+    detail: Worked a paid internship at startup Quettra Inc., aiming to personalize advertisement experiences for users on mobile applications. Worked closely with consumer data to analyze trends and build model personas for users. 
     i18n: Sat_desc
   date:
-    detail: April 2001
+    detail: June 2015 - August 2015
     i18n: Sat_date
   job:
-    detail: Satyam (London- UK)
+    detail: Quettra Inc. (Mountain View, CA)
     i18n: Sat_job
+  icon: fa-cloud
+  
+- name:
+    detail: Secretary of Lynbrook Distribution Education Clubs of America
+    i18n: DC
+  desc:
+    detail: As Secretary, administrative tasks involved managing events for 100+ students and facilitating district and state business conferences. Competed in International Business and Food Marketing Services divisions.
+    i18n: DC_desc
+  date:
+    detail: August 2014
+    i18n: DC_date
+  job:
+    detail: Lynbrook High School (San Jose, CA)
+    i18n: DC_job
   icon: fa-cloud
 
 - name:
