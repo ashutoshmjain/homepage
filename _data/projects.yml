@@ -17,3 +17,7 @@
   img: 'static/img/landing/angularjs.png'
   desc: "In light of growing dependency on technology, aimed to determine whether senior citizens could also benefit from such technology usage, especially as a means of social interaction. Developed a website to connect senior citizens with other senior citizens (achieve social interaction) and with students (to teach). Overall, found data was inconclusive, but that there were signs of decreased feelings of social isolation amongst participating senior citizens."
 
+- name: 'ERP Implementation'
+  i18n: 'LnT'
+  img: 'static/img/landing/LnT.png'
+  desc: " Larsen & Toubro is a major technology, engineering, construction, manufacturing and financial services conglomerate, with global operations. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world.  By mid nineties , L&T was a major manufacturer of cement reaching an annual capacity of 12 million tons per year from its 5 manufacturing facilities. L&T had multiple ERP implementations for its heavy engineering and equipment businesses. In 1997, they  decided to implement SAP for the cement business. The project team was co-located in Mumbai-India. I was part Sales and Distribution module as a core user"
