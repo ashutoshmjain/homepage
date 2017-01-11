@@ -125,17 +125,4 @@
     i18n: IRCON_job
   icon: fa-book
   
-  - name:
-    detail: Black Belt Coach 
-    i18n: tkd
-  desc:
-    detail: In-training for eight years. Received 1st degree Black-belt and served as an black belt coach for lower ranks. 
-    i18n: tkd_desc
-  date:
-    detail: May 2008 - August 2016
-    i18n: tkd_date
-  job:
-    detail: Mightyfist Taekwondo (San Jose, CA)
-    i18n: tkd_job
-  icon: fa-gamepad
-
+  
