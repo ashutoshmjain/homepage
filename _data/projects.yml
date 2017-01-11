@@ -13,7 +13,7 @@
 
 - name: 'SeniorStudentConnect'
   i18n: 'angularjs'
-  repo: 'Jalpc-A'
+  repo: 
   img: 'static/img/landing/angularjs.png'
   desc: "In light of growing dependency on technology, aimed to determine whether senior citizens could also benefit from such technology usage, especially as a means of social interaction. Developed a website to connect senior citizens with other senior citizens (achieve social interaction) and with students (to teach). Overall, found data was inconclusive, but that there were signs of decreased feelings of social isolation amongst participating senior citizens."
 
