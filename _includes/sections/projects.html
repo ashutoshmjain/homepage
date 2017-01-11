@@ -20,7 +20,7 @@
               <div class="team-member">
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4><span class="navy">{{ project.name }}</span></h4>
-                  <p><span data-i18n="projects.{{ project.desc }}"></span></p>
+                  <p><span data-i18n="projects.{{ project.il8n }}">{{ project.desc }}</span></p>
                   {% if project.repo %}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ site.author.github_username }}&repo={{ project.repo }}&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="22px"></iframe>
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ site.author.github_username }}&repo={{ project.repo }}&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="22px"></iframe>
