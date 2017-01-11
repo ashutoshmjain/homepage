@@ -1,19 +1,19 @@
 # projects section data
 - name: 'Lynbrook Speech & Debate Summer Camp'
-  i18n: 'saplatform'
-  repo: 
+  i18n: 'lsd'
+  repo: "sapplatform"
   img: 'homepage/static/img/landing/Screen Shot 2017-01-11 at 12.24.13 AM.png'
   desc: 'Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club.'
 
 - name: 'IceBox'
-  i18n: 'jalpc'
+  i18n: 'icebox'
   repo: 'jalpc_jekyll_theme'
   img: 'static/img/landing/jekyll.png'
   desc: "Aimed to determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. Was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go. Took it a step further by integrating our compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system."
 
 - name: 'SeniorStudentConnect'
-  i18n: 'angularjs'
-  repo: 
+  i18n: 'ssc'
+  repo: 'Jalpc-A'
   img: 'static/img/landing/angularjs.png'
   desc: "In light of growing dependency on technology, aimed to determine whether senior citizens could also benefit from such technology usage, especially as a means of social interaction. Developed a website to connect senior citizens with other senior citizens (achieve social interaction) and with students (to teach). Overall, found data was inconclusive, but that there were signs of decreased feelings of social isolation amongst participating senior citizens."
 
