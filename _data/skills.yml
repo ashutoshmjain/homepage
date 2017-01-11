@@ -1,21 +1,21 @@
 # skills section data
-- name: Python
+- name: Project Management
+  percentage: 90
+
+- name: Business Process Design
   percentage: 85
 
-- name: HTML/CSS
-  percentage: 65
+- name: SAP
+  percentage: 85
 
-- name: Linux/Shell
+- name: Salesforce
   percentage: 75
 
-- name: jQuery
-  percentage: 85
+- name: Google Apps Admin
+  percentage: 60
 
-- name: AngularJS
-  percentage: 80
+- name: Linux
+  percentage: 30
 
-- name: Ionic
-  percentage: 70
-
-- name: Vuejs
-  percentage: 65
+- name: Jekyll
+  percentage: 10

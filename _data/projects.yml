@@ -1,29 +1,45 @@
 # projects section data
-- name: 'Saplatform'
-  i18n: 'saplatform'
-  repo: 'saplatform'
-  img: 'static/img/landing/saplatform.png'
-  desc: 'Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.'
 
-- name: 'Jalpc'
-  i18n: 'jalpc'
-  repo: 'jalpc_jekyll_theme'
-  img: 'static/img/landing/jekyll.png'
-  desc: "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices."
+- name: 'Business Transformation Project'
+  i18n: 'HCC'
+  repo: 
+  img: 'static/img/landing/HCC.png'
+  desc: 'Hilmar Cheese Company is among the largest cheese manufacturers in North America.  From an IT standpoint, Dairy Industry poses a unique set of challenges. Milk is not only a highly-regulated product, both raw material as well as finished product are perishable and industry operates on thin margin. They need to continuously evolve their products and at the same time keep strict control on cost to hedge themselves in commodity markets.  They embarked on Business Transformation Project in early 2014 with an objective to streamline manufacturing, order to cash, quality management, materials management, plant maintenace and finance with  SAP business suite on HANA  for back office, Salesforce for customer relationship and SAP Integrated business planning for demand , supply & milk planning. They hired Bristlecone as their IT partner to help them realize this implementation. I managed the project as program manager running five broad tracks. The role included project planning , financials , resource management, Integration leadership and weekly reporting steering committee.'
 
-- name: 'Jalpc-A'
-  i18n: 'angularjs'
-  repo: 'Jalpc-A'
-  img: 'static/img/landing/angularjs.png'
-  desc: "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+- name: 'Billing Simplification Project'
+  i18n: 'Farmers'
+  repo: 
+  img: 'static/img/landing/Farmers.png'
+  desc: " Farmers Insurance is among the top ten life and auto insurance providers in USA. Their old billing system 'EasyPay' was lacking features expected by modern consumer and had integration challenges for realtime information. Farmers contracted Wipro in 2008 to help simplify the billing processes and implement scalable, future proof IT infrastructure. They decided to implement SAP IS insurance to help transform the billing landscape.  The project was assembled into multiple peripheral teams such as Mainframe Dev, Systems integration bus, Testing and Finance with SAP  in the center. My role was to manage the SAP Dev team for complete billing functionality and integration. The project involved major customization to SAP FS-CD module and implementation of SAP Biller Direct to meet the needs of Auto, Home, Fire and commercial business lines. Roll out was planned state by state to meet different business needs for each of the US states. My main responsibilities were - : release scope planning; resource allocation and development followup; daily status reporting; supporting testing; production deployment; bug triage "
 
-- name: 'Rsser'
-  i18n: 'rsser'
-  repo: 'Rsser'
-  img: 'static/img/landing/rsser.png'
-  desc: Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.
+- name: 'Project SCORE'
+  i18n: 'IBM'
+  repo: 
+  img: 'static/img/landing/IBM.png'
+  desc: "IBM's services business is spread among two major business groups - Global Business Services (GBS) and Global Technology Services (GTS).  GTS is primarily focused on technical services such as cloud infrastructure, application hosting, data center operations , desktop support and call centers etc thru strategic outsourcing (SO), e-business (eBus) and Applications on Demand (AoD) divisions. AoD provided PAY AS YOU GO  hosting solutions for the enterprise software such as SAP, Oracle, JDE, PeopleSoft, and Ariba. AoD was built on IBM's acquisition of Corio, an enterprise applications services provider that had around 150 global customers hosted in various data centers. AoD later morphed into IBM cloud business. As a part of AoD IT services, I was responsible for streamlining 'Quote to Cash' and 'Contract to Procurement' processes. The program was named SCORE (SAP for core operations re-engineering) project and was originally planned  for two releases,  later expanded to three. SCORE was IBM's 18th independent SAP implementation. I joined IBM in Nov 2005 specifically for this project and was involved from conceptualization, estimation, business case, funding rounds, vendor management and execution."
 
-- name: 'FamilyCODE Wchat'
-  i18n: 'familycode'
-  img: 'static/img/landing/familycode.png'
-  desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.
+- name: 'Flex Implementation'
+  i18n: 'DNR'
+  repo: 
+  img: 'static/img/landing/DNR.png'
+  desc: "Department of Natural Resources, State of Washington manages the sate trust land, waterbodies. DNR now oversees five million acres of forest , aquatic bodies, agricultural and commercial land for more than 200 million in annual financial benefits for public schools, state institutions and county services. In late 2004 , DNR contracted Deloitte to implement SAP to manage land and water assets from both rent-outs and financial reporting. They also wanted to manage the financials such that every asset is mapped to a specific set of beneficiaries. Deloitte suggested to implement SAP Flexible Real Estate Management for around 70 % fit of the requirements. Spillover requirements were implemented thru regular ERP implementation ( SD, MM). My role on this project was Assets Team Lead.  The key challenge was to format the huge volume of assets into SAP relevant data sets. Flexible real estate management was fairly new module at that time  and this was one of the largest Flex project ever for SAP. To meet the requirements , SAP provided us the code of next version even before general availability."
+
+- name: 'SAP Upgrade'
+  i18n: 'TRW'
+  img: 'static/img/landing/TRW.png'
+  desc: "TRW is a major auto parts supplier focused in active and passive safety systems  (acquired by ZF Friedrichshafen AG in 2015). TRW has 5 major manufacturing hubs in North America. Its head quarter is in Livonia Michigan. TRW was among the first to implement SAP in early 90s.  They had SAP version 3.1h running for their five different implementations. One for each plant. TRW contracted Satyam Computer Services Limited  ( Now part of Tech Mahindra) to upgrade all the implementations of SAP to the latest SAP stack. After initial analysis and looking at the new business requirements, we decided that SAP DIMP4.71 (Discreet Industries and Mill Product) was the best fit though there was no direct upgrade path from 3.1h to DIMP4.71. This meant that we need to double hop the upgrade from version 3.1h to ECC 4.6 and then from 4.6 to DIPM7.1. The bigger challenge, however, was no documentation from the old implementation. And huge number of customizations were added post go live. Many of them missing in Dev systems. Being the project manager, I had two choices - Leave the documentation and new business functionalities aside and just focus on technical upgrade or build the complete documentation ground up and implement changes to justify the cost of upgrade. We chose later and accomplished double hop for five parallel implementations along with full new documentation in 8 months."
+
+- name: 'MERPS'
+  i18n: 'GSK'
+  img: 'static/img/landing/GSK.png'
+  desc: " Manufacturing ERP systems  (MERPS) was the mega program undertaken by GSK to bring all their production to SAP. MERPS ran five wave each with an outlay of around 150 million pounds. The program was led by Accenture, SAP SE and CapeGemini. Towards the end of first wave they realized that they need a low cost SI for huge customization and integration with legacy system. Satyam Computers (now part of Tech Mahindra) was brought in as development partner in 2000. I was the first man on ground from Satyam in GSK. We started small with a team of 8 onsite senior consultant and went on to build one of the largest SAP engagement for Satyam. The peak team size reached to 45 consultants onsite in London and 150 developers in India. We set up first validated offshore center for GSK in India."
+
+- name: 'SAP Implementation'
+  i18n: 'Welspun'
+  img: 'static/img/landing/Welspun.png'
+  desc: " Welspun India Ltd. is a fully integrated textile manufacturer. Welspun textiles' two primary divisions are - Welspun Cotton yarn and Welspun Synthetics. Welspun contracted Satyam Computers in 1998 for SAP implementations for both the divisions. Welspun cotton yarn went is first in 1998. The second implementation was delayed for system stabilization. In 2000, they decided to implement SAP ERP for the synthetics division.  I was assigned Project Manager role to carry out this end to end implementation. Project team was co-located at their Vapi manufacturing facility. ERP implementation for process industry is quite a challenge. Though we had a template from previous implementation,  it was a totally new team on both Welspun as well as Satyam side. We managed to bring in many new features that  were retrofitted into cotton yarn business. We started on SAP 4.0b but moved on to migrate the landscape to SAP 4.6 as the new version was made available before realization phase. Project scope included all the  ERP modules FI, CO, SD, MM, PP-PI, COPA and Assets Accounting."
+
+- name: 'ERP Implementation'
+  i18n: 'LnT'
+  img: 'static/img/landing/LnT.png'
+  desc: " Larsen & Toubro is a major technology, engineering, construction, manufacturing and financial services conglomerate, with global operations. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world.  By mid nineties , L&T was a major manufacturer of cement reaching an annual capacity of 12 million tons per year from its 5 manufacturing facilities. L&T had multiple ERP implementations for its heavy engineering and equipment businesses. In 1997, they  decided to implement SAP for the cement business. The project team was co-located in Mumbai-India. I was part Sales and Distribution module as a core user"
