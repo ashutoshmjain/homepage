@@ -124,3 +124,17 @@
     detail: Synopsys Science Fair (Santa Clara, CA)
     i18n: IRCON_job
   icon: fa-book
+  
+- name:
+    detail: Black Belt 
+    i18n: tkd
+  desc:
+    detail: /
+    i18n: tkd_desc
+  date:
+    detail: August 2012 - April 2014
+    i18n: tkd_date
+  job:
+    detail: Synopsys Science Fair (Santa Clara, CA)
+    i18n: tkd_job
+  icon: fa-book
