@@ -11,21 +11,21 @@ url: "https://adish-jain.github.io"
 
 # author
 author:
-  name: 'AmJ'
-  first_name: 'Ashutosh'
+  name: 'Adish Jain'
+  first_name: 'Adish'
   last_name: 'Jain'
-  email: 'amj@smbstack.com'
-  facebook_username: 'ashutoshmjain'
-  github_username: 'ashutoshmjain'
-  twitter_username: 'ashutoshmjain'
+  email: 'adish.jain@berkeley.edu'
+  facebook_username: 
+  github_username: 'adish-jain'
+  twitter_username: 
   avatar: 'static/img/landing/profilepic.png'
-  desc: 'FOSS enthusiast| regular blogger | daily runner | Bernie fan | Trying (and failing :-) to live a minimal life'
+  desc: 'Dog Lover| An Avid Throner | Numbers Intrigue Me | Golden Bear Class of 2020'
 # comment
 changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
 disqus:
-  name: 'ashutoshmjain'
+  name: 'adish-jain'
   #public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
