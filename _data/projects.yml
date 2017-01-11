@@ -3,7 +3,7 @@
   i18n: 'lsd'
   repo: "sapplatform"
   img: 'homepage/static/img/landing/Screen Shot 2017-01-11 at 12.24.13 AM.png'
-  desc: 'Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club. Pictures and testimonials of the summer camp, along with more general information including curriculum and activities, can be found here: http://www.lynbrooksd.org/pictures-and-testimonials/'
+  desc: Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club. Pictures and testimonials of the summer camp, along with more general information including curriculum and activities, can be found here: http://www.lynbrooksd.org/pictures-and-testimonials/
 
 - name: 'IceBox'
   i18n: 'icebox'
