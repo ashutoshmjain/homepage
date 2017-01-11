@@ -4,7 +4,8 @@
 title: "Ashutosh"
 description: "Personal page using Jack's JalPC Jekyll theme"
 keywords: "Ashutosh,AmJ,Profile, Blog,Jekyll,github,gh-page"
-baseurl: "/homepage/"
+baseurl: "/"
+
 url: "https://ashutoshmjain.github.io"
 # url: "http://127.0.0.1:4000"
 
@@ -18,7 +19,7 @@ author:
   github_username: 'ashutoshmjain'
   twitter_username: 'ashutoshmjain'
   avatar: 'static/img/landing/profilepic.png'
-  desc: 'I am a solution architect and project manager in enterprise apps such as ERP, CRM, SCM, Finance. I am  free and open source enthusiast and regular blogger. Life is a continuous learning process, so work makes me more rigorous.'
+  desc: 'FOSS enthusiast| regular blogger | daily runner | Bernie fan | Trying (and failing :-) to live a minimal life'
 # comment
 changyan:
   # appid: cysfY7ULn
