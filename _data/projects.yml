@@ -1,19 +1,19 @@
 # projects section data
 - name: 'Lynbrook Speech & Debate Summer Camp'
   i18n: 'lsd'
-  repo: 'lsd'
+  repo:
   img: 'homepage/static/img/landing/Screen Shot 2017-01-11 at 12.24.13 AM.png'
   desc: 'Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club. Pictures and testimonials of the summer camp, along with more general information including curriculum and activities, can be found here: http://www.lynbrooksd.org/pictures-and-testimonials/'
 
 - name: 'IceBox'
   i18n: 'icebox'
-  repo: 'jalpc_jekyll_theme'
+  repo: 
   img: 'static/img/landing/jekyll.png'
   desc: "The IceBox is a thermoelectric cooler that uses temperature differentials to produce electricity (by way of the Peltier effect) to charge a smartphone. It is portable, environmentally friendly, and solves the issue of poor battery performance from smartphones by serving as a self-sustainable power source that can also store food and drinks. With this project, I aimed to determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. I was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go, and then took it a step further by integrating the compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system."
 
 - name: 'SeniorStudentConnect'
   i18n: 'ssc'
-  repo: 'Jalpc-A'
+  repo: 
   img: 'static/img/landing/angularjs.png'
   desc: "In light of growing dependency on technology, aimed to determine whether senior citizens could also benefit from such technology usage, especially as a means of social interaction. Developed a website to connect senior citizens with other senior citizens (achieve social interaction) and with students (to teach). Overall, found data was inconclusive, but that there were signs of decreased feelings of social isolation amongst participating senior citizens."
 
