@@ -11,9 +11,9 @@
   tpl: 'career.html'
   css: 'timeline'
 
-- id: 'skills'
-  i18n: 'nav.skills'
-  name: 'Skills'
+- id: 'exp'
+  i18n: 'nav.exp'
+  name: 'Exp'
   tpl: 'skills.html'
   css: 'team'
 
