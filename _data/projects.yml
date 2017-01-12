@@ -1,7 +1,7 @@
 # projects section data
 
 - name: 'Lynbrook Speech & Debate Summer Camp'
-  i18n: 'HCC'
+  i18n: 'lsd'
   repo: 
   img: 'static/img/landing/static1.squarespace.jpg'
   desc: 'Organized and ran the biggest-ever annual speech and debate summer camp, boasting over 200 students (elementary school to high school). Generated over $59,000 in profit, all given back to the club for measures such as hiring coaches and subsidizing future tournaments. Pictures and testimonials, along with more general information such as curriculum and camp activities, can be found here www.lynbrooksd.org/pictures-and-testimonials/'
