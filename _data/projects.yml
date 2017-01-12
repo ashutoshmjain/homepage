@@ -9,7 +9,7 @@
 - name: 'IceBox: A Novel Approach to Harnessing the Energy of the Sun by Using a Thermoelectric Generating Heat Chamber to Recharge a Cell Phone'
   i18n: 'IB'
   repo: 
-  img: 'static/img/landing/Farmers.png'
+  img: 'static/img/landing/Screen Shot 2017-01-11 at 5.34.13 PM.png'
   desc: "The IceBox is a thermoelectric cooler that uses temperature differentials to produce electricity, known as the Peltier effect, to charge a smartphone. It is portable, environmentally friendly, and solves the issue of poor battery performance from smartphones by serving as a self-sustainable power source that can also store food and drinks. Through this project, I aimed to tackle determine the conditions under which the efficiency of using thermoelectric generators as electrical appliance chargers was maximized. I was able to create a thermoelectric system that produced enough electricity to charge a cell phone on-the-go, and then took it a step further by integrating the compact system into a cooler (which provides a cool sink) that doubled as a cell phone charger, thus providing even more applicability and utility to the system. The project was submitted to the Silicon Valley Science & Engineering Fair, where it received the 2nd place award in the Engineering division and the Ricoh Sustainable Development Award. This was a collaborative project done with Andy Zhang."
 
 - name: 'SeniorStudentConnect: Measuring the Effectiveness of Lowering Seniors’ Social Isolation Through a Website'
