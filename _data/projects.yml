@@ -21,7 +21,7 @@
 - name: 'Case Study: Square Inc. in Singapore'
   i18n: 'square'
   repo: 
-  img: 'homepage/static/img/landing/mzl.idxaqkkw.png'
+  img: 'static/img/landing/mzl.idxaqkkw.png'
   desc: "Wrote a 30-page plan breaking down the hypothetical case study of Square Inc.'s international expansion into Singapore. This plan necessitated a strong understanding of the company, and the prospective international markets it might do business in. The plan includes economic, political, legal and cultural analyses of Singapore, a market segment analysis of the target market, an extensively planned operation of Square Inc. and the steps it would need to take to undergo such international expansion, projected finances and income statements after the first year of operation, a three-year plan, and a description of the planned growth of business. This International Business Plan was submitted to the Silicon Valley Career Development Conference, where it won 9th place regionally and went on to compete in the State Career Development Conference. This was a collaborative case-study done with Andy Zhang and Kenny Yuan."
 
 - name: 'SAP Upgrade'
