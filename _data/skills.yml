@@ -1,21 +1,13 @@
 # skills section data
-- name: Python
+- name: Microsoft Office
   percentage: 85
-
-- name: HTML/CSS
-  percentage: 65
-
-- name: Linux/Shell
+  
+- name: Java
   percentage: 75
 
-- name: jQuery
-  percentage: 85
+- name: MATLAB
+  percentage: 10
 
-- name: AngularJS
-  percentage: 80
+- name: R
+  percentage: 10
 
-- name: Ionic
-  percentage: 70
-
-- name: Vuejs
-  percentage: 65
