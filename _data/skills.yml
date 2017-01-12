@@ -2,11 +2,20 @@
 - name: Microsoft Office
   percentage: 85
   
+- name: Linear Algebra & Differential Equations
+  percentage: 100
+  
 - name: Java
   percentage: 55
+  
+- name: Multivariable Calculus
+  percentage: 5
 
 - name: Matlab
   percentage: 10
+  
+- name: Concepts of Probability
+  percentage: 5
 
 - name: R
   percentage: 10
