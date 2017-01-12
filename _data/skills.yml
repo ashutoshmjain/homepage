@@ -5,7 +5,7 @@
 - name: Java
   percentage: 55
 
-- name: MATLAB
+- name: Matlab
   percentage: 10
 
 - name: R
