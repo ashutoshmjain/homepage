@@ -1,5 +1,5 @@
---- 
-  name: "Program Management"
+
+- name: "Program Management"
   percentage: 95
 
 - name: IT strategy
@@ -65,7 +65,7 @@
 - name: Enterprise Software
   percentage: 24
   
- - name: Global Delivery
+- name: Global Delivery
   percentage: 7 
   
 - name: SAP R/3
