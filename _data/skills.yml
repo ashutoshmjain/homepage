@@ -1,24 +1,74 @@
 # skills section data
+- name: Program Management
+  percentage: 45
+
 - name: IT strategy
   percentage: 100
+  
+- name: Service Delivery
+  percentage: 37 
+    
+- name: Business Intelligence
+  percentage: 61  
 
-- name: Enterprise Software
-  percentage: 82
+- name: Project Management
+  percentage: 23
 
 - name: Business Process
   percentage: 100
+
+- name: Pre-Sales
+  percentage: 18
+
+- name: ERP
+  percentage: 58
+
+- name: Vendor Management
+  percentage: 17
+
+- name: Solution Architecture
+  percentage: 100
   
-- name: Business Intelligence
-  percentage: 61
-
-- name: Project and Program Management
-  percentage: 81
-
-- name: SAP Implementaion
-  percentage: 76
-
-- name: Service Delivery
-  percentage: 37
+- name: Offshoring
+  percentage: 13 
   
 - name: Integration
   percentage: 48
+
+- name: Software Project Management
+  percentage: 13
+  
+- name: SAP
+  percentage: 43
+  
+- name: ITSM
+  percentage: 11
+  
+- name: Enterprise Architecture
+  percentage: 31  
+  
+- name: Business Development
+  percentage: 11 
+  
+- name: Requirements Analysis
+  percentage: 24
+ 
+- name: SAP Implementations
+  percentage: 10
+ 
+- name: Enterprise Software
+  percentage: 24
+  
+- name: SAP R/3
+  percentage: 23
+    
+- name: SDLC
+  percentage: 13
+  
+- name: Cloud Computing
+  percentage: 12
+  
+
+  
+  
+  
