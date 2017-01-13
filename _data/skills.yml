@@ -41,7 +41,7 @@
 - name: Software Project Management
   percentage: 13
   
-- name: SAP
+- name: SAP Cloud Products
   percentage: 43
   
 - name: ITSM
@@ -58,10 +58,10 @@
   
 - name: Solution Selling
   percentage: 8  
- 
-- name: SAP Implementations
-  percentage: 10
   
+- name: SAP R/3
+  percentage: 23 
+ 
 - name: Resource Management
   percentage: 7  
  
@@ -71,8 +71,8 @@
 - name: Global Delivery
   percentage: 7 
   
-- name: SAP R/3
-  percentage: 23
+- name: SAP Implementations
+  percentage: 10
   
 - name: Outsourcing 
   percentage: 6  
