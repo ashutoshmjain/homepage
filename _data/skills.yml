@@ -1,6 +1,6 @@
-# skills section data
-- name: Program Management
-  percentage: 45
+--- 
+  name: "Program Management"
+  percentage: 95
 
 - name: IT strategy
   percentage: 100
