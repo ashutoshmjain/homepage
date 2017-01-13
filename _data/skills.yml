@@ -1,6 +1,6 @@
 
 - name: "Program Management"
-  percentage: 95
+  percentage: 45
 
 - name: IT strategy
   percentage: 100
@@ -14,14 +14,14 @@
 - name: Project Management
   percentage: 23
 
-- name: Business Intelligence
-  percentage: 61 
+- name: Solution Architecture
+  percentage: 100
 
 - name: Pre-Sales
   percentage: 18
 
-- name: Solution Architecture
-  percentage: 100
+- name: Business Intelligence
+  percentage: 61 
 
 - name: Vendor Management
   percentage: 17
