@@ -52,18 +52,33 @@
   
 - name: Requirements Analysis
   percentage: 24
+  
+- name: Solution Selling
+  percentage: 8  
  
 - name: SAP Implementations
   percentage: 10
+  
+- name: Resource Management
+  percentage: 7  
  
 - name: Enterprise Software
   percentage: 24
   
+ - name: Global Delivery
+  percentage: 7 
+  
 - name: SAP R/3
   percentage: 23
+  
+- name: Outsourcing 
+  percentage: 6  
     
 - name: SDLC
   percentage: 13
+  
+- name: Project Portfolio Management
+  percentage: 4  
   
 - name: Cloud Computing
   percentage: 12
