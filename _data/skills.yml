@@ -7,27 +7,27 @@
   
 - name: Service Delivery
   percentage: 37 
+  
+- name: Business Process
+  percentage: 100  
     
-- name: Business Intelligence
-  percentage: 61  
-
 - name: Project Management
   percentage: 23
 
-- name: Business Process
-  percentage: 100
+- name: Business Intelligence
+  percentage: 61 
 
 - name: Pre-Sales
   percentage: 18
 
-- name: ERP
-  percentage: 58
+- name: Solution Architecture
+  percentage: 100
 
 - name: Vendor Management
   percentage: 17
 
-- name: Solution Architecture
-  percentage: 100
+- name: ERP
+  percentage: 58
   
 - name: Offshoring
   percentage: 13 
