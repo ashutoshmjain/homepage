@@ -1,21 +1,24 @@
 # skills section data
-- name: Project Management
-  percentage: 90
+- name: IT strategy
+  percentage: 100
 
-- name: Business Process Design
-  percentage: 85
+- name: Enterprise Software
+  percentage: 82
 
-- name: SAP
-  percentage: 85
+- name: Business Process
+  percentage: 100
+  
+- name: Business Intelligence
+  percentage: 61
 
-- name: Salesforce
-  percentage: 75
+- name: Project and Program Management
+  percentage: 81
 
-- name: Google Apps Admin
-  percentage: 60
+- name: SAP Implementaion
+  percentage: 76
 
-- name: Linux
-  percentage: 30
-
-- name: Jekyll
-  percentage: 10
+- name: Service Delivery
+  percentage: 37
+  
+- name: Integration
+  percentage: 48
