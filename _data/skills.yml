@@ -1,5 +1,8 @@
 
-- name: "Program Management"
+- name: Cloud Computing
+  percentage: 12
+
+- name: Program Management
   percentage: 45
 
 - name: IT strategy
@@ -80,8 +83,7 @@
 - name: Project Portfolio Management
   percentage: 4  
   
-- name: Cloud Computing
-  percentage: 12
+
   
 
   
