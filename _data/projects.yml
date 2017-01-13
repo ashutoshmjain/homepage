@@ -32,7 +32,7 @@
 - name: 'MERPS'
   i18n: 'GSK'
   img: 'static/img/landing/GSK.png'
-  desc: " Manufacturing ERP systems  (MERPS) was the mega program undertaken by GSK to bring all their production to SAP. MERPS ran five wave each with an outlay of around 150 million pounds. The program was led by Accenture, SAP SE and CapeGemini. Towards the end of first wave they realized that they need a low cost SI for huge customization and integration with legacy system. Satyam Computers (now part of Tech Mahindra) was brought in as development partner in 2000. I was the first man on ground from Satyam in GSK. We started small with a team of 8 onsite senior consultant and went on to build one of the largest SAP engagement for Satyam. The peak team size reached to 45 consultants onsite in London and 150 developers in India. We set up first validated offshore center for GSK in India."
+  desc: " Manufacturing ERP systems  (MERPS) was the mega program undertaken by GSK to bring all their production to SAP. MERPS ran five wave each with an outlay of around 150 million pounds. The program was led by Accenture, SAP SE and CapeGemini. Towards the end of first wave they realized that they need a low cost SI for huge customization and integration with legacy system. Satyam Computers (now part of Tech Mahindra) was brought in as development partner in 2000. I was the first man on ground from Satyam in GSK. We started small with a team of 8 onsite senior consultant and went on to build one of the largest SAP engagement for Satyam. The peak team size reached to 45 consultants onsite in London and 150 developers in India. 
 
 - name: 'SAP Implementation'
   i18n: 'Welspun'
