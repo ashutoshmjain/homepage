@@ -1,6 +1,6 @@
 # blog page sections
 - name: Blog
-  href: '/blog/'
+  href: '/homepage/blog/'
 
 - name: Python
   href: '/homepage/python/'
