@@ -1,24 +1,24 @@
 # blog page sections
 - name: Blog
-  href: '/homepage/blog/blog/'
+  href: '/blog/'
 
 - name: Python
-  href: '/homepage/blog/python/'
+  href: '/python/'
 
 - name: Linux
-  href: '/homepage/blog/linux/'
+  href: '/linux/'
 
 - name: HTML
-  href: '/homepage/blog/html/'
+  href: '/html/'
 
 - name: Database
-  href: '/homepage/blog/database/'
+  href: '/database/'
 
 - name: Mac
-  href: '/homepahe/blog/mac/'
+  href: '/mac/'
 
 - name: Life
-  href: '/homepage/blog/ife/'
+  href: '/ife/'
 
 - name: Donate
-  href: '/homepage/blog/donate/'
+  href: '/donate/'
