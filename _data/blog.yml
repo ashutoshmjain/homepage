@@ -6,19 +6,19 @@
   href: '/homepage/python/'
 
 - name: Linux
-  href: '/linux/'
+  href: '/homepage/linux/'
 
 - name: HTML
-  href: '/html/'
+  href: '/homepage/html/'
 
 - name: Database
-  href: '/database/'
+  href: '/homepage/database/'
 
 - name: Mac
-  href: '/mac/'
+  href: '/homepage/mac/'
 
 - name: Life
-  href: '/ife/'
+  href: '/homepage/ife/'
 
 - name: Donate
-  href: '/donate/'
+  href: '/homepage/donate/'
