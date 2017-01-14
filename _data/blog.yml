@@ -11,8 +11,8 @@
 - name: HTML
   href: '/homepage/html/'
 
-- name: Database
-  href: '/homepage/database/'
+- name: HANA
+  href: '/homepage/hana/'
 
 - name: Mac
   href: '/homepage/mac/'
