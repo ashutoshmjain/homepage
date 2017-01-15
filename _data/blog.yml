@@ -2,7 +2,7 @@
 - name: Blog
   href: '/homepage/blog/'
 
-- name: Sap
+- name: SAP
   href: '/homepage/sap/'
 
 - name: Linux
@@ -11,7 +11,7 @@
 - name: HTML
   href: '/homepage/html/'
 
-- name: Hana
+- name: HANA
   href: '/homepage/hana/'
 
 - name: Mac
