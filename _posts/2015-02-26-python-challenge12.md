@@ -4,7 +4,7 @@ title:  "Python challenge 12"
 date:   2015-02-26
 desc: "Python challenge"
 keywords: "Python,challenge"
-categories: [Python]
+categories: [SAP]
 tags: [Python,Challenge]
 icon: fa-code
 ---
