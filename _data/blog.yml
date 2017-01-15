@@ -2,23 +2,23 @@
 - name: Blog
   href: '/homepage/blog/'
 
-- name: SAP
-  href: '/homepage/sap/'
+- name: FOSS
+  href: '/homepage/foss/'
 
-- name: Linux
-  href: '/homepage/linux/'
+- name: Inspirations
+  href: '/homepage/inspirations/'
 
 - name: HTML
   href: '/homepage/html/'
 
-- name: HANA
-  href: '/homepage/hana/'
+- name: PseudoSci
+  href: '/homepage/pseudosci/'
 
-- name: Mac
-  href: '/homepage/mac/'
+- name: Predictions
+  href: '/homepage/predictions/'
 
-- name: Life
-  href: '/homepage/life/'
+- name: EnterpriseApps
+  href: '/homepage/enterpriseapps/'
 
-- name: Donate
-  href: '/homepage/donate/'
+- name: HomeLab
+  href: '/homepage/homelab/'
