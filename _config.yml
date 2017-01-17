@@ -29,16 +29,16 @@ disqus:
   public_key: V5TjtTXz8HPCSeL0tuAa6Lw8DOcsmzKAOw5kVjn2cVtBggntGPpjZ4YlMMHmS1P1
 
 # share
-bshare:
+#bshare:
         #uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
 # baidu analytics
-ba:
+#ba:
   # uuid: 317acca9ef9255b934e46371e471431d
 
 # google analytics
 ga:
-        #id: UA-73784599-1
+        id: UA-90523130-1
 
 # growingIO
 gio:
