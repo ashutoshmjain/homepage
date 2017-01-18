@@ -1,4 +1,10 @@
 # index page sections
+- id: 'blog'
+  i18n: 'nav.blog'
+  name: 'Blog'
+  tpl: 'blog.html'
+  css: 'testimonials navy-section'
+
 - id: 'about-me'
   i18n: 'nav.about_me'
   name: 'About'
@@ -22,12 +28,6 @@
   name: 'Projects'
   tpl: 'projects.html'
   css: 'project'
-
-- id: 'blog'
-  i18n: 'nav.blog'
-  name: 'Blog'
-  tpl: 'blog.html'
-  css: 'testimonials navy-section'
 
 - id: 'links'
   i18n: 'nav.link'
