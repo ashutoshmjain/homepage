@@ -12,13 +12,13 @@
   href: '/homepage/bernie/'
 
 - name: Pseudo Sci
-  href: '/homepage/pseudosci/'
+  href: '/homepage/science/'
 
 - name: Predictions
   href: '/homepage/predictions/'
 
-- name: Enterprise Apps
-  href: '/homepage/enterpriseapps/'
+- name: Business Apps
+  href: '/homepage/apps/'
 
-- name: HomeLab
-  href: '/homepage/homelab/'
+- name: Home Lab
+  href: '/homepage/lab/'
