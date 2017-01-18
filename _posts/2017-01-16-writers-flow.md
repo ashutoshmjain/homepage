@@ -4,7 +4,7 @@ title:  "My writing workflow"
 date:   2017-01-16
 desc: "How to write on command line and publish on latest web"
 keywords: "Opensource,command line,writing,blog"
-categories: [Foss]
+categories: [FOSS]
 tags: [Vim,Jekyll,Blog,git,GitHub]
 icon: icon-python
 ---
