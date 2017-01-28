@@ -7,6 +7,7 @@ keywords: "Opensource, Media, Amazon"
 categories: [Lab, FOSS]
 tags: [Opensource, Kodi, xbmc]
 icon: icon-python
+comments: true
 ---
 # Kodi on Amazon firestick
 Frankly, I don't like the name. xbmc was way cooler. For those, who are content with their Netflix and HBO apps , and didn't looked at the opensource solution for media consumption, the good news is xbmc has come a long way into its new reincarnation dubbed Kodi and with its latest release Jarvis. I had tried xbmc (on Windows) long back. Install was fine but I could never invest enough time to figure out the video add ons.That changed when I tried Kodi with Exodus on my Linux desktop. Still , the desktop is  not a place for media for me. I love to catch on the TV the way its supposed to be. On a sofa, in front of large TV with a remote with minimal buttons. 
