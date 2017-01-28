@@ -26,9 +26,9 @@ author:
 #changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: 'ashutoshmjain'
-  public_key: BOPRhgBIIRRjXzFA91tkGmUAcTG7KCVMwhsRNBB3Opynf6teSnUJISAMVUSwjDr5
+#disqus:
+#  name: 'ashutoshmjain'
+#  public_key: BOPRhgBIIRRjXzFA91tkGmUAcTG7KCVMwhsRNBB3Opynf6teSnUJISAMVUSwjDr5
 
 # share
 #bshare:
