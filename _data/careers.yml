@@ -1,19 +1,5 @@
 # careers section data
 - name:
-    detail: Preparing for Full Marathon
-    i18n: TO
-  desc:
-    detail: It started last year. Took on a friendly challenge to run a half marathon and to my surprise,  I could do it:-) Benefits were  amazing. Over six months of training, I could cut down thirty five pounds of flab and four inches off my waistline. My dibetes is gone. 'I am hooked' is an understatement:-)  And this year I am dreaming big - Run a full marathon ! Goal is to run a major league with in four hours though I am my keeping expectations low. 
-    i18n: TO_desc
-  date:
-    detail: January 2017
-    i18n: TO_date
-  job:
-    detail: Time off (Bay Area)
-    i18n: TO_job
-  icon: fa-gamepad
-
-- name:
     detail: Sr. Director Business Development
     i18n: M360
   desc:
