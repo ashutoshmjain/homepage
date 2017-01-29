@@ -26,9 +26,9 @@ author:
 #changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
-#disqus:
-#  name: 'ashutoshmjain'
-#  public_key: BOPRhgBIIRRjXzFA91tkGmUAcTG7KCVMwhsRNBB3Opynf6teSnUJISAMVUSwjDr5
+disqus:
+  name: 'ashutoshmjain'
+  public_key: BOPRhgBIIRRjXzFA91tkGmUAcTG7KCVMwhsRNBB3Opynf6teSnUJISAMVUSwjDr5
 
 # share
 #bshare:
@@ -43,7 +43,7 @@ ga:
         id: UA-90523130-1
 
 # growingIO
-gio:
+# gio:
         #id: a49d4901c7853da9
 
 # Build settings
