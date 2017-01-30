@@ -10,11 +10,11 @@ icon: icon-python
 ---
 [LibreOffice](https://www.libreoffice.org/)is a free open source productivity suite. It includes a word processor (like MS Word), spreadsheet (like MS Excel) and presentation software (like MS PowerPoint) and many more tools. LibreOffice is aggressively maintained and is available for Mac, Windows and Linux. I regularly use LibreOffice for my work as well as personal stuff. 
 
-![](/static/img/blog/AmJBlog/LibreOffice.png)
+![](/homepage/static/img/blog/AmJBlog/LibreOffice.png)
 
 If you are company of say 50 people, you are probably paying $5000 an year just for the office suite that includes presentation, spreadsheet and text software (email not included). See the middle option below . This money is much better spent on a true collaboration software such as Slack.
 
-![](/static/img/blog/AmJBlog/MSOPricing.png)
+![](/homepage/static/img/blog/AmJBlog/MSOPricing.png)
 
  Though Microsoft has made recognizable improvements in the web version of office (option 1) , it is still far from 'business-ready' as a standalone solution. When you want something done, the only choice is the desktop versions of Word , Excel and Power point. Which means, Options 1 is essentially a hosted email service for $5 per user.
 
