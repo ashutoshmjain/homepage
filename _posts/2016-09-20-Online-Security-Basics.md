@@ -4,8 +4,8 @@ title:  "Online Security Basics"
 date:   2016-09-20
 desc: "Simple steps for ensuring online security"
 keywords: "security"
-categories: [Lab]
-tags: [Security]
+categories: [lab,FOSS]
+tags: [Security, Linux]
 comment: 
 icon: icon-python
 ---
