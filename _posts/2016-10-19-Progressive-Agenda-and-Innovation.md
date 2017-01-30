@@ -12,7 +12,7 @@ Two biggest expenses for me are medical coverage for my family and college educa
 
 Despite affordable care act, the only means to reasonable medical coverage is to remain in active employment till the medicare kicks in. That means I need to wait till 2033 when I turn 65.
 
-![](/home/ajain/homepage/static/img/blog/AmJBlog/medical.png/medical.png)
+![](/home/ajain/homepage/static/img/blog/AmJBlog/medical.png)
 
 Sending two kids to a modest public college in California means 250,000 dollars. If you don´t want to depend on financial aid, your only recourse is to work a 60 hours week and then indulge in side hustles to make some more.
 
