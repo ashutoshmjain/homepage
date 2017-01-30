@@ -4,7 +4,7 @@ title:  "LibreOffice"
 date:   2016-10-02
 desc: "Comparing LibreOffice with MS Office for Small and Medium sized Businesses"
 keywords: "Opensource, LibreOffice, writing"
-categories: [FOSS]
+categories: [FOSS, Lab]
 tags: [LibreOffice, MSOffice, OpenSource]
 icon: icon-python
 ---
