@@ -5,7 +5,7 @@ date:   2016-09-20
 desc: "Simple steps for ensuring online security"
 keywords: "security"
 categories: [Lab,FOSS]
-tags: [Security, Linux]
+tags: [Security, Linux, Chrome]
 comment: 
 icon: icon-python
 ---
