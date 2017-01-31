@@ -6,7 +6,7 @@ desc: "How US Stock markets behave during presidential elections - A historical 
 keywords: "Elections, Stocks, Dow , Market"
 categories: [Predictions]
 tags: [Stocks, Elections, Dow, Market]
-icon: icon-python
+icon: icon-ghost
 ---
 ![](/homepage/static/img/blog/AmJBlog/PresidentialElection.png)
 
