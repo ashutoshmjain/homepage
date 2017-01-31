@@ -6,7 +6,7 @@ desc: "Fit for use planning in fast moving supply chain"
 keywords: "Supplychain, Planning, S&OP, Steelwedge"
 categories: [Apps]
 tags: [Supplychain,SAP, APO, Planning, S&OP, Steelwedge, i2]
-icon: icon-python
+icon: icon-database
 ---
 In the fast moving world of supply chain, the goal is always to achieve ¨fit for use¨ forecast sooner than later. If time were no constraint, even Mumabi Dabbawalas mature into anecdotal **six sigma supply chain**. Unfortunately, most companies don´t have luxury of time. That´s where the packaged planning tools come into play. Over last two and half decades, planning engines have grown in both sophistication of all the three layers of technologies namely data management, statistical algorithms and easily realizable business processes with required workflows as well as security.
 
