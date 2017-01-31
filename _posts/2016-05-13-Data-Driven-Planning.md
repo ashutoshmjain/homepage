@@ -5,10 +5,10 @@ date:   2016-05-13
 desc: "Fit for use planning in fast moving supply chain"
 keywords: "Supplychain, Planning, S&OP, Steelwedge"
 categories: [Apps]
-tags: [Supplychain,SAP, APO, Planning, S&OP, Steelwedge]
+tags: [Supplychain,SAP, APO, Planning, S&OP, Steelwedge, i2]
 icon: icon-python
 ---
-In the fast moving world of supply chain, the goal is always to achieve ¨fit for use¨ forecast sooner than later. If time were no constraint, even Mumabi Dabbawalas mature into anecdotal **six sigma supply chain**. Unfortunately, most companies don´t have luxury of time. That´s where the packaged planning tools come into play. Over last two and half decades, planning engines have grown in both sophistication of all the three layers of technologies namely data management, statistical algorithms and easily realizable business processes with required workflows as well as security.
+In the fast moving world of supply chain, the goal is always to achieve Â¨fit for useÂ¨ forecast sooner than later. If time were no constraint, even Mumabi Dabbawalas mature into anecdotal **six sigma supply chain**. Unfortunately, most companies donÂ´t have luxury of time. ThatÂ´s where the packaged planning tools come into play. Over last two and half decades, planning engines have grown in both sophistication of all the three layers of technologies namely data management, statistical algorithms and easily realizable business processes with required workflows as well as security.
 
 ## Peeling a planning engine
 
@@ -19,7 +19,7 @@ The next layer is set of algorithms that help statistical analysis of this data 
 The third layer is to build the role based business logic. In that Demand planning is a different view compared to supply planning though the underlying data set is cross utilized. The key modules of a planning engine are Demand & Supply planning commonly known as **Sales and Operations planning (S&OP), Product planning , Sales Forecast and Financial planning**. All these modules, put together, create a presentation layers that must have a consumer class interface in terms of collaboration, mobility and required scale. Again, having experienced architect and industry expert are crucial to a successful realization of planning processes.
 
 ## When it comes to planning , experience matters..
-Goes without saying, experience can make a difference during selection of planning engines for your specific industry/business. Not all tools handle all the nuances. Given the choices available to today´s enterprise, it is utmost to have an independent partner with you while shopping these tools..
+Goes without saying, experience can make a difference during selection of planning engines for your specific industry/business. Not all tools handle all the nuances. Given the choices available to todayÂ´s enterprise, it is utmost to have an independent partner with you while shopping these tools..
 
 # A brief history of planning systems
 
