@@ -7,7 +7,7 @@ keywords: "security"
 categories: [Lab,FOSS]
 tags: [Security, Linux, Chrome]
 comment: 
-icon: icon-python
+icon: icon-microscope
 ---
  Recent high profile email scandals have heightened concerns about online security.  Those who have seen the growth of internet, online applications, and social platforms; would vouch that the security tools had never been better. Tech companies have invested enormous time and talent in making their products and services secure. Yet, for a common consumer, remembering passwords, setting up home networks and keeping up with security patches continues to be a nightmare.
 
