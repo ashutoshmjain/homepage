@@ -8,7 +8,7 @@ categories: [Predictions]
 tags: [Stocks, Elections, Dow, Market]
 icon: icon-python
 ---
-[](/homepage/static/img/blog/AmJBlog/PresidentialElection.png)
+![](/homepage/static/img/blog/AmJBlog/PresidentialElection.png)
 
 The recent drop in market is making many nervous. Me included. I tried to look for the answers. There are things going on in other parts of the world that has a low co-relation with US markets. For example its a well known fact that Chinese currency as well stock market is highly controlled by their government. It may have a little bearing on us but their stock market is not real economy. The refugee crisis in Europe has a political concern but USA has practically negligible financial impact given the size of US markets.
 
@@ -22,7 +22,7 @@ Interestingly the peaks are always on other sides of the polls day. For example,
 
 Bill Clinton is the luckiest president to date for Dow Jones. In a single window of his election in 1996, market went up by 61%. Typically the second term of the president is always better for the Dow as we have seen in case of Regan, Clinton and Obama. All registering more than 30% gains thru their second victory.
 
-[](/homepage/static/img/blog/AmJBlog/PresidentialElection2.png)
+![](/homepage/static/img/blog/AmJBlog/PresidentialElection2.png)
 
 **Beginning of this presidential cycle (July 20, 15 to Jan 20, 16) Dow has already gone down by 14%. Basically we have given away most of the gains of last four years. This is very normal. Average gain over a presidential cycle to next are around 41%. Going by this average the Dow Jones should reach 23000 points by the end of Dec 2017. Which seems like a very steep gain. Even if we consider the gains for presidents running for their first term, the average is 32 % (not shown in the figure) which makes a figure of 21000. This is quite possible for American economy is on a solid ground and there is no real recessionary winds on the horizon.**
 
