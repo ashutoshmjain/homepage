@@ -6,7 +6,7 @@ desc: "Comparing LibreOffice with MS Office for Small and Medium sized Businesse
 keywords: "Opensource, LibreOffice, writing"
 categories: [FOSS, Lab]
 tags: [LibreOffice, MSOffice, OpenSource]
-icon: icon-python
+icon: icon-ubuntu
 ---
 [LibreOffice](https://www.libreoffice.org/)is a free open source productivity suite. It includes a word processor (like MS Word), spreadsheet (like MS Excel) and presentation software (like MS PowerPoint) and many more tools. LibreOffice is aggressively maintained and is available for Mac, Windows and Linux. I regularly use LibreOffice for my work as well as personal stuff. 
 
