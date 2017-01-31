@@ -6,7 +6,7 @@ desc: "A progressive agenda fuels innovation"
 keywords: "Bernie, Innovation"
 categories: [Bernie, Inspirations]
 tags: [Bernie, innovation, progressive]
-icon: icon-python
+icon: icon-fire-alt
 ---
 Two biggest expenses for me are medical coverage for my family and college education for my kids. Being an Asian family, sending kids to at least four year college is an unstated rule. And being from Bay Area, paying for the best college is a fundamental responsibility. Given that every single decent job in America today requires a four years degree, I am sure, most American dads share the sentiment.
 
