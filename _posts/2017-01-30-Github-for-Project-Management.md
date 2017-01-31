@@ -6,7 +6,7 @@ desc: "Using github for project management and related artifacts"
 keywords: "Opensource,project management"
 categories: [FOSS]
 tags: [git,GitHub,PMO]
-icon: icon-python
+icon: icon-ubuntu
 ---
 I have a fairly long career in project management. I started my career as a construction project manager in early 90s and then moved in IT / software project management in 2001. Along the way, I have got exposure to various PMO tools and methodologies with varying degree of expertise. 
 
