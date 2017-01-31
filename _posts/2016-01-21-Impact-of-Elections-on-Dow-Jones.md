@@ -3,9 +3,9 @@ layout: post
 title:  "Impact of Presidential Elections on Dow Jones"
 date:   2016-01-21
 desc: "How US Stock markets behave during presidential elections - A historical review"
-keywords: "Elections, Stocks, Dow"
+keywords: "Elections, Stocks, Dow , Market"
 categories: [Predictions]
-tags: [Stocks, Elections, Dow]
+tags: [Stocks, Elections, Dow, Market]
 icon: icon-python
 ---
 [](/homepage/static/img/blog/AmJBlog/PresidentialElection.png)
