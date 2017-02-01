@@ -30,3 +30,5 @@ Be it a news reader or person getting interviewed. People identify themselves wi
 ## Branding
 Facebook has recently launched "FB for Work". This is a sure way to make some short term money but once you identify a brand with Work, its going Staples route. Work is Dell, Mac is life.
 
+# Update after one year - Jan 2017
+I contunue to hoild twitter for long run. Stock has moved to low 15 and touched 25 but now at 17 is exactly same as January 16. Lots of Analysts have changed their minds. Sometime against, other times for.  It doesn't matter as this is a long term bet.Meanwhile under Jack Dorsey, Twitter is continuously improving the product and adding new features. The moments feature is maturing. It provides another layer of user curated content. The TV apps for moments need further improvemnet though its my favorite to catch up with the latest. Elections 2017, have shown the value of social channels vs established media. 
