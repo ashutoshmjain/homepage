@@ -2,7 +2,7 @@
 layout: post
 title:  "Bullish on Twitter"
 date:   2016-01-22
-desc: "Why I am still Bullish on Twitter"
+desc: "Why am I still Bullish on Twitter?"
 keywords: "twitter, stocks, market"
 categories: [Predictions]
 tags: [twitter, stocks, market]
