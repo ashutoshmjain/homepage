@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Progressive Agenda and Innovation"
+title:  "Doorstep eTailing"
 date:   2016-10-19
 desc: "Doorstep eTailing"
 keywords: "India, Supplychain, retail, ecommerce"
