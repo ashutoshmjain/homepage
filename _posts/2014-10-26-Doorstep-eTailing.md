@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Doorstep eTailing"
-date:   2016-10-19
+date:   2014-10-26
 desc: "Doorstep eTailing"
 keywords: "India, Supplychain, retail, ecommerce"
 categories: [Inspirations]
