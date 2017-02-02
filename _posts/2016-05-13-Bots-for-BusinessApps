@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Bots for BusinessApps"
+date:   2016-05-13
+desc: "Why ERP, CRM and SCM providers should start thinking of Bots for business apps"
+keywords: "Bots, ERP, CRM, SCM, SAP, Oracle, Salesforec, Microsoft"
+categories: [Apps]
+tags: [Bots, ERP, SCM, SCM, SAP, Oracle, Salesforce, Microsoft]
+icon: icon-database
+---
+In ERP world, a guided business process is around for quite some time but it never got the buzz that messenger Bots are getting. For one they never adopted a radically different interface and second the name is too techie:-) However, its not a missed opportunity. SAP, Oracle, Microsoft and Salesforce need to start thinking if the new user interface is beyond iOS or Android native apps.
+
+For those who didn´t yet catch the Bots boat, its a little interactive piece of code sitting in Facebook messenger or slack command line that lets user chat with it and get something useful done. For example, here I am chatting with Uber bot in Facebook Messenger.
+
+![](/homepage/static/img/blog/AmJBlog/UberBot.png)
+
+>So how do business Applications provide the bots?  As with other infra tools such as mobility, ERP vendors need to provide readily configurable mechanisms for creating custom bots. They also need to provide the mechanism for connecting and user authentication through popular chat aps such Facebook Messenger, Skype, Slack or iMessage.  As a consultant, imagine if you could enable customers order right from chat apps. Or trigger a plant maintenance order from Slack. From user standpoint, its another interactive way to access the back-end application. The benefits are ease of access and interactivity. For example, an order booking bot can ask the customer what product they would like to order today. Possibilities are endless ... 
+
+Given the security walls around ERP, Supply Chain or CRM systems, the first wave of business Bots will be for internal users. As the infrastructure matures, the same will be exposed to customers, vendors and other business partners.
+
+## Update Jan-2017
+The bots are catching up very fast. Skype and Telegram are offering a wide selection of bots in addition to FB messenger. I haven't yet seen bots in iMessage yet. I haven't yet come across any bot that connects to back-end business apps. 
+
