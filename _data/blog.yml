@@ -8,11 +8,11 @@
 - name: Inspirations
   href: '/homepage/inspirations/'
 
-- name: Bernie
-  href: '/homepage/bernie/'
+#- name: Bernie
+#  href: '/homepage/bernie/'
 
-- name: Pseudo Sci
-  href: '/homepage/science/'
+#- name: Pseudo Sci
+#  href: '/homepage/science/'
 
 - name: Predictions
   href: '/homepage/predictions/'
