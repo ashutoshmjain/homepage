@@ -10,7 +10,7 @@ icon: icon-database
 ---
 In ERP world, a guided business process is around for quite some time but it never got the buzz that messenger Bots are getting. For one they never adopted a radically different interface and second the name is too techie:-) However, its not a missed opportunity. SAP, Oracle, Microsoft and Salesforce need to start thinking if the new user interface is beyond iOS or Android native apps.
 
-For those who didn´t yet catch the Bots boat, its a little interactive piece of code sitting in Facebook messenger or slack command line that lets user chat with it and get something useful done. For example, here I am chatting with Uber bot in Facebook Messenger.
+For those who didnÂ´t yet catch the Bots boat, its a little interactive piece of code sitting in Facebook messenger or slack command line that lets user chat with it and get something useful done. For example, here I am chatting with Uber bot in Facebook Messenger.
 
 ![](/homepage/static/img/blog/AmJBlog/UberBot.png)
 
@@ -19,5 +19,4 @@ For those who didn´t yet catch the Bots boat, its a little interactive piece of 
 Given the security walls around ERP, Supply Chain or CRM systems, the first wave of business Bots will be for internal users. As the infrastructure matures, the same will be exposed to customers, vendors and other business partners.
 
 ## Update Jan-2017
-The bots are catching up very fast. Skype and Telegram are offering a wide selection of bots in addition to FB messenger. I haven't yet seen bots in iMessage yet. I haven't yet come across any bot that connects to back-end business apps. 
-
+Skype and Telegram have implemented bots. For example Telegram has a bot to discover their channels. Skype has bots from Expedia , Hipmunk and ton of other webapps. Google is widely using AI through Google Assistant in their new chat app Allo.
