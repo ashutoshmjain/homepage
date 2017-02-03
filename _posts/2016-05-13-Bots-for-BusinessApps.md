@@ -18,5 +18,13 @@ For those who didn´t yet catch the Bots boat, its a little interactive piece of
 
 Given the security walls around ERP, Supply Chain or CRM systems, the first wave of business Bots will be for internal users. As the infrastructure matures, the same will be exposed to customers, vendors and other business partners.
 
-## Update Jan-2017
-Skype and Telegram have implemented bots. For example Telegram has a bot to discover their channels. Skype has bots from Expedia, Hipmunk and ton of other webapps. Google is widely using AI through Google Assistant in their new chat app Allo.
+## Update Feb-2017
+
+
+Skype and Telegram have implemented bots. For example Telegram has a bot to discover their channels. Skype has bots from Expedia, Hipmunk and ton of other webapps. Google is widely using AI through **'Google Assistant Bot'** in their new chat app Allo. The biggest development, however, is **Slack** announced the [Enterprise Grid](https://slackhq.com/introducing-slack-enterprise-grid-ccb343380fbb#.ch8lsz6v0) - A collaboration platform for large companies. *They also announced partnership with SAP*
+
+>> With Grid, we're also adding a new partnership with SAP, featuring a portfolio of integrations across Hana Cloud Platform, SuccessFactors, and Concur. These bots will bring real-time reporting and feedback on performance goals, message-based expense and travel management, and options for running chatops development workflows in Slack. 
+
+This is a significant move for proliferation of Bots into ERP world.
+
+
