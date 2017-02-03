@@ -10,7 +10,7 @@ icon: icon-fire-alt
 ---
 Coming from a small town north India, I discovered the doorstep retail early as a child. Right from day break, the narrow streets of neighborhood used to get filled with hawkers, pushing their cartwheels, stacked with fresh produce (organic:-). Shrill screams of hawkers were like the cosmic noise; always around but didn't invoke any sensory disturbance :-)
 
-[](/homepage/static/img/blog/AmJBlog/etail.jpg)
+![](/homepage/static/img/blog/AmJBlog/etail.jpg)
 
 Now when I look back as a supply chain practitioner, the complexity of this apparently simple operation amazes me. Just like Bombay's *Dubbawalas*, hawkers never missed a date (or street). They somehow had a **seasonally adjusted demand plan** that just worked. They knew what would sell and exactly how much. Even more intriguing is how the city was mapped? Who ultimately assigned the routes and kept a tab on conflicts? How the risk was managed? Were hawkers allowed to return their unsold inventory to wholesalers at the end of the day? And many more questions that we struggle on daily basis in our complicated DP and SNP algorithms. 
 
