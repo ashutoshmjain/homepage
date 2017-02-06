@@ -18,7 +18,19 @@
   email: 'amj@smbstack.com'
   
 - last_name: SAP
+  first_name: HANA
+  desc: 'My Notes and Thougts on SAP HANA'
+  website: 'https://hanaintegrator.wordpress.com/'
+  email: 'ashutoshmjain@gmail.com'
+  
+- last_name: SAP
   first_name: Gurus
   desc: 'SAP community on Google Plus'
   website: 'https://plus.google.com/communities/100566131890898507591'
-  email: 'ashutoshmjain@gmail.com'
+  email: 'ashutoshmjain@gmail.com'  
+  
+- last_name: Madan
+  first_name: Maholvi
+  desc: 'My Dad's Hindi Urdu Poetry'
+  website: 'http://madan.shuri.com'
+  email: 'ashutoshmjain@gmail.com'   
