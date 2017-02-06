@@ -31,6 +31,6 @@
 
 - id: 'links'
   i18n: 'nav.link'
-  name: 'Publications'
+  name: 'Sites'
   tpl: 'links.html'
   css: 'contact'
