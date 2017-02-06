@@ -1,18 +1,18 @@
 # links section data
-- last_name: Jain
-  first_name: Adish
-  desc: 'Student'
-  website: 'https://adish-jain.github.io/homepage/'
-  email: 'dsps301@gmail.com'
+- last_name: SMB
+  first_name: Stack
+  desc: 'Systems integration cool tips for Small and Medium Businesses'
+  website: 'https://smbstack.com/'
+  email: 'amj@smbstack.com'
 
-- last_name: Donate
-  first_name: Jalpc
-  desc: 'Support Jalpc'
-  website: 'http://www.jack003.com/donate/'
-  email: 'me@jack003.com'
+- last_name: Think
+  first_name: SAP
+  desc: 'Design Discussions on building enterprise backbone thru ERP, CRM, SCM, Fin and HR solutions'
+  website: 'https://thinkinginsap.com/'
+  email: 'amj@thinkinginsap.com'
 
-- last_name: Jain
-  first_name: Sid
-  desc: 'Full Stack Developer.'
-  website: 'https://github.com/siddharthjn'
-  email: 'siddharth.smu@gmail.com'
+- last_name: 86
+  first_name: Reckers
+  desc: 'A web magazine of class of 86-90- National Institute of Technology Kurukshetra'
+  website: 'https://86reckers.com/'
+  email: 'amj@smbstack.com'
