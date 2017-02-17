@@ -32,9 +32,14 @@ As high speed internet reaches a critical mass in TV connectivity, Lot more Apps
 ## FaceTime conferencing
 Imagine a video conferencing capability in every living room. A TV with a powerful camera and microphone can greatly change how people communicate. Business side potential is huge.
 
+## Gaming Platform
+Given most of the revenue generating apps on app store are games, it is quite possible to bundle the games and TV content under one stretegy. In my mind, it would be a mistake becuse serious gaming is a whole different world. But Nintendo has shown that segmentation is possible against PS3 and Xbox. 
+
 
 # Update Jan 2017
-Apple and Google TV story is still disappointing. Roku has brought many products to the market with limited success. They are stymied by the limited back-end such as content and apps. Their remote, though, not as beautiful as Apple TV, is much more functional.
+Apple and Google TV story is still disappointing, though Apple has forked tvOS as a separate development branch of iOS.They also poached a Timothy D. Twerdahl from Amazon fireTV but their strategy appears backwards. It appears that Apple is taking a long hard look at the potential margins in harware play for TV. And consumer appetite for another smart device. Apple is making another mistake in pivoting Apple TV as a smart home center as well. Typically extending the scope of a device, leads to longer lead time.  
+
+Roku has brought many products to the market with limited success. They are stymied by the limited back-end such as content and apps. Their remote, though, not as beautiful as Apple TV, is much more functional.
 
 The surprising entry in this space is Amazon. Amazon didn't get much traction in smartphone or tablets market but they are dominating the TV and music space with prime membership. Alexa is a powerful ally. FireTV remote is simple but somewhat tricky. They also need to simplify fireTV interface. It is still geeky from TV standpoint.
 
