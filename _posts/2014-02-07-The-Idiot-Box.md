@@ -29,7 +29,7 @@ As Siri gets multilingual, voice is a perfect solution for running the TV. Again
 ## Touch ID
 As high speed internet reaches a critical mass in TV connectivity, Lot more Apps will switch to TV. TV is a  better place for shopping just because whole family can shop together. Perfect enabler is touch ID to authenticate you. Touch ID makes more sense on TV remote than on smartphone.
 
-## FaceTime confrencing
+## FaceTime conferencing
 Imagine a video conferencing capability in every living room. A TV with a powerful camera and microphone can greatly change how people communicate. Business side potential is huge.
 
 
