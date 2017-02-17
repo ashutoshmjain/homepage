@@ -23,17 +23,17 @@ Starting with hobby Apple TV, here are some of the hints that could potentially 
 ## Really simple remote
 Despite all the efforts of cable providers and TV manufacturers , remote is still too complicated for an average consumer. I read a survey somewhere that 90 % of people use remote only for changing channels and volume control. Less than 30 % could change TV brightness. Cable remote is even more complicated. And multiple remotes are a nightmare. Apple TV remote is not perfect but a generation ahead from any of the remote seen thus far.
 
-##Bringing Siri to TV
+## Bringing Siri to TV.
 As Siri gets multilingual, voice is a perfect solution for running the TV. Again, Siri still has many years of work to pick up non-native English accent. Other languages and dialects are far away in future.
 
-##Touch ID
+## Touch ID
 As high speed internet reaches a critical mass in TV connectivity, Lot more Apps will switch to TV. TV is a  better place for shopping just because whole family can shop together. Perfect enabler is touch ID to authenticate you. Touch ID makes more sense on TV remote than on smartphone.
 
-##FaceTime confrencing
+## FaceTime confrencing
 Imagine a video conferencing capability in every living room. A TV with a powerful camera and microphone can greatly change how people communicate. Business side potential is huge.
 
 
-#Update Jan 2017
+# Update Jan 2017
 Apple and Google TV story is still disappointing. Roku has brought many products to the market with limited success. They are stymied by the limited back-end such as content and apps. Their remote, though, not as beautiful as Apple TV, is much more functional.
 
 The surprising entry in this space is Amazon. Amazon didn't get much traction in smartphone or tablets market but they are dominating the TV and music space with prime membership. Alexa is a powerful ally. FireTV remote is simple but somewhat tricky. They also need to simplify fireTV interface. It is still geeky from TV standpoint.
