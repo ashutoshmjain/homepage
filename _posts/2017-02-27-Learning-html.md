@@ -9,16 +9,15 @@ tags: [html, web]
 icon: icon-fire-alt
 ---
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 * [Little blurb on html](#Intro)
-<a href="Basic"> The basic tags </a> <br>
-<a href="Links"> Embedding links </a> <br>
-<a href="Images"> Inserting Images </a> <br>
-<a href="Head"> The 'head' tag </a> <br>
-<a href="Format"> Formatting the text </a> <br>
-<a href="Cool"> Other cool stuff </a> <br>
+* [The basic tags](#Basic)
+  * [Embedding links](#Links)
+  * [Inserting Images](#Images)
+* [The 'head' tag](#Head)
+* [Formatting the text](#Format)
+* [Other cool stuff](#Cool)
 
 <hr>
 <a name="Intro"></a> html is a way for web browser to read, understand and display the content. The beauty of html is in its simplicity. And that is the primary reason for it to become by far the most widely used computer technology.
@@ -45,11 +44,11 @@ html was fist introduced in 1991. It has grown in scope and sophistication in la
 
 Since its so simple, most of the html can be automated. It is still very important to type html to get a good feel. The best way to learn html is to use an editor like Atom that can provide a preview of what you are writing. Alternatively you can use notepad or textEdit. Or any other editor.   
 
-# <id ="Basic"> The Basic tags
+# <a name="Basic"></a> The Basic tags
 
 As shown in the example above, the basic tags are body, headings (h1, h2, h3 and so on), and paragraph. These are in themselves enough to write as much content as we need, but quite often we need to embed the links to other internet pages. That's what makes the internet a web :-)
 
-## <id="Links">  Links
+## <a name="Links"></a>  Links
 
 href is the attribute that defines a link in an html page. The tag is 'a'
 
@@ -60,7 +59,7 @@ Note that the attribute (url and target) goes into the starting tag and that is 
 
 **By default the urls are colord blue underlined for unvisited links , purple undrlined for the visited ones and red underlined for the active ones.**
 
-## <id="Images">  Images
+## <a name="Images"></a>  Images
 They say a picture is worth thousand words. I personally don't believe it but who am I ? People want to see  pictures on web pages and html does that with elegance. The tag is 'img' and it comes with number of attributes
 
 ```
@@ -70,13 +69,13 @@ Note that the end tag is optional. Attribute 'src' indicates the source. It can 
 
  *Goes without saying that the tags can be nested. They are not case sensitive. And many of them don't need a closing tag. You don't need to put quotes around attributes. html really loves you :-) But thats all there to catch mistakes. Just keep all of them lower case. Always close them and keep your nesting simple. And yes keep your attributes quoted just in case you hit some unforgiving browser.*
 
-# <id="Head"> Head
+# <a name="Head"></a> Head
 
 The 'head' tag has nothing to do with the header. This is actually  used to define the meta data for the html page. This can include page title, character set, language, style and host of other things.
 
 More information on this later.
 
-# <id="Format">  Formatting
+# <a name="Format"></a>  Formatting
 
 html allows sophisticated formatting
 ```
@@ -106,7 +105,7 @@ and like wise
 <sub> this is subscript </sub>
 <sup> this is superscript </sup>
 
-#<id="Cool"> Other cool stuff
+#<a name="Cool"></a> Other cool stuff
  **'br'** is used to add a break in continuous text.<br>
  **'hr'** is used to insert a line <br>
  **'q'** is used for the quotation mark <br>
