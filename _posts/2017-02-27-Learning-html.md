@@ -105,7 +105,7 @@ and like wise
 <sub> this is subscript </sub>
 <sup> this is superscript </sup>
 
-#<a name="Cool"></a> Other cool stuff
+# <a name="Cool"></a> Other cool stuff
  **'br'** is used to add a break in continuous text.<br>
  **'hr'** is used to insert a line <br>
  **'q'** is used for the quotation mark <br>
