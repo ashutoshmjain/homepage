@@ -9,7 +9,7 @@ tags: [html, web]
 icon: icon-fire-alt
 ---
 
-<a href="Intro"> Little blurb on html </a> <br>
+* [Intro](Little blurb on html)
 <a href="Basic"> The basic tags </a> <br>
 <a href="Links"> Embedding links </a> <br>
 <a href="Images"> Inserting Images </a> <br>
@@ -18,7 +18,7 @@ icon: icon-fire-alt
 <a href="Cool"> Other cool stuff </a> <br>
 
 <hr>
-<id ="Intro"> html is a way for web browser to read, understand and display the content. The beauty of html is in its simplicity. And that is the primary reason for it to become by far the most widely used computer technology.
+<a name="Intro"></a> html is a way for web browser to read, understand and display the content. The beauty of html is in its simplicity. And that is the primary reason for it to become by far the most widely used computer technology.
 
 ```
 <!DOCTYPE html>
