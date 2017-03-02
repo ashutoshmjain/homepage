@@ -8,8 +8,11 @@ categories: [Inspirations]
 tags: [html, web]
 icon: icon-fire-alt
 ---
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-* [Intro](#Little blurb on html)
+* [Little blurb on html](#Intro)
 <a href="Basic"> The basic tags </a> <br>
 <a href="Links"> Embedding links </a> <br>
 <a href="Images"> Inserting Images </a> <br>
