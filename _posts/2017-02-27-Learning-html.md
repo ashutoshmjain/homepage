@@ -9,7 +9,7 @@ tags: [html, web]
 icon: icon-fire-alt
 ---
 
-* [Intro](Little blurb on html)
+* [Intro](#Little blurb on html)
 <a href="Basic"> The basic tags </a> <br>
 <a href="Links"> Embedding links </a> <br>
 <a href="Images"> Inserting Images </a> <br>
