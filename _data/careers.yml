@@ -3,14 +3,14 @@
     detail: Director Enterprise Applications
     i18n: NTT
   desc:
-    detail: NTT Data is a global systems integrator and consulting group. Responsible for selling and customer engagement for packaged enterprise applications such as ERPs and BI solutions from SAP, Oracle or Microsoft. 
-    i18n: M360_desc
+    detail: NTT Data is a global systems integrator and consulting group. Responsible for selling and customer engagement for packaged enterprise applications such as ERPs and BI solutions from SAP, Oracle or Microsoft.
+    i18n: NTT_desc
   date:
-    detail: April 2016
-    i18n: M360_date
+    detail: April 2017
+    i18n: NTT_date
   job:
-    detail: Method 360 (San Francisco-CA)
-    i18n: M360_job
+    detail: NTT Data Service (Palo Alto-CA)
+    i18n: NTT_job
   icon: fa-cloud
 
 - name:
