@@ -26,4 +26,4 @@ We are NOT there yet (:-
 
 **Update 07/14/2017**
 Cryto currencies have stuck. There was a brief down period  post mount an attack on Mount Gox, but that too showed the resilience of crypto community. The investors interest  peaked in 2015 with lot more VCs and ISVs understanding the the potential of block chain (the underlying technology of bitcoin).  
-Ethereum is a new platform for smart contracts. A very innovative implementation of generalized blockchain
+Ethereum is a new platform for smart contracts. A very innovative implementation of generalized blockchain. I ill getting my head around am it. Installed the Ethereum Wallet today on on mint. its called mist. .
