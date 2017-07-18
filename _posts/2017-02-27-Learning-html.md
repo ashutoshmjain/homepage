@@ -20,7 +20,9 @@ icon: icon-fire-alt
 * [Other cool stuff](#Cool)
 
 <hr>
-<a name="Intro"></a> html is a way for web browser to read, understand and display the content. The beauty of html is in its simplicity. And that is the primary reason for it to become by far the most widely used computer technology.
+<a name="Intro"></a> As I  started writing in Github markdown, I realized html is probably the closet competitor to English grammar.  In terms of it's usage, it is probably the most used computing resource. And how little I know of this core technology ! and how much water has flown by since the early days to html 5...
+
+Back to basics .. 
 
 ```
 <!DOCTYPE html>
