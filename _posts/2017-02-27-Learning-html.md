@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My html notes"
+title:  "Back to Basics - My html notes"
 date:   2017-02-27
 desc: "My notes from learning html"
 keywords: "html, web"
@@ -20,9 +20,9 @@ icon: icon-fire-alt
 * [Other cool stuff](#Cool)
 
 <hr>
-<a name="Intro"></a> As I  started writing in Github markdown, I realized html is probably the closet competitor to English grammar.  In terms of it's usage, it is probably the most used computing resource. And how little I know of this core technology ! and how much water has flown by since the early days to html 5...
+<a name="Intro"></a> As I  started writing in Github markdown, I realized html is an extension of English grammar.  In terms of it's usage, it is probably the most used computing resource and most under-appreciated as well. And how little I know of this core technology ! and how much water has flown by since the early days to html 5...
 
-Back to basics .. 
+Back to basics ..
 
 ```
 <!DOCTYPE html>
