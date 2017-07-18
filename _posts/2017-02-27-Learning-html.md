@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Back to Basics - My html notes"
+title:  "My html notes"
 date:   2017-02-27
 desc: "My notes from learning html"
 keywords: "html, web"
