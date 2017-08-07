@@ -19,12 +19,24 @@ icon: icon-fire-alt
 * [markdown](#md)
 * [jekyll](#jk)
 * [fountain](#fn)
+ 
+As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
-As a project manager I always wanted developers to put comments in their code. Elaborate, unambiguous and over communicate.And make them really meaningful for the next one touching the code. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes you lot more efficient, reusable and easy to read. This post is about my discovery of tool set to bring a coder paradigm into my writing. 
+	A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up untill last year when i discoved github and jekyll blogs. I soon realized that ease of use is a reletive term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
 
 # linux
-<hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in huge variety of distributions granularly designed for every segment of users.  I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack able to the core and zero frills. I am sure, I will keep on exploring more. For example, recently I tried bunch of Puppies. Truly amazed with their agility. Point is - just pick up an old machine ( or install Virtual Box  on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend Linux Mint. If you have your feet wet, jump into Slackware here.
+<hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
+	A quick word on Command Line : Its just fast. Even on most old computers. Its distractions free. Allows you to separate 'research' from writing. Research, for me often leads to mindless dwelling :-). And here is the kicker - Its more featureful than most gui based apps. You can lierally design your own environment. That suits your style and mood. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+
+I am sure, I will keep on exploring more. For example, recently I tried bunch of Puppies. Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box  on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit https://www.linuxmint.com/  If you already have your feet wet, jump into http://www.slackware.com/
+
+	A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+
+	- .zshrc that controls the behaviour of shell. 
+	- .tmux.conf controls the tmux multiplexer
+	- .vimrc - the mother of all configurations for a writer.
+	- .gitconf - git configuration. .
 # shell
 
 <hr><a name="shell"></a> I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
@@ -48,27 +60,60 @@ As a project manager I always wanted developers to put comments in their code. E
 - kill -  easiest way to kill a process. Find the pid from 'top'
 - service - all about the running services. Example 'service udev status' will give everthing  about the udev service. start and stop will do accordingly.  service --status-all 
 # git
-<hr><a name="git"></a> Ipublish my blog on the github. 
-- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
-- git add - to stage the chnages to exiting posts or new posts.
-- git commit - to commit the changes 
-- git push - to publish the changes to git hub. 
+<hr><a name="git"></a> I publish my blog on the github. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these five basic commands are good enough. 
+
+	- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
+	- git add - to stage the chnages to exiting posts or new posts.
+	- git commit - to commit the changes 
+	- git push - to publish the changes to git hub. 
+	- git rm - remove a file from the git repository. useful to remove the back up files. 
 # tmux
 
-<hr><a name="tmux"></a> Here are the commands that I regularly use as a writer.
+<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multile windows and panes. I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
 - tmux - to start a new tmux session  ( I can assign it a name with -s)
 
-**I have remapped the pan operations to key 'a' (in place of b) for easy reach.**
+**I have mapped the pane operations prefix to  'a' (in place of b) for easy reach.** Add following to .tmux.conf. This should be in home (~) directory. 
 
+	-set -g prefix C-a
 - (ctrl) a | to split a new horizontal pan
 - (ctrl) a - to split a new vertical pan
 - (ctrl) a o to jump to next pan
-    
 # vim
-<hr><a name="vim"></a> Here are the commands that I regularly use as a writer.
+<hr><a name="vim"></a> 
+lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first explosure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim couple months back. This time well eqipped. I read through internet. Listened to the vim padcasts. Watched you tube vedios. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
 
-- zo , zc  - My vim is set up to fold the lines between TOC references. A good idea when you are handling a large document. You need to see the whole document folded based on TOC. You can jk yourself to the area you want to work and the zo (in normal mode) to open the fold. Once done, or if you want to go to other fold , just zc the current fold to close it. 
+## Normal Mode
+Vim opens in the normal mode. This is where you edit stuff. Typing is in the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I dont even know if there are commands insert mode. The idea is you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essey or a word) , you escape back to the normal mode. It is here that you move (or position ) your cursor. You delete line. You cut copy paste. You insert lines , fold them and rest everything. One good tip is to keep on writing till you have really emptied all you had in your brain. Save the document. And then strat editing it in normal mode. For me its a great time saver.
+
+One word of caution, till you have learnt most of the normal mode commands (which are just too many), your cursor will go random places cuz you will invariably hit a key that invokes some command. There are only two ways to handle this. Either undo (u) or just be careful normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
+
+- h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyborad :-) You can do 2j to move two lines down but thats just for the coders. 
+    - u - Undo last action. vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
+- zo, zc  - My vim is set up to *fold* the lines between TOC references. A good idea when you are handling a large document. You need to see the whole document folded based on TOC. You can jk yourself to the area you want to work and the zo (in normal mode) to open the fold. Once done, or if you want to go to other fold , just zc the current fold to close it. 
+- A - move the cursor at the end of the current row. 
+- I - move the cursor to the start of current row.
+- ]s, [s - I keep the a *Spell Checker* off till I really want to spell check. Thats cuz highlighted errors make me go ito the edit mode. When i turn it on, these commands move me foreard and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+
+## Command Mode 
+As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
+
+- :w - Save the file. Mix with q to save and quit. 
+- :q - Quit without saving. Mix with ! to just abondon. 
+-
+-
+-
+-
+## Plug-Ins
+
+There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at vimawesome.com
+### Vundle
+### Colorscheme
+### Fugitive
+### Tabular
+### 
+
+
 # markdown 
 <hr><a name="md"></a> lets just say that markdown easier way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. Github automatically shows the README.md on the front page of repository just below all the files. Good integration. 
 
