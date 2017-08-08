@@ -13,21 +13,23 @@ icon: icon-fire-alt
 
 First a disclaimer - I am no expert in Blockchain technology. But then, this article is not about tech. Its about how and why things stick.
 
+In case you want to learn about Ethereum there are hundreds of great articles on the internet.This [Blockgeek]( https://blockgeeks.com/guides/what-is-ethereum/) covers everything simple and plain. .
+
 # The horse and the cart
 
- Not very long ago, in 2008, [Project Better Place](https://en.wikipedia.org/wiki/Better_Place) was started. The promise was to rid the planet off fossil fuels automobiles by creating a network of battery replacement stations. The logic was good. Math was even better. If you standardize the the batteries across the cars, the remaining chassis are inexpensive. Customers will buy the shell of a car while the batteries belong to network. You will buy miles from the network as you buy minutes from the cellular providers. It all looked great and I was personally (though not directly involved) was very inspired by the idea. The promise was so worthy that we all missed one minor detail. THERE WAS NO COMPELLING CAR.
+ Not very long ago, in 2008, [Project Better Place](https://en.wikipedia.org/wiki/Better_Place) was started. The promise was to rid the planet off fossil fuels automobiles by creating a network of battery replacement stations. The logic was good. Math was even better. If you standardize the batteries across the cars, the remaining chassis are inexpensive. Customers will buy the shell of a car while the batteries belong to network. You will buy miles from the network as you buy minutes from the cellular providers. It all looked great and I was personally (though not directly involved) was very inspired by the idea. The promise was so worthy that we all missed one minor detail. THERE WAS NO COMPELLING CAR.
 
  **People crave for phones and they hate the network providers.**
 
  A network is a Cart. Model S or iPhone are the horses. Once you have a horse you can build a network around it. For example AppStore for iPhone. Charging stations for the model S. I don't know for sure if they sold the light bulb to masses or they first built a grid ? I guess it was the bulb.
 
- We can argue that Bitcoin is the horse for Ethereum. The question is  this horse strong enough to carry a really big cart? I don't think so. I think Bitcoin has a long way to go before it has a mass appeal. That is assuming Bitcoin and Ethereum are complimentary.  the fact is they are quite different initiatives.
+ We can argue that Bitcoin is the horse for Ethereum. The question is  this horse strong enough to carry a really big cart? I don't think so. I think Bitcoin has a long way to go before it has a mass appeal. That is assuming Bitcoin and Ethereum are complimentary.  The fact is they are quite different initiatives.
 
 # Open Source (dis)Advantage
 
 We can argue that Better Place was a totally commercial project on a ticking time line dictated by hungry vultures. Ethereum is open source project supported by a cult of developers. Something like Linux Project. Very true. Open source method has intrigued most management gurus. It has defied the core principals of capitalism. All true..
 We, however, needs to keep in mind another aspect of open source projects - **Frugality**. Open source (or free) software projects are characterized by not only the freely available source code, but also a culture of extreme frugality. Frugality comes in handy. The reason is simple. They need to crawl for long. There is no concept of "Time to Value". There are no promises made. There are no expectations set. There is no support guaranteed. The benevolent dictator can leave any day or go off-grid. Vulture capitalists are the last thing an open source project should associate itself to. At least not until it has gained enough air under its wings.
-Question is if Ethereum there yet  as an open source project? where it could  use 'much' from corporations or VCs?  I don't think so. I think expectations are crazy high. For the starters - open source should never claims to change the world. Heck no .. if I was to burn both sides of the candle, wouldn't I do that for fat pay check at a corporation?
+Question is if Ethereum there yet  as an open source project? Where it could  use 'much' from corporations or VCs?  I don't think so. I think expectations are crazy high. For the starters - open source should never claims to change the world. Heck no .. If I was to burn both sides of the candle, wouldn't I do that for fat pay check at a corporation?
 
 # Developer v/s user
 
