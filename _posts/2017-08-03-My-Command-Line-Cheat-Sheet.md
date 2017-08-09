@@ -22,21 +22,22 @@ icon: icon-fire-alt
  
 As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
-	A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up untill last year when i discoved github and jekyll blogs. I soon realized that ease of use is a reletive term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
+>A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up untill last year when i discoved github and jekyll blogs. I soon realized that ease of use is a reletive term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
 
 # linux
 <hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
-	A quick word on Command Line : Its just fast. Even on most old computers. Its distractions free. Allows you to separate 'research' from writing. Research, for me often leads to mindless dwelling :-). And here is the kicker - Its more featureful than most gui based apps. You can lierally design your own environment. That suits your style and mood. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+>A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
 
-I am sure, I will keep on exploring more. For example, recently I tried bunch of Puppies. Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box  on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit https://www.linuxmint.com/  If you already have your feet wet, jump into http://www.slackware.com/
+I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
 
-	A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+>A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
 
 	- .zshrc that controls the behaviour of shell. 
 	- .tmux.conf controls the tmux multiplexer
 	- .vimrc - the mother of all configurations for a writer.
-	- .gitconf - git configuration. .
+	- .gitconf - git configuration.
+	- _config.yml - jekyll configuration file 
 # shell
 
 <hr><a name="shell"></a> I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
@@ -86,14 +87,16 @@ lot has been said in praise of vim. And its all true. And also that it takes tim
 ## Normal Mode
 Vim opens in the normal mode. This is where you edit stuff. Typing is in the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I dont even know if there are commands insert mode. The idea is you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essey or a word) , you escape back to the normal mode. It is here that you move (or position ) your cursor. You delete line. You cut copy paste. You insert lines , fold them and rest everything. One good tip is to keep on writing till you have really emptied all you had in your brain. Save the document. And then strat editing it in normal mode. For me its a great time saver.
 
-One word of caution, till you have learnt most of the normal mode commands (which are just too many), your cursor will go random places cuz you will invariably hit a key that invokes some command. There are only two ways to handle this. Either undo (u) or just be careful normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
+>One word of caution, till you grasped most normal mode commands (which are many), your cursor will go random places cuz you will invariably hit a key that invokes some motion command. There are only two ways to handle this. Either undo (u) or just be careful in normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
 
-- h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyborad :-) You can do 2j to move two lines down but thats just for the coders. 
-    - u - Undo last action. vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
-- zo, zc  - My vim is set up to *fold* the lines between TOC references. A good idea when you are handling a large document. You need to see the whole document folded based on TOC. You can jk yourself to the area you want to work and the zo (in normal mode) to open the fold. Once done, or if you want to go to other fold , just zc the current fold to close it. 
-- A - move the cursor at the end of the current row. 
-- I - move the cursor to the start of current row.
-- ]s, [s - I keep the a *Spell Checker* off till I really want to spell check. Thats cuz highlighted errors make me go ito the edit mode. When i turn it on, these commands move me foreard and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+- **Horizontal movement** h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyborad :-) You can do 2j to move two lines down but thats just for the coders. 
+- **Undo**  u - Undo last action. vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
+- **Jump** $ - move the cursor to the end of the current line
+- **Jump Back** ^ - move the cursor to the beginning of the current line
+- **Jump Back** 0 - move the cursor to the first character of the line 
+- **Jump and Insert** A - move the cursor at the end of the current row. 
+- **Jump Back and Insert** I - move the cursor to the start of current row and put you in insert mode..
+- **Spell Check** ]s, [s - I keep the a *Spell Checker* off till I really want to spell check. Thats cuz highlighted errors make me go ito the edit mode. When i turn it on, these commands move me foreard and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
 
 ## Command Mode 
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
@@ -107,16 +110,22 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 ## Plug-Ins
 
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at vimawesome.com
-### Vundle
-### Colorscheme
-### Fugitive
-### Tabular
-### 
+### gmarik/Vundle
+### flazz/vim-colorschemes
+### tpope/Fugitive
+### godlygeek/Tabulae
+### plasticboy/vim-markdown 
+### scrooloose/nerdtree
+### vim-airline/vim-airline
 
 
 # markdown 
-<hr><a name="md"></a> lets just say that markdown easier way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. Github automatically shows the README.md on the front page of repository just below all the files. Good integration. 
+<hr><a name="md"></a> lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. Github automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
+- **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own pespective
+- **Links** - \[Name of Hyperlink](hyperlink)
+- **Turning Markdown into plain English** - Many times you may want hypertext commands to show up as plain English. As in the example above. Just put a \ befor the command.
+-
 # jekylll 
 <hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (eg blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosgting mechanism of github pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
