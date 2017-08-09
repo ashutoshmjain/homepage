@@ -31,7 +31,7 @@ As a project manager I always wanted developers to put ample comments in their c
 
 I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
 
->A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+>A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
 
 	- .zshrc that controls the behaviour of shell. 
 	- .tmux.conf controls the tmux multiplexer
@@ -70,7 +70,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
 # tmux
 
-<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multile windows and panes. I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
+<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multiple windows and panes. I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
 - tmux - to start a new tmux session  ( I can assign it a name with -s)
 
@@ -82,7 +82,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 - (ctrl) a o to jump to next pan
 # vim
 <hr><a name="vim"></a> 
-lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first explosure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim couple months back. This time well eqipped. I read through internet. Listened to the vim padcasts. Watched you tube vedios. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
+lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim couple months back. This time well equipped. I read through internet. Listened to the vim podcast. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
 
 ## Normal Mode
 Vim opens in the normal mode. This is where you edit stuff. Typing is in the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I dont even know if there are commands insert mode. The idea is you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essey or a word) , you escape back to the normal mode. It is here that you move (or position ) your cursor. You delete line. You cut copy paste. You insert lines , fold them and rest everything. One good tip is to keep on writing till you have really emptied all you had in your brain. Save the document. And then strat editing it in normal mode. For me its a great time saver.
@@ -97,26 +97,53 @@ Vim opens in the normal mode. This is where you edit stuff. Typing is in the 'in
 - **Jump and Insert** A - move the cursor at the end of the current row. 
 - **Jump Back and Insert** I - move the cursor to the start of current row and put you in insert mode..
 - **Spell Check** ]s, [s - I keep the a *Spell Checker* off till I really want to spell check. Thats cuz highlighted errors make me go ito the edit mode. When i turn it on, these commands move me foreard and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+- **Delete line** dd - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.
+- **Copy a line** yy - more of yanking under visual mode.
+- **Paste a line** p - whatever was previously yanked.
 
+>We can prefix a command with a number to ask vim repeat the command as many times. For example 10j will move down ten lines. This is very useful if you keep line numbering on..
 ## Command Mode 
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
 
-- :w - Save the file. Mix with q to save and quit. 
-- :q - Quit without saving. Mix with ! to just abondon. 
--
--
--
--
-## Plug-Ins
+- **Save File**  :w -  Mix with q to save and quit. 
+- **Quit** :q - Quit without saving. Mix with ! to just abandon. 
+- **Save and Quit**  :x (same as :wq)
+- **Invoke Spell Check** :setlocal spell
+> Notice the way we are mixing the commands. This happens a lot in vim. Multiple commands prefixed with a number become a powerful tool to accomplish a lot with few key strokes. That is what makes vim magical. 
+## Visual mode
+I use visual mode only for selecting the text for copy. This modes invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
 
-There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at vimawesome.com
-### gmarik/Vundle
-### flazz/vim-colorschemes
-### tpope/Fugitive
-### godlygeek/Tabulae
-### plasticboy/vim-markdown 
-### scrooloose/nerdtree
-### vim-airline/vim-airline
+## Plug-Ins
+There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
+#### gmarik/Vundle
+[vundle](https://github.com/VundleVim/Vundle.vim) is a plugin to manage plugins. In previous world, vimmers had to download each plug in, put it in a specific directory and then let .vimrc know what to do with the plugin. With vundle, all that is gone. You don't even need to clone (or download) other plugins. Vundle does that for you. As you may have understood by now, most plugins live on github. Atleast the ones I use. So all you need to do is just add the name (Not github url) to the vim rc and run the command :PluginInstall. Vundle will go to the hub, clone the plug ins and put the scripts in required tree structure. And of course, update for you when ever you ask for :PluginUpdate. Here is how my .vimrc looks like. 
+
+	set nocompatible
+	filetype off
+	set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
+	Plugin 'gmarik/Vundle.vim'
+	Plugin 'flazz/vim-colorschemes'
+	Plugin 'tpope/vim-fugitive'
+	Plugin 'godlygeek/tabular'
+	Plugin 'plasticboy/vim-markdown'
+	Plugin 'scrooloose/nerdtree'
+	Plugin 'vim-airline/vim-airline'
+		
+	
+#### flazz/vim-colorschemes
+#### tpope/Fugitive
+Fugitive really makes git a thing for writers. Now we don't need to go out of vim (to shell command line) and add, commit or push as a separate operation. We can now do all these operations from with in the open vim file (post) without even specifiying the name of the file (duh). Here are the four basic commands
+- **Gwrite** add the current post to git
+- **Gcommit -m 'commit message'** This will add the post to the current branch. 
+- **Gpush** - Thats it. Your post is now on Github and possibly on your blog. 
+
+    	Important point : All the commands are starting with a capital letter. 
+
+#### godlygeek/Tabular
+#### plasticboy/vim-markdown 
+#### scrooloose/nerdtree
+#### vim-airline/vim-airline
 
 
 # markdown 
