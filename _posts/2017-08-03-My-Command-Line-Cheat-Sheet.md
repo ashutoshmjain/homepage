@@ -22,7 +22,7 @@ icon: icon-fire-alt
  
 As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up untill last year when i discoved github and jekyll blogs. I soon realized that ease of use is a reletive term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
+>A word about this post: it is about tools I am exploring to a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up until last year when i discovered  GitHub and jekyll blogs. I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
 
 # linux
 <hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
@@ -70,38 +70,55 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
 # tmux
 
-<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multiple windows and panes. I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
+<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
-- tmux - to start a new tmux session  ( I can assign it a name with -s)
+- tmux			to start a new tmux session  ( I can assign it a name with -s)
+- tmux attach-session 	to attach to an existing session
 
 **I have mapped the pane operations prefix to  'a' (in place of b) for easy reach.** Add following to .tmux.conf. This should be in home (~) directory. 
 
 	-set -g prefix C-a
-- (ctrl) a | to split a new horizontal pan
-- (ctrl) a - to split a new vertical pan
-- (ctrl) a o to jump to next pan
+- (ctrl) a |	to split a new horizontal pan
+- (ctrl) a -	to split a new vertical pan
+- (ctrl) a o	to jump to next pane
+- (ctrl) a w	list window. Move up and down with arrow keys to select the required window. 
+- (ctrl) a ls	list sessions
+- (ctrl) a , 	list windows
+- (ctrl) a c 	create new window
+- (ctrl) a t	big clock
+- (ctrl) a d 	detach from current session
+    .
 # vim
 <hr><a name="vim"></a> 
-lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim couple months back. This time well equipped. I read through internet. Listened to the vim podcast. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
+It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
+
+>Lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim . This time well equipped. I read through internet. Listened to the vim Podcasts. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
 
 ## Normal Mode
-Vim opens in the normal mode. This is where you edit stuff. Typing is in the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I dont even know if there are commands insert mode. The idea is you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essey or a word) , you escape back to the normal mode. It is here that you move (or position ) your cursor. You delete line. You cut copy paste. You insert lines , fold them and rest everything. One good tip is to keep on writing till you have really emptied all you had in your brain. Save the document. And then strat editing it in normal mode. For me its a great time saver.
+Vim opens in the normal mode. This is where you review, move and determine the text - to copy, delete or change. If only you want to change the text (or insert something new), you invoke the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I don't even know if there are commands in insert mode cuz the whole keyboard is at your disposal to insert or alter text.. The idea is - you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essay or a word) , you escape back to the normal mode 
+
 
 >One word of caution, till you grasped most normal mode commands (which are many), your cursor will go random places cuz you will invariably hit a key that invokes some motion command. There are only two ways to handle this. Either undo (u) or just be careful in normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
 
-- **Horizontal movement** h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyborad :-) You can do 2j to move two lines down but thats just for the coders. 
-- **Undo**  u - Undo last action. vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
+- **Horizontal movement** h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach. . 
+- **Undo**  u - Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
 - **Jump** $ - move the cursor to the end of the current line
 - **Jump Back** ^ - move the cursor to the beginning of the current line
 - **Jump Back** 0 - move the cursor to the first character of the line 
-- **Jump and Insert** A - move the cursor at the end of the current row. 
+- **Jump and Insert** A - move the cursor at the end of the current row and put you in insert mode.
 - **Jump Back and Insert** I - move the cursor to the start of current row and put you in insert mode..
-- **Spell Check** ]s, [s - I keep the a *Spell Checker* off till I really want to spell check. Thats cuz highlighted errors make me go ito the edit mode. When i turn it on, these commands move me foreard and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+- **Spell Check** ]s, [s - I keep  *Spell Checker* off till I really want to spell check. That's cuz highlighted errors make me go into the edit mode. When i turn it on, these commands move me forward and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
 - **Delete line** dd - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.
 - **Copy a line** yy - more of yanking under visual mode.
 - **Paste a line** p - whatever was previously yanked.
 
->We can prefix a command with a number to ask vim repeat the command as many times. For example 10j will move down ten lines. This is very useful if you keep line numbering on..
+Above commands should make your move around the keyboard easy. Lets say you can magically place your cursor wherever you want on the screen (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes this 
+
+- *Copy* 'y'  is the key to initiate the selection. You press y, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example yw will yank next word. y$ will yank till end of line. yy is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So yy is --> 0y$. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use P to paste at cursor, or p to paste a place ahead of cursor. 
+- *Delete* 'd'  is the key to initiate the selection. You press d, vim is ready for you to tell it what to delete. Then motion keys are used to determine the selection. For example dw will delete the next word. d$ will delete till end of line. dd is a special case here we actually tell vim to go the start of the current line (0) and then delete till the end ($). So dd is --> 0d$ If you noticed, there is no need to go into 'insert' mode for this operation. 
+- *change* 'c'  is the key to initiate the selection. You press c, vim is ready for you to tell it what to change. Then motion keys are used to determine the selection. For example cw  will change the next word. c$ will change till end of line. 
+- *Insert* 'i'  is the key to initiate the 'insert' mode. You press i, vim is ready for you to tell it what to insert. Then why is it called .
+-- 
 ## Command Mode 
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
 
