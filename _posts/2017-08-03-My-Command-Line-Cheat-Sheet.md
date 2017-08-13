@@ -87,8 +87,8 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 - (ctrl) a c 	create new window
 - (ctrl) a t	big clock
 - (ctrl) a d 	detach from current session
-    .
-# vim
+    
+# Vim
 <hr><a name="vim"></a> 
 It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
 
@@ -107,26 +107,38 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - **Jump Back** 0 - move the cursor to the first character of the line 
 - **Jump and Insert** A - move the cursor at the end of the current row and put you in insert mode.
 - **Jump Back and Insert** I - move the cursor to the start of current row and put you in insert mode..
-- **Spell Check** ]s, [s - I keep  *Spell Checker* off till I really want to spell check. That's cuz highlighted errors make me go into the edit mode. When i turn it on, these commands move me forward and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+- **Spell Check** ]s, [s - I normally keep  *Spell Checker* off till I really want to do spell check. That's cuz highlighted errors make me go into the edit mode. When i turn spell check (command :set spell) on, ]s and [s move me forward and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
 - **Delete line** dd - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.
 - **Copy a line** yy - more of yanking under visual mode.
-- **Paste a line** p - whatever was previously yanked.
+- **Paste a line** p - whatever was previously yanked or deleted.
+- **Search** Vim has powerful search and its a lot more involved topic. For now / invokes search in forward direction. 
+- **Go to the Top** - gg takes the cursor to the top. 
+- **Go to the Bottom** G takes the cursor to the bottom of the page. 
+	>Above commands should make your move around the screen  easy. Lets say you can now magically place your cursor wherever you want (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes these operations :- 
 
-Above commands should make your move around the keyboard easy. Lets say you can magically place your cursor wherever you want on the screen (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes this 
+- **Copy or as Vim calls it -Yank** 'y' is the key to initiate the selection. You press y, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example yw will yank next word. y$ will yank till end of line. yy is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So yy is --> 0y$. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use P to paste at cursor, or p to paste a place ahead of cursor. 
+- **Delete** 'd'  is the key to initiate the selection. You press d, vim is ready for you to tell it what to delete. Then motion keys are used to determine the selection. For example dw will delete the next word. d$ will delete till end of line. dd is a special case here we actually tell vim to go the start of the current line (0) and then delete till the end ($). So dd is --> 0d$ If you noticed, there is no need to go into 'insert' mode for this operation. 
+- **Change** 'c'  is the key to initiate the selection. You press c, vim is ready for you to tell it what to change. Then motion keys are used to determine the selection. For example cw  will change the next word. c$ will change till end of line. If you need to change a single character under the cursor, an easy way is to use 'r'. If you want to go into "Overwrite mode" R will do the trick. 
+	>Essentially , keys y,d and c (in normal mode) open up a memory store, there after, the motion keys become a mechanism to make a selection. Whatever you select goes into memory store. Also called a hidden register. This is the reason, Vim can undo these operations. And here is the kicker - with '.' you can keep on repeating the edit operations as long as you  want. This is a very powerful editing tool.
 
-- *Copy* 'y'  is the key to initiate the selection. You press y, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example yw will yank next word. y$ will yank till end of line. yy is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So yy is --> 0y$. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use P to paste at cursor, or p to paste a place ahead of cursor. 
-- *Delete* 'd'  is the key to initiate the selection. You press d, vim is ready for you to tell it what to delete. Then motion keys are used to determine the selection. For example dw will delete the next word. d$ will delete till end of line. dd is a special case here we actually tell vim to go the start of the current line (0) and then delete till the end ($). So dd is --> 0d$ If you noticed, there is no need to go into 'insert' mode for this operation. 
-- *change* 'c'  is the key to initiate the selection. You press c, vim is ready for you to tell it what to change. Then motion keys are used to determine the selection. For example cw  will change the next word. c$ will change till end of line. 
-- *Insert* 'i'  is the key to initiate the 'insert' mode. You press i, vim is ready for you to tell it what to insert. Then why is it called .
--- 
+## Insert mode 
+'i' is the key to initiate the 'insert' mode. You press i, vim is ready for you to tell it what to insert. We can get into insert mode with 
+- A (end of the line), 
+- I (start of the line, 
+- O insert a line above and be in insert mode.
+- o insert a new line below and be in insert mode
+
+    >The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
+    > Its a good ides to bind your caps lock key to escape for one caps lock hardly has a use, and two reaching to the escape key on top left corner is too much work for a lazy vimmer :-)
 ## Command Mode 
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
 
 - **Save File**  :w -  Mix with q to save and quit. 
 - **Quit** :q - Quit without saving. Mix with ! to just abandon. 
 - **Save and Quit**  :x (same as :wq)
+> Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 - **Invoke Spell Check** :setlocal spell
-> Notice the way we are mixing the commands. This happens a lot in vim. Multiple commands prefixed with a number become a powerful tool to accomplish a lot with few key strokes. That is what makes vim magical. 
+- **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
 ## Visual mode
 I use visual mode only for selecting the text for copy. This modes invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
 
@@ -174,5 +186,4 @@ Fugitive really makes git a thing for writers. Now we don't need to go out of vi
 <hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (eg blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosgting mechanism of github pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
 # fountain 
-
 <hr><a name="fn"></a> Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
