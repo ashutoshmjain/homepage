@@ -36,7 +36,6 @@ As a project manager I always wanted developers to put ample comments in their c
 			* [scrooloose/nerdtree](#scrooloosenerdtree)
 			* [vim-airline/vim-airline](#vim-airlinevim-airline)
 * [markdown](#markdown)
-	* [- **Links** - \Name of Hyperlink](#--links---name-of-hyperlink)
 * [Jekyll](#jekyll)
 * [fountain](#fountain)
 
@@ -208,10 +207,8 @@ There are three main reasons for me to use this plugin
 lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
-- **Links** - \[Name of Hyperlink](hyperlink)
--
 # Jekyll 
-<hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (eg blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosgting mechanism of github pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
+<hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
 # fountain 
 <hr><a name="fn"></a> Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
