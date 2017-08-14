@@ -11,18 +11,9 @@ icon: icon-fire-alt
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-* [linux](#linux)
-* [shell](#shell)
-* [tmux](#tmux)
-* [git](#git)
-* [vim](#vim)
-* [markdown](#md)
-* [jekyll](#jk)
-* [fountain](#fn)
- 
 As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A word about this post: it is about tools I am exploring to a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up until last year when i discovered  GitHub and jekyll blogs. I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
+>A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, Wordpress -press and Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
 
 <!-- vim-markdown-toc GFM -->
 * [linux](#linux)
@@ -45,8 +36,8 @@ As a project manager I always wanted developers to put ample comments in their c
 			* [scrooloose/nerdtree](#scrooloosenerdtree)
 			* [vim-airline/vim-airline](#vim-airlinevim-airline)
 * [markdown](#markdown)
-	* [- **Turning Markdown into plain English** - Many times you may want hypertext commands to show up as plain English. As in the example above. Just put a \ befor the command.](#--turning-markdown-into-plain-english---many-times-you-may-want-hypertext-commands-to-show-up-as-plain-english-as-in-the-example-above-just-put-a--befor-the-command)
-* [jekylll](#jekylll)
+	* [- **Links** - \Name of Hyperlink](#--links---name-of-hyperlink)
+* [Jekyll](#jekyll)
 * [fountain](#fountain)
 
 <!-- vim-markdown-toc -->
@@ -214,13 +205,12 @@ There are three main reasons for me to use this plugin
 
 
 # markdown 
-<hr><a name="md"></a> lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
+lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
-- **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own pespective
+- **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
 - **Links** - \[Name of Hyperlink](hyperlink)
-- **Turning Markdown into plain English** - Many times you may want hypertext commands to show up as plain English. As in the example above. Just put a \ befor the command.
 -
-# jekylll 
+# Jekyll 
 <hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (eg blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosgting mechanism of github pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
 # fountain 
