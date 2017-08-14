@@ -17,31 +17,31 @@ As a project manager I always wanted developers to put ample comments in their c
 
 <!-- vim-markdown-toc GFM -->
 * [Linux](#linux)
-* [shell](#shell)
+* [Shell](#shell)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
-* [git](#git)
-* [tmux](#tmux)
+* [Git](#git)
+* [Tmux](#tmux)
 * [Vim](#vim)
 	* [Normal Mode](#normal-mode)
 	* [Insert mode](#insert-mode)
 	* [Command Mode](#command-mode)
 	* [Visual mode](#visual-mode)
 	* [Plug-Ins](#plug-ins)
-			* [gmarik/Vundle](#gmarikvundle)
-			* [flazz/vim-colorschemes](#flazzvim-colorschemes)
-			* [tpope/Fugitive](#tpopefugitive)
-			* [godlygeek/Tabular](#godlygeektabular)
-			* [plasticboy/vim-markdown](#plasticboyvim-markdown)
-			* [scrooloose/nerdtree](#scrooloosenerdtree)
-			* [vim-airline/vim-airline](#vim-airlinevim-airline)
-* [markdown](#markdown)
+		* [gmarik/Vundle](#gmarikvundle)
+		* [flazz/vim-colorschemes](#flazzvim-colorschemes)
+		* [tpope/Fugitive](#tpopefugitive)
+		* [godlygeek/Tabular](#godlygeektabular)
+		* [plasticboy/vim-markdown](#plasticboyvim-markdown)
+		* [scrooloose/nerdtree](#scrooloosenerdtree)
+		* [vim-airline/vim-airline](#vim-airlinevim-airline)
+* [Markdown](#markdown)
 * [Jekyll](#jekyll)
-* [fountain](#fountain)
+* [Fountain](#fountain)
 
 <!-- vim-markdown-toc -->
-#Linux
-<hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
+# Linux
+Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
 >A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
 
@@ -54,9 +54,9 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .vimrc - the mother of all configurations for a writer.
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
-#shell
+# Shell
 
-<hr><a name="shell"></a> I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
+I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
 ## Navigation and editing
 - pwd - present working directory
@@ -76,17 +76,17 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 - top - to find how much system resources  are being consumed . Total as well as by each process. A good way to find the process id that can be used to kill a stuck process. 
 - kill -  easiest way to kill a process. Find the pid from 'top'
 - service - all about the running services. Example 'service udev status' will give everthing  about the udev service. start and stop will do accordingly.  service --status-all 
-#git
-<hr><a name="git"></a> I publish my blog on the github. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these five basic commands are good enough. 
+# Git
+I publish my blog on the github. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these five basic commands are good enough. 
 
 	- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
 	- git add - to stage the chnages to exiting posts or new posts.
 	- git commit - to commit the changes 
 	- git push - to publish the changes to git hub. 
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
-#tmux
+# Tmux
 
-<hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
+Tmux is a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
 - tmux			to start a new tmux session  ( I can assign it a name with -s)
 - tmux attach-session 	to attach to an existing session
@@ -105,7 +105,6 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 - (ctrl) a d 	detach from current session
     
 # Vim
-<hr><a name="vim"></a> 
 It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
 
 >Lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim . This time well equipped. I read through internet. Listened to the vim Podcasts. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
@@ -160,7 +159,9 @@ I rarely use visual mode as it is rare for me to copy paste text that I can't se
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
-#### gmarik/Vundle
+
+### gmarik/Vundle
+
 [vundle](https://github.com/VundleVim/Vundle.vim) is a plugin to manage plugins. In previous world, vimmers had to download each plug in, put it in a specific directory and then let .vimrc know what to do with the plugin. With vundle, all that is gone. You don't even need to clone (or download) other plugins. Vundle does that for you. As you may have understood by now, most plugins live on GitHub. At least the ones I use. So all you need to do is just add the name (Not GitHub url) to the vimrc and run the command :PluginInstall. Vundle will go to the hub, clone the plug ins and put the scripts in required tree structure. And of course, update for you when ever you ask for :PluginUpdate. Here is how my .vimrc looks like. 
 
 	set nocompatible
@@ -176,9 +177,12 @@ There are thousands of plug ins for vim. vim.org is the legacy site for the list
 	Plugin 'vim-airline/vim-airline'
 		
 	
-#### flazz/vim-colorschemes
+### flazz/vim-colorschemes
+
 There are hundreds of colorschemes available for Vim. Its really cumbersome, if you were to install each of them as a separate plug in to be able to try them. Instead, just install colorscheme plugin. This plugin, searches vim.org for the colorschemes and downloads them automatically. Then you can pass the colorscheme of your choice as a command as in :colorscheme VIvid. This is the one I am using now. As expected, this colorscheme has high contrast but it makes my airline status bar very prominent. molokai is bit easy on eyes but the background is still dark. I prefer wombat or yaml or google as they make things very soft. Btw - you can always set up a default colorscheme in the .vimrc. 
-#### tpope/Fugitive
+
+### tpope/Fugitive
+
 Fugitive really makes git a thing for writers. Now we don't need to go out of vim (to shell command line) and add, commit or push as a separate operation. We can now do all these operations from with in the open vim file (post) without even specifying the name of the file (duh). Here are the four basic commands
 - **Gwrite** add the current post to git
 - **Gcommit -m 'commit message'** This will add the post to the current branch. 
@@ -186,7 +190,8 @@ Fugitive really makes git a thing for writers. Now we don't need to go out of vi
 
     	Important point : All the commands are starting with a capital letter. 
 
-#### godlygeek/Tabular
+### godlygeek/Tabular
+
 Tabular is a must have plugin for a writer. An easy way to create table midst your text with just one command :Tabularize/ . The best way to understand this plugin is to do a small [trial](https://raw.githubusercontent.com/godlygeek/tabular/master/doc/Tabular.txt)
 
 Here is a sample table created with Tabularize (and further formatted with plasticboy vim-markdown plugin)
@@ -194,21 +199,29 @@ Here is a sample table created with Tabularize (and further formatted with plast
 | Action            | Command    | Comments               |
 |-------------------|------------|------------------------|
 | Start spell check | :set spell | Use it in command mode |
-#### plasticboy/vim-markdown 
+
+### plasticboy/vim-markdown 
+
 There are three main reasons for me to use this plugin
 - **Smart folds** - This plugin folds my long posts smartly in headings , sub headings etc  .. Can go up to six folds . Which is an overkill but you can set up less folding in .vimrc
 - **Table formatting** - As you can see from the table above, tables created with Tabularize are very basic, you can enhance the format with :TableFormat. This also means the Tabular plugin must be above this in .vimrc.
 - **Table of content on the fly** - Many times in work in progress large docs, as you research, you want to quickly get to a section of the document. This plugin quickly creates a table of content in a side pan (or horizontal window). And allows you to hit enter on any of the section and navigate to the main document. Commands are :Toc or :Toch 
-#### scrooloose/nerdtree
-#### vim-airline/vim-airline
+
+### scrooloose/nerdtree
+
+### vim-airline/vim-airline
 
 
-# markdown 
+# Markdown 
+
 lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
-# Jekyll 
-<hr><a name="jk"></a> jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
-# fountain 
-<hr><a name="fn"></a> Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
+# Jekyll 
+
+Jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
+
+# Fountain 
+
+Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
