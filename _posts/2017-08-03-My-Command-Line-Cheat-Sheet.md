@@ -140,12 +140,12 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 - **Invoke Spell Check** :setlocal spell
 - **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
 ## Visual mode
-I use visual mode only for selecting the text for copy. This modes invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
+I rarely use visual mode as it is rare for me to copy paste text that I can't select in normal mode with y.This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
 #### gmarik/Vundle
-[vundle](https://github.com/VundleVim/Vundle.vim) is a plugin to manage plugins. In previous world, vimmers had to download each plug in, put it in a specific directory and then let .vimrc know what to do with the plugin. With vundle, all that is gone. You don't even need to clone (or download) other plugins. Vundle does that for you. As you may have understood by now, most plugins live on github. Atleast the ones I use. So all you need to do is just add the name (Not github url) to the vim rc and run the command :PluginInstall. Vundle will go to the hub, clone the plug ins and put the scripts in required tree structure. And of course, update for you when ever you ask for :PluginUpdate. Here is how my .vimrc looks like. 
+[vundle](https://github.com/VundleVim/Vundle.vim) is a plugin to manage plugins. In previous world, vimmers had to download each plug in, put it in a specific directory and then let .vimrc know what to do with the plugin. With vundle, all that is gone. You don't even need to clone (or download) other plugins. Vundle does that for you. As you may have understood by now, most plugins live on GitHub. At least the ones I use. So all you need to do is just add the name (Not GitHub url) to the vimrc and run the command :PluginInstall. Vundle will go to the hub, clone the plug ins and put the scripts in required tree structure. And of course, update for you when ever you ask for :PluginUpdate. Here is how my .vimrc looks like. 
 
 	set nocompatible
 	filetype off
@@ -161,11 +161,12 @@ There are thousands of plug ins for vim. vim.org is the legacy site for the list
 		
 	
 #### flazz/vim-colorschemes
+There are hundreds of colorschemes available for Vim. Its really cumbersome, if you were to install each of them as a separate plug in to be able to try them. Instead, just install colorscheme plugin. This plugin, searches vim.org for the colorschemes and downloads them automatically. Then you can pass the colorscheme of your choice as a command as in :colorscheme VIvid. This is the one I am using now. As expected, this colorscheme has high contrast but it makes my airline status bar very prominent. molokai is bit easy on eyes but the background is still dark. I prefer wombat or yaml or google as they make things very soft. Btw - you can always set up a default colorscheme in the .vimrc. 
 #### tpope/Fugitive
-Fugitive really makes git a thing for writers. Now we don't need to go out of vim (to shell command line) and add, commit or push as a separate operation. We can now do all these operations from with in the open vim file (post) without even specifiying the name of the file (duh). Here are the four basic commands
+Fugitive really makes git a thing for writers. Now we don't need to go out of vim (to shell command line) and add, commit or push as a separate operation. We can now do all these operations from with in the open vim file (post) without even specifying the name of the file (duh). Here are the four basic commands
 - **Gwrite** add the current post to git
 - **Gcommit -m 'commit message'** This will add the post to the current branch. 
-- **Gpush** - Thats it. Your post is now on Github and possibly on your blog. 
+- **Gpush** - That's it. Your post is now on GitHub and possibly on your blog. 
 
     	Important point : All the commands are starting with a capital letter. 
 
