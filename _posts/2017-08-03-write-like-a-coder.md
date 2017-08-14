@@ -4,7 +4,7 @@ title:  "Write like a coder"
 date: 2017-08-03
 desc: "My Commandline Cheatsheet"
 keywords: "zsh, tmux, vim"
-categories: [Inspirationss]
+categories: [Inspirations, FOSS]
 tags: [zsh,tmux,vim]
 icon: icon-fire-alt
 ---
@@ -16,7 +16,7 @@ As a project manager I always wanted developers to put ample comments in their c
 >A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, Wordpress -press and Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
 
 <!-- vim-markdown-toc GFM -->
-* [linux](#linux)
+* [Linux](#linux)
 * [shell](#shell)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
@@ -40,7 +40,7 @@ As a project manager I always wanted developers to put ample comments in their c
 * [fountain](#fountain)
 
 <!-- vim-markdown-toc -->
-# linux
+#Linux
 <hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
 >A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
@@ -54,7 +54,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .vimrc - the mother of all configurations for a writer.
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
-# shell
+#shell
 
 <hr><a name="shell"></a> I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
@@ -76,7 +76,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 - top - to find how much system resources  are being consumed . Total as well as by each process. A good way to find the process id that can be used to kill a stuck process. 
 - kill -  easiest way to kill a process. Find the pid from 'top'
 - service - all about the running services. Example 'service udev status' will give everthing  about the udev service. start and stop will do accordingly.  service --status-all 
-# git
+#git
 <hr><a name="git"></a> I publish my blog on the github. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these five basic commands are good enough. 
 
 	- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
@@ -84,7 +84,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- git commit - to commit the changes 
 	- git push - to publish the changes to git hub. 
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
-# tmux
+#tmux
 
 <hr><a name="tmux"></a> tmux us a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
