@@ -24,6 +24,32 @@ As a project manager I always wanted developers to put ample comments in their c
 
 >A word about this post: it is about tools I am exploring to a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, word-press and Medium. All great tools for their time. It was always about making writing easier online. Up until last year when i discovered  GitHub and jekyll blogs. I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along  .. 
 
+<!-- vim-markdown-toc GFM -->
+* [linux](#linux)
+* [shell](#shell)
+	* [Navigation and editing](#navigation-and-editing)
+	* [Admin Stuff](#admin-stuff)
+* [git](#git)
+* [tmux](#tmux)
+* [Vim](#vim)
+	* [Normal Mode](#normal-mode)
+	* [Insert mode](#insert-mode)
+	* [Command Mode](#command-mode)
+	* [Visual mode](#visual-mode)
+	* [Plug-Ins](#plug-ins)
+			* [gmarik/Vundle](#gmarikvundle)
+			* [flazz/vim-colorschemes](#flazzvim-colorschemes)
+			* [tpope/Fugitive](#tpopefugitive)
+			* [godlygeek/Tabular](#godlygeektabular)
+			* [plasticboy/vim-markdown](#plasticboyvim-markdown)
+			* [scrooloose/nerdtree](#scrooloosenerdtree)
+			* [vim-airline/vim-airline](#vim-airlinevim-airline)
+* [markdown](#markdown)
+	* [- **Turning Markdown into plain English** - Many times you may want hypertext commands to show up as plain English. As in the example above. Just put a \ befor the command.](#--turning-markdown-into-plain-english---many-times-you-may-want-hypertext-commands-to-show-up-as-plain-english-as-in-the-example-above-just-put-a--befor-the-command)
+* [jekylll](#jekylll)
+* [fountain](#fountain)
+
+<!-- vim-markdown-toc -->
 # linux
 <hr><a name="linux"></a> Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
@@ -173,18 +199,22 @@ Fugitive really makes git a thing for writers. Now we don't need to go out of vi
 #### godlygeek/Tabular
 Tabular is a must have plugin for a writer. An easy way to create table midst your text with just one command :Tabularize/ . The best way to understand this plugin is to do a small [trial](https://raw.githubusercontent.com/godlygeek/tabular/master/doc/Tabular.txt)
 
-Here is a sample table created with Tabularize
+Here is a sample table created with Tabularize (and further formatted with plasticboy vim-markdown plugin)
 
-	|                      Action                      |   Command  |         Comments        |
-	| Jump to the end of line and get into insert mode |      A     | Use this in normal mode |
-	|                 Start spell check                | :set spell |  Use it in command mode |
+| Action            | Command    | Comments               |
+|-------------------|------------|------------------------|
+| Start spell check | :set spell | Use it in command mode |
 #### plasticboy/vim-markdown 
+There are three main reasons for me to use this plugin
+- **Smart folds** - This plugin folds my long posts smartly in headings , sub headings etc  .. Can go up to six folds . Which is an overkill but you can set up less folding in .vimrc
+- **Table formatting** - As you can see from the table above, tables created with Tabularize are very basic, you can enhance the format with :TableFormat. This also means the Tabular plugin must be above this in .vimrc.
+- **Table of content on the fly** - Many times in work in progress large docs, as you research, you want to quickly get to a section of the document. This plugin quickly creates a table of content in a side pan (or horizontal window). And allows you to hit enter on any of the section and navigate to the main document. Commands are :Toc or :Toch 
 #### scrooloose/nerdtree
 #### vim-airline/vim-airline
 
 
 # markdown 
-<hr><a name="md"></a> lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. Github automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
+<hr><a name="md"></a> lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own pespective
 - **Links** - \[Name of Hyperlink](hyperlink)
