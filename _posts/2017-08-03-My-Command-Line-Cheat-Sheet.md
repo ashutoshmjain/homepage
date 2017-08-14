@@ -171,6 +171,13 @@ Fugitive really makes git a thing for writers. Now we don't need to go out of vi
     	Important point : All the commands are starting with a capital letter. 
 
 #### godlygeek/Tabular
+Tabular is a must have plugin for a writer. An easy way to create table midst your text with just one command :Tabularize/ . The best way to understand this plugin is to do a small [trial](https://raw.githubusercontent.com/godlygeek/tabular/master/doc/Tabular.txt)
+
+Here is a sample table created with Tabularize
+
+	|                      Action                      |   Command  |         Comments        |
+	| Jump to the end of line and get into insert mode |      A     | Use this in normal mode |
+	|                 Start spell check                | :set spell |  Use it in command mode |
 #### plasticboy/vim-markdown 
 #### scrooloose/nerdtree
 #### vim-airline/vim-airline
