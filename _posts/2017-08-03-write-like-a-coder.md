@@ -15,8 +15,10 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 >A word about this post: it is about tools I am exploring to bring coding discipline into my blog (English) writing though these tools can be used to code in any software language. For example a ruby plug in on vim will make it a great ruby editor. Likewise for JavaScript or Go. I have been using online tools to write since geo cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Same plight for desktop tools such as MS Office. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is overrated and possibly hyped.. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
 
+This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the [online](https://ashutoshmjain.github.io/homepage//inspirations/foss/2017/08/03/write-like-a-coder.html) version. For any suggestion or corrections, please [email me]( amj@smbstack.com) or tweet me [@ashutoshmjain](https://twitter.com/ashutoshmjain)
+
+
 <!-- vim-markdown-toc GFM -->
-	* [This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the online version. For any suggestion or corrections, please email me or tweet me @ashutoshmjain](#this-post-is-a-live-document-it-will-evolve-as-i-am-discovering-these-tools-and-many-more-for-offline-easy-reading-i-have-pulled-this-pdf-copy--for-live-and-latest-check-out-the-online-version-for-any-suggestion-or-corrections-please-email-me-or-tweet-me-ashutoshmjain)
 * [Linux](#linux)
 * [Zsh](#zsh)
 	* [Navigation and editing](#navigation-and-editing)
@@ -43,9 +45,6 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 <!-- vim-markdown-toc -->
 
----
-This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the [online](https://ashutoshmjain.github.io/homepage//inspirations/foss/2017/08/03/write-like-a-coder.html) version. For any suggestion or corrections, please [email me]( amj@smbstack.com) or tweet me [@ashutoshmjain](https://twitter.com/ashutoshmjain)
----
 
 # Linux
 
