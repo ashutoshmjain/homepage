@@ -17,11 +17,11 @@ As a project manager I always wanted developers to put ample comments in their c
 
 <!-- vim-markdown-toc GFM -->
 * [Linux](#linux)
-* [Shell](#shell)
+* [Zsh](#zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
-* [Git](#git)
-* [Tmux](#tmux)
+* [Git and GitHub](#git-and-github)
+* [Terminal Multiplexer.](#terminal-multiplexer)
 * [Vim](#vim)
 	* [Normal Mode](#normal-mode)
 	* [Insert mode](#insert-mode)
@@ -41,6 +41,7 @@ As a project manager I always wanted developers to put ample comments in their c
 
 <!-- vim-markdown-toc -->
 # Linux
+
 Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
 >A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
@@ -54,7 +55,8 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .vimrc - the mother of all configurations for a writer.
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
-# Shell
+
+# Zsh
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
@@ -69,22 +71,26 @@ I recently moved over to zsh as my default shell. Primarily cuz I wanted beautif
 ## Admin Stuff
 
 - uname - To find the machine I am working on. I have three linux machines and I keep trying out new distributions. Every now and then, I forget what I am working on :-) Who cares. Its all for fun. 
-- ifconfig - I am sure thare are better ways to find the ipaddress but this command gives  you all the information on your network. Including ip address. 
-- mount - most of new distributions add automatically mount the usb drives but now and then I need  to unmount them to format the devices. 
-- df - simple way to see where all the filesystems are mounted.  - h for human readable format. 
+- ifconfig - I am sure there are better ways to find the IP address but this command gives  you all the information on your network. Including ip address. 
+- mount - most of new distributions add automatically mount the USB drives but now and then I need  to unmount them to format the devices. 
+- df - simple way to see where all the file systems are mounted.  - h for human readable format. 
 - du - shows the actual space consumed by a particular file or directory. --total for summing the space up in a directory. 
 - top - to find how much system resources  are being consumed . Total as well as by each process. A good way to find the process id that can be used to kill a stuck process. 
 - kill -  easiest way to kill a process. Find the pid from 'top'
-- service - all about the running services. Example 'service udev status' will give everthing  about the udev service. start and stop will do accordingly.  service --status-all 
-# Git
-I publish my blog on the github. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these five basic commands are good enough. 
+- service - all about the running services. Example 'service udev status' will give everything  about the udev service. start and stop will do accordingly.
+
+# Git and GitHub
+
+I publish my blog on the GitHub. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these basic commands are good enough. 
 
 	- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
 	- git add - to stage the chnages to exiting posts or new posts.
 	- git commit - to commit the changes 
 	- git push - to publish the changes to git hub. 
+	- git checkout - What if yoou messed out a file but the last commited copy is good. git checkout the last saved file. 
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
-# Tmux
+
+# Terminal Multiplexer.
 
 Tmux is a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
