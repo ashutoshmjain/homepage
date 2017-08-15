@@ -6,17 +6,23 @@ desc: "My Commandline Cheatsheet"
 keywords: "zsh, tmux, vim"
 categories: [Inspirations, FOSS]
 tags: [zsh,tmux,vim]
-icon: icon-fire-alt
----
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+# Linux
 
-As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
+Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
 
->A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, Wordpress -press and Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
+>A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+
+I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
+
+>A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+
+	- .zshrc that controls the behaviour of shell. 
+	- .tmux.conf controls the tmux multiplexer
+	- .vimrc - the mother of all configurations for a writer.
+	- .gitconf - git configuration.
+	- _config.yml - jekyll configuration file 
 
 <!-- vim-markdown-toc GFM -->
-* [Linux](#linux)
 * [Zsh](#zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
@@ -40,22 +46,6 @@ As a project manager I always wanted developers to put ample comments in their c
 * [Fountain](#fountain)
 
 <!-- vim-markdown-toc -->
-# Linux
-
-Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
-
->A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
-
-I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
-
->A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
-
-	- .zshrc that controls the behaviour of shell. 
-	- .tmux.conf controls the tmux multiplexer
-	- .vimrc - the mother of all configurations for a writer.
-	- .gitconf - git configuration.
-	- _config.yml - jekyll configuration file 
-
 # Zsh
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
@@ -149,8 +139,10 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - O insert a line above and be in insert mode.
 - o insert a new line below and be in insert mode
 
-    >The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
-    > Its a good ides to bind your caps lock key to escape for one caps lock hardly has a use, and two reaching to the escape key on top left corner is too much work for a lazy vimmer :-)
+>The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
+
+Its a good ides to bind your caps lock key to escape for one caps lock hardly has a use, and two reaching to the escape key on top left corner is too much work.
+
 ## Command Mode 
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
 
