@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  "Write like a coder"
+title:  "Write like a Coder"
 date: 2017-08-03
-desc: "My Commandline Cheatsheet"
-keywords: "zsh, tmux, vim"
+desc: "My writing toolbox"
+keywords: "zsh, tmux, vim, markdown, jekyll, pandoc"
 categories: [Inspirations, FOSS]
-tags: [zsh,tmux,vim]
+tags: [zsh,tmux,vim, markdown, jekyll, pandoc]
 icon: icon-fire-alt
 ---
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-As a project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
+As an IT project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A word about this post: it is about tools I am exploring to bring a coder into my writing. It is NOT an expert guidance. Look at it as my class notes where I am deciding which class to take and when (fun stuff :-). I have been using online tools to write since geo cities. Moved to blogger, Wordpress -press and Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is a relative term. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
+>A word about this post: it is about tools I am exploring to bring coding discipline into my blog (English) writing though these tools can be used to code in any software language. For example a ruby plug in on vim will make it a great ruby editor. Likewise for JavaScript or Go. I have been using online tools to write since geo cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Same plight for desktop tools such as MS Office. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is overrated and possibly hyped.. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
 
 <!-- vim-markdown-toc GFM -->
+	* [This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the online version. For any suggestion or corrections, please email me or tweet me @ashutoshmjain](#this-post-is-a-live-document-it-will-evolve-as-i-am-discovering-these-tools-and-many-more-for-offline-easy-reading-i-have-pulled-this-pdf-copy--for-live-and-latest-check-out-the-online-version-for-any-suggestion-or-corrections-please-email-me-or-tweet-me-ashutoshmjain)
 * [Linux](#linux)
 * [Zsh](#zsh)
 	* [Navigation and editing](#navigation-and-editing)
@@ -38,17 +39,23 @@ As a project manager I always wanted developers to put ample comments in their c
 * [Markdown](#markdown)
 * [Jekyll](#jekyll)
 * [Fountain](#fountain)
+* [Pandoc](#pandoc)
 
 <!-- vim-markdown-toc -->
+
+---
+This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the [online](https://ashutoshmjain.github.io/homepage//inspirations/foss/2017/08/03/write-like-a-coder.html) version. For any suggestion or corrections, please [email me]( amj@smbstack.com) or tweet me [@ashutoshmjain](https://twitter.com/ashutoshmjain)
+---
+
 # Linux
 
-Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in commandline. 
+Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
 
->A quick word on Command Line tools: They are fast. Even on most old computers. Ddistraction free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more featureful than most gui based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+>A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
 
 I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
 
->A word on Dot files : Most of the things (apps) in command line world don't (obviouly) have a menu driven preferece dialog box. And still they are highly configurable. How? changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on Github (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+>A word on Dot files : Most of the things (apps) in command line world don't (obviously) have a menu driven preference dialog box. And still they are highly configurable. How? Changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on GitHub (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
 
 	- .zshrc that controls the behaviour of shell. 
 	- .tmux.conf controls the tmux multiplexer
@@ -67,6 +74,7 @@ I recently moved over to zsh as my default shell. Primarily cuz I wanted beautif
 - mv - move a file from one location to other with the same name or a new name. Original file is gone. Its basically cut and paste as ..
 - cp - copy an old post into a new one so that I don't have to rewrite the yml frontmatter. The old post remains unchanged. 
 - cat - write something quick on the terminal and save to a file or read a text file in terminal. 
+- tar - unpack an archive. Normally tar -xzf file_name. It will automatically create a directory and mimic the structure of subdirectories. 
 
 ## Admin Stuff
 
@@ -231,3 +239,6 @@ Jekyll a tool to suck up a website and render on web with least back and forth w
 # Fountain 
 
 Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
+
+# Pandoc 
+Often I need to convert my written docs from one format to other. Including pdf. While .md is a great way to publish 
