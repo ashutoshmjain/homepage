@@ -13,9 +13,8 @@ icon: icon-fire-alt
 
 As an IT project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A word about this post: it is about tools I am exploring to bring coding discipline into my blog (English) writing though these tools can be used to code in any software language. For example a ruby plug in on vim will make it a great ruby editor. Likewise for JavaScript or Go. I have been using online tools to write since geo cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Same plight for desktop tools such as MS Office. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is overrated and possibly hyped.. Since then, I have made a significant change in writing tool box. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
+>A word about this post: it is about tools I am exploring to bring coding discipline into my blog (English) writing though these tools can be used to code in any software language. For example a ruby plug in on vim will make it a great ruby editor. Likewise for JavaScript or Go. I have been using online tools to write since geo cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Same plight for desktop tools such as MS Office. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is overrated and possibly hyped.. Since then, I have made a significant change in my writing workflow. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
 
-This post is a live document. It will evolve as I am discovering these tools and many more. For offline easy reading, I have pulled this pdf copy . For live and latest, check out the [online](https://ashutoshmjain.github.io/homepage//inspirations/foss/2017/08/03/write-like-a-coder.html) version. For any suggestion or corrections, please [email me]( amj@smbstack.com) or tweet me [@ashutoshmjain](https://twitter.com/ashutoshmjain)
 
 
 <!-- vim-markdown-toc GFM -->
@@ -237,7 +236,16 @@ Jekyll a tool to suck up a website and render on web with least back and forth w
 
 # Fountain 
 
-Fountain is markdown "on steroids" for writing screenplays. I haven't used it yet cuz I have never written a screenplay but it is on my todo to explore this space. 
+[Fountain](https://fountain.io/)  is inspired by simplicity of markdown for writing screenplays. Screenplay writers can write their scenes (or a full play) in text files using fountain tags and the files can be easily imported into Final Draft, Movie magic or Celtx. , The idea of Fountain is simple but very powerful. It defines tags for describing a scene. For example we use 
+- **Scene Headings** can be described with INT. or Ext. (INT for Interior and EXT for exterior) . These notations are followed by the scene name. 
+- **Character Names** are all CAPS as in JIM
+- **Parentheticals** describe the action of a character while they start speaking. (revving up the engine)
+- **Dialogues** come right below Parentheticals. 
+- And there are many more. But they are easy to remember. 
 
+    Files are saved as .fountain'. There is a vim' plugin , that highlights the .fountain' tags.. 
+    This means you can write a complete screenplay without having to worry about the format future production will use. 
 # Pandoc 
-Often I need to convert my written docs from one format to other. Including pdf. While .md is a great way to publish 
+While .md' is a great way to publish online, many times we need to send offline copies. That is where [Pandoc](http://pandoc.org/index.html) comes in. A swiss-army knife for format conversion. Pandoc is open source, it can convert almost into any possible format. Most notable are Adobe pdf and Microsoft Word for writers. We need latex-engine installed for Pandoc to be able to convert to .pdf'. If you don't want to install latex, you can always convert to Open or Microsoft Office and then push a .pdf export. The syntax is very simple
+	Pandoc file_name -o file_name.pdf
+
