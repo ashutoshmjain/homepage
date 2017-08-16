@@ -13,9 +13,11 @@ icon: icon-fire-alt
 
 As an IT project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A word about this post: it is about tools I am exploring to bring coding discipline into my blog (English) writing though these tools can be used to code in any software language. For example a ruby plug in on vim will make it a great ruby editor. Likewise for JavaScript or Go. I have been using online tools to write since geo cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time but their core mission had always been 'How to  make it easier to write online'. Which is a great thing but somewhere along the lines, they dumbed it down. It became overtly simple but limiting. Same plight for desktop tools such as MS Office. Up until last year when I discovered  GitHub and Jekyll . I soon realized that ease of use is overrated and possibly hyped.. Since then, I have made a significant change in my writing workflow. Details as we go along . Here is a little table of content to help you navigate my toolbox... 
+>A word about this post: it is about tools I am exploring to bring rigor of coding into my writing . I have used online tools to write since geo-cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time. True to their core mission - make writing accessible on web. Easy for everyone. But somewhere along the lines, they dumbed it down. It became simple but limiting. Same plight for desktop tools such as MS Office. I felt tied to proprietary systems and formats. 	 Up until I discovered  GitHub and Jekyll and the rich repositories of open source. I soon realized 'ease of use' is overrated and possibly hyped. Since then, I have made a significant change in my writing workflow. Details as we go along . 
 
+Another reason was to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use different tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects.
 
+Here is a little table of content to help you navigate my toolbox... 
 
 <!-- vim-markdown-toc GFM -->
 * [Linux](#linux)
@@ -173,6 +175,9 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 - **Invoke Spell Check** :setlocal spell
 - **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
+
+Needless to say that this list is tip of iceberg. The best way to explore vim is to type :help in an open vim.
+
 ## Visual mode
 I rarely use visual mode as it is rare for me to copy paste text that I can't select in normal mode with y.This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
 
