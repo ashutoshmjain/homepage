@@ -67,6 +67,8 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
+	A word about shell - Things are bit hazy when it comes to defining a console or terminal. It probably has roots shared with earlier hardware consoles that started the vedio inteactions with computers. However , there is no ambiguity on shell - Its a progarm that converts user inputs into actions. Typically the shells are associated with the command line interface but windows graphical interface (explorer.exe) is also technically a shell. On the Unix like OSs, distiction is clearer. We have popular shells for the terminal such as sh, ksh, csh, tcsh, bash and zsh. These shells support the command line interface in terminal (or console) whereas graphical interface is implemented by a server X11. Linux and other Unix like system allows you to access multiple sessions of consoles even when graphical interface is running. Press ctrl+Alt+F1 through F9. The graphical interface usually runs at F7. If you want to run console from with in graphical interface, you can use 'Terminal Emulators'. Weather you are running a console session or a Terminal emulator, you are effectively interacting with the shell. The defalut shell in Linux distributions is usually 'bash'. You can change the default to any other shell (say zsh). If the things are not complicated  enough yet then here is the final one , you can start multiple sessions of same (or different shells) with in same terminal window. For example you can run zsh with in bash. Lets not worry about these for now and change the default shell lto zsh. Why zsh - simple answer - it is friendly without any compromise. 
+
 ## Navigation and editing
 - pwd - present working directory
 - cd - change directory to get into my posts directory
@@ -85,7 +87,7 @@ I recently moved over to zsh as my default shell. Primarily cuz I wanted beautif
 - du - shows the actual space consumed by a particular file or directory. --total for summing the space up in a directory. 
 - top - to find how much system resources  are being consumed . Total as well as by each process. A good way to find the process id that can be used to kill a stuck process. 
 - kill -  easiest way to kill a process. Find the pid from 'top'
-- service - all about the running services. Example 'service udev status' will give everything  about the udev service. start and stop will do accordingly.
+- service - all about the running services. Example 'service udev status' will give everything  about the udev service. Start and stop will do accordingly.
 
 # Git and GitHub
 
@@ -112,6 +114,9 @@ Tmux is a terminal multiplexer. Means it allows to split your terminal into mult
 **I have mapped the pane operations prefix to  'a' (in place of b) for easy reach.** Add following to .tmux.conf. This should be in home (~) directory. 
 
 	-set -g prefix C-a
+
+Here are the basic commands ..
+
 - (ctrl) a |	to split a new horizontal pan
 - (ctrl) a -	to split a new vertical pan
 - (ctrl) a o	to jump to next pane
@@ -121,7 +126,7 @@ Tmux is a terminal multiplexer. Means it allows to split your terminal into mult
 - (ctrl) a c 	create new window
 - (ctrl) a t	big clock
 - (ctrl) a d 	detach from current session
-    
+
 # Editor (Vim)
 It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
 
@@ -224,6 +229,7 @@ Here is a sample table created with Tabularize (and further formatted with plast
 |-------------------|------------|------------------------|
 | Start spell check | :set spell | Use it in command mode |
 
+
 ### plasticboy/vim-markdown 
 
 There are three main reasons for me to use this plugin
@@ -236,18 +242,17 @@ There are three main reasons for me to use this plugin
 Once you have this plugin installed, :NERDTree will provide a tree like structure in left pane. You can :q to close the pane. In case you don't remember the file you were working on just say vim . on the shell. It will open a complete tree structure on the vim screen. You can navigate your way to desired file. j and k will work for vertical moves. Hit enter or o to open the files or unfold the sub folders. There is lot more to this plug in for further [exploration](https://github.com/scrooloose/nerdtree)
 
 Some basic navigation 
-o.......Open files, directories and bookmarks....................|NERDTree-o|
-go......Open selected file, but leave cursor in the NERDTree.....|NERDTree-go|
-t.......Open selected node/bookmark in a new tab.................|NERDTree-t|
-T.......Same as 't' but keep the focus on the current tab........|NERDTree-T|
-i.......Open selected file in a split window.....................|NERDTree-i|
-gi......Same as i, but leave the cursor on the NERDTree..........|NERDTree-gi|
-s.......Open selected file in a new vsplit.......................|NERDTree-s|
-gs......Same as s, but leave the cursor on the NERDTree..........|NERDTree-gs|
-O.......Recursively open the selected directory..................|NERDTree-O|
-x.......Close the current nodes parent...........................|NERDTree-x|
-X.......Recursively close all children of the current node.......|NERDTree-X|
-e.......Edit the current dir.....................................|NERDTree-e|
+
+- 0 - open file, directories or bookmarks
+- go - open selected file but leave cursor in Nerdtree pane.
+- t - open selected node in a new tab
+- m - open the Nerdtree menu.
+- P - jump to the root node. 
+- C-  make selected node as the tree root.
+- I - toggle to show hidden files
+- q - close the Nerdtree window
+- ? - toggle help (this has all the important commands listed) 
+Let me caution here that Nerdtree is addictive. Once you get used to managing your files here, other file managers will appear too much work. 
 
 ### vim-airline/vim-airline
 
