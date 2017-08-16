@@ -15,18 +15,18 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 >A word about this post: it is about tools I am exploring to bring rigor of coding into my writing . I have used online tools to write since geo-cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time. True to their core mission - make writing accessible on web. Easy for everyone. But somewhere along the lines, they dumbed it down. It became simple but limiting. Same plight for desktop tools such as MS Office. I felt tied to proprietary systems and formats. 	 Up until I discovered  GitHub and Jekyll and the rich repositories of open source. I soon realized 'ease of use' is overrated and possibly hyped. Since then, I have made a significant change in my writing workflow. Details as we go along . 
 
-Another reason was to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use different tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects.
+Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thoght, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
 
-Here is a little table of content to help you navigate my toolbox... 
+Here is a little table of content to help you navigate my  workshop .. 
 
 <!-- vim-markdown-toc GFM -->
-* [Linux](#linux)
+* [Linux (Slackware)](#linux-slackware)
 * [Shell (Zsh)](#shell-zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
 * [Git and GitHub](#git-and-github)
-* [Terminal Multiplexer.](#terminal-multiplexer)
-* [Vim](#vim)
+* [Terminal Multiplexer. (tmux)](#terminal-multiplexer-tmux)
+* [Editor (Vim)](#editor-vim)
 	* [Normal Mode](#normal-mode)
 	* [Insert mode](#insert-mode)
 	* [Command Mode](#command-mode)
@@ -39,15 +39,15 @@ Here is a little table of content to help you navigate my toolbox...
 		* [plasticboy/vim-markdown](#plasticboyvim-markdown)
 		* [scrooloose/nerdtree](#scrooloosenerdtree)
 		* [vim-airline/vim-airline](#vim-airlinevim-airline)
-* [Markdown](#markdown)
-* [Jekyll](#jekyll)
-* [Fountain](#fountain)
-* [Pandoc](#pandoc)
+* [Markdown (GitHub flavoured)](#markdown-github-flavoured)
+* [Web Server and Content Manager (Jekyll )](#web-server-and-content-manager-jekyll-)
+* [Screen Play writer (Fountain )](#screen-play-writer-fountain-)
+* [Fomats conversion (Pandoc )](#fomats-conversion-pandoc-)
 
 <!-- vim-markdown-toc -->
 
 
-# Linux
+# Linux (Slackware)
 
 Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
 
@@ -102,7 +102,7 @@ Both git and GitHub have bit of learning curve but as you are not working collab
 	- git checkout - What if you messed up a file but the last commited copy is good. git checkout the last saved file. 
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
 
-# Terminal Multiplexer.
+# Terminal Multiplexer. (tmux)
 
 Tmux is a terminal multiplexer. Means it allows to split your terminal into multiple sessions. Each session can have multiple windows and each window can be split into multiple  panes.I don't use tmux unless I am logged into a remote machine that never goes down. There, I can detach from the terminal when I shut down my local machine and come back to attach the same session later. Its very useful for sysadmins who run long batch jobs. For writers, I find it bit overkill. Still, not a bad idea to try it out..
 
@@ -122,7 +122,7 @@ Tmux is a terminal multiplexer. Means it allows to split your terminal into mult
 - (ctrl) a t	big clock
 - (ctrl) a d 	detach from current session
     
-# Vim
+# Editor (Vim)
 It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
 
 >Lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim . This time well equipped. I read through internet. Listened to the vim Podcasts. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
@@ -252,17 +252,17 @@ e.......Edit the current dir.....................................|NERDTree-e|
 ### vim-airline/vim-airline
 
 
-# Markdown 
+# Markdown (GitHub flavoured)
 
 lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
 
-# Jekyll 
+# Web Server and Content Manager (Jekyll )
 
 Jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
-# Fountain 
+# Screen Play writer (Fountain )
 
 [Fountain](https://fountain.io/)  is inspired by simplicity of markdown for writing screenplays. Screenplay writers can write their scenes (or a full play) in text files using fountain tags and the files can be easily imported into Final Draft, Movie magic or Celtx. , The idea of Fountain is simple but very powerful. It defines tags for describing a scene. For example we use 
 - **Scene Headings** can be described with INT. or Ext. (INT for Interior and EXT for exterior) . These notations are followed by the scene name. 
@@ -271,9 +271,10 @@ Jekyll a tool to suck up a website and render on web with least back and forth w
 - **Dialogues** come right below Parentheticals. 
 - And there are many more. But they are easy to remember. 
 
-    Files are saved as .fountain'. There is a vim' plugin , that highlights the .fountain' tags.. 
-    This means you can write a complete screenplay without having to worry about the format future production will use. 
-# Pandoc 
+Files are saved as .fountain'. There is a vim' plugin , that highlights the .fountain' tags.. 
+This means you can write a complete screenplay without having to worry about the format future production will use. 
+
+# Fomats conversion (Pandoc )
 While .md' is a great way to publish online, many times we need to send offline copies. That is where [Pandoc](http://pandoc.org/index.html) comes in. A swiss-army knife for format conversion. Pandoc is open source, it can convert almost into any possible format. Most notable are Adobe pdf and Microsoft Word for writers. We need latex-engine installed for Pandoc to be able to convert to .pdf'. If you don't want to install latex, you can always convert to Open or Microsoft Office and then push a .pdf export. The syntax is very simple
 	Pandoc file_name -o file_name.pdf
 
