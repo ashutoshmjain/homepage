@@ -19,7 +19,7 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 <!-- vim-markdown-toc GFM -->
 * [Linux](#linux)
-* [Zsh](#zsh)
+* [Shell (Zsh)](#shell-zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
 * [Git and GitHub](#git-and-github)
@@ -61,7 +61,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
 
-# Zsh
+# Shell (Zsh)
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
@@ -87,13 +87,17 @@ I recently moved over to zsh as my default shell. Primarily cuz I wanted beautif
 
 # Git and GitHub
 
-I publish my blog on the GitHub. Ever since I figured out 'fugitive' plugin for vim , my use of git commands in shell has gone down. Still some times, I use following basic commands. As long as you are not working collaboratively on thousands of lines of code, these basic commands are good enough. 
+Git is the version control system. Conceived and developed under Linus Torvalds. GitHub makes it a truly distributed version control for individuals and open source projects. In addition to version control, GitHub adds features such as gh pages (a web server), issue management and collaboration. There are number of GUI applications to bring git and GitHub though it shines on the command line. Fugitive plugin in vim, extends git features effortlessly into the editor. . 	
 
-	- git clone - to clone a repo on my machine . It will automatically create a directory for the repo. 
-	- git add - to stage the chnages to exiting posts or new posts.
+I moved my  blog last year from blogger to GitHub and there is no going back.
+
+Both git and GitHub have bit of learning curve but as you are not working collaboratively on thousands of lines of code, these basic commands are good enough. At least to get you started. The best place to start your deep dive is [GitHub Help](https://help.github.com/)
+
+	- git clone - to clone a repo on to my machine (typically from GitHub). It will automatically create a directory for the repo. 
+	- git add - to stage the modified or new files 
 	- git commit - to commit the changes 
 	- git push - to publish the changes to git hub. 
-	- git checkout - What if yoou messed out a file but the last commited copy is good. git checkout the last saved file. 
+	- git checkout - What if you messed up a file but the last commited copy is good. git checkout the last saved file. 
 	- git rm - remove a file from the git repository. useful to remove the back up files. 
 
 # Terminal Multiplexer.
@@ -155,9 +159,12 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - O insert a line above and be in insert mode.
 - o insert a new line below and be in insert mode
 
->The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
+The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
+
 Its a good ides to bind your caps lock key to escape for one caps lock hardly has a use, and two reaching to the escape key on top left corner is too much work for a lazy vimmer :-)
+
 ## Command Mode 
+
 As the name suggests, this is where big commands go. We invoke the command mode with colon (:), The cursor moves to the bottom of the screen and vim is waiting for you like a trained dog. Be careful, its a powerful dawg 
 
 - **Save File**  :w -  Mix with q to save and quit. 
@@ -220,6 +227,22 @@ There are three main reasons for me to use this plugin
 - **Table of content on the fly** - Many times in work in progress large docs, as you research, you want to quickly get to a section of the document. This plugin quickly creates a table of content in a side pan (or horizontal window). And allows you to hit enter on any of the section and navigate to the main document. Commands are :Toc or :Toch 
 
 ### scrooloose/nerdtree
+
+Once you have this plugin installed, :NERDTree will provide a tree like structure in left pane. You can :q to close the pane. In case you don't remember the file you were working on just say vim . on the shell. It will open a complete tree structure on the vim screen. You can navigate your way to desired file. j and k will work for vertical moves. Hit enter or o to open the files or unfold the sub folders. There is lot more to this plug in for further [exploration](https://github.com/scrooloose/nerdtree)
+
+Some basic navigation 
+o.......Open files, directories and bookmarks....................|NERDTree-o|
+go......Open selected file, but leave cursor in the NERDTree.....|NERDTree-go|
+t.......Open selected node/bookmark in a new tab.................|NERDTree-t|
+T.......Same as 't' but keep the focus on the current tab........|NERDTree-T|
+i.......Open selected file in a split window.....................|NERDTree-i|
+gi......Same as i, but leave the cursor on the NERDTree..........|NERDTree-gi|
+s.......Open selected file in a new vsplit.......................|NERDTree-s|
+gs......Same as s, but leave the cursor on the NERDTree..........|NERDTree-gs|
+O.......Recursively open the selected directory..................|NERDTree-O|
+x.......Close the current nodes parent...........................|NERDTree-x|
+X.......Recursively close all children of the current node.......|NERDTree-X|
+e.......Edit the current dir.....................................|NERDTree-e|
 
 ### vim-airline/vim-airline
 
