@@ -15,7 +15,7 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 >A word about this post: it is about tools I am exploring to bring rigor of coding into my writing . I have used online tools to write since geo-cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time. True to their core mission - make writing accessible on web. Easy for everyone. But somewhere along the lines, they dumbed it down. It became simple but limiting. Same plight for desktop tools such as MS Office. I felt tied to proprietary systems and formats. 	 Up until I discovered  GitHub and Jekyll and the rich repositories of open source. I soon realized 'ease of use' is overrated and possibly hyped. Since then, I have made a significant change in my writing workflow. Details as we go along . 
 
-Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thoght, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
+Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thought, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
 
 Here is a little table of content to help you navigate my  workshop .. 
 
@@ -42,7 +42,7 @@ Here is a little table of content to help you navigate my  workshop ..
 * [Markdown (GitHub flavoured)](#markdown-github-flavoured)
 * [Web Server and Content Manager (Jekyll )](#web-server-and-content-manager-jekyll-)
 * [Screen Play writer (Fountain )](#screen-play-writer-fountain-)
-* [Fomats conversion (Pandoc )](#fomats-conversion-pandoc-)
+* [Formats Conversion (Pandoc )](#formats-conversion-pandoc-)
 
 <!-- vim-markdown-toc -->
 
@@ -67,7 +67,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  'Oh my zsh'. I am currently using 'agnoster' as my default theme. Here are the commands that I regularly use as a writer.
 
-	A word about shell - Things are bit hazy when it comes to defining a console or terminal. It probably has roots shared with earlier hardware consoles that started the vedio inteactions with computers. However , there is no ambiguity on shell - Its a progarm that converts user inputs into actions. Typically the shells are associated with the command line interface but windows graphical interface (explorer.exe) is also technically a shell. On the Unix like OSs, distiction is clearer. We have popular shells for the terminal such as sh, ksh, csh, tcsh, bash and zsh. These shells support the command line interface in terminal (or console) whereas graphical interface is implemented by a server X11. Linux and other Unix like system allows you to access multiple sessions of consoles even when graphical interface is running. Press ctrl+Alt+F1 through F9. The graphical interface usually runs at F7. If you want to run console from with in graphical interface, you can use 'Terminal Emulators'. Weather you are running a console session or a Terminal emulator, you are effectively interacting with the shell. The defalut shell in Linux distributions is usually 'bash'. You can change the default to any other shell (say zsh). If the things are not complicated  enough yet then here is the final one , you can start multiple sessions of same (or different shells) with in same terminal window. For example you can run zsh with in bash. Lets not worry about these for now and change the default shell lto zsh. Why zsh - simple answer - it is friendly without any compromise. 
+>A word about shell - Things are bit hazy when it comes to defining a console or terminal. It probably has roots shared with earlier hardware consoles that started the video interactions with computers. However, there is no ambiguity on shell - Its a program that converts user inputs into actions. Typically the shells are associated with the command line interface but windows graphical interface (explorer.exe) is also technically a shell. On the Unix like OSs, distinction is clearer. We have popular shells for the terminal such as sh, ksh, csh, tcsh, bash and zsh. These shells support the command line interface in terminal (or console) whereas graphical interface is implemented by a server X11. Linux and other Unix like system allows you to access multiple sessions of consoles even when graphical interface is running. Press ctrl+Alt+F1 through F9. The graphical interface usually runs at F7. If you want to run console from with in graphical interface, you can use 'Terminal Emulators'. Weather you are running a console session or a Terminal emulator, you are effectively interacting with the shell. The default shell in Linux distributions is usually 'bash'. You can change the default to any other shell (say zsh). If the things are not complicated  enough yet then here is the final one , you can start multiple sessions of same (or different shells) with in same terminal window. For example you can run zsh with in bash. Lets not worry about these for now and change the default shell to zsh. Why zsh ? - simple answer - it is friendly without any compromise. 
 
 ## Navigation and editing
 - pwd - present working directory
@@ -166,7 +166,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - O insert a line above and be in insert mode.
 - o insert a new line below and be in insert mode
 
-The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
+>The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
 
 Its a good ides to bind your caps lock key to escape for one caps lock hardly has a use, and two reaching to the escape key on top left corner is too much work for a lazy vimmer :-)
 
@@ -180,11 +180,14 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 - **Invoke Spell Check** :setlocal spell
 - **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
+- **Change colorscheme** :colorscheme molokai will set the colors to molokai. And likewise for others. 
+- **Making buffer modifiable** :set ma  and :set noma to do the opposite. 
 
 Needless to say that this list is tip of iceberg. The best way to explore vim is to type :help in an open vim.
 
 ## Visual mode
-I rarely use visual mode as it is rare for me to copy paste text that I can't select in normal mode with y.This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
+This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
+>I rarely use visual mode as I can easily select the text in normal mode with y. 
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
@@ -208,7 +211,7 @@ There are thousands of plug ins for vim. vim.org is the legacy site for the list
 	
 ### flazz/vim-colorschemes
 
-There are hundreds of colorschemes available for Vim. Its really cumbersome, if you were to install each of them as a separate plug in to be able to try them. Instead, just install colorscheme plugin. This plugin, searches vim.org for the colorschemes and downloads them automatically. Then you can pass the colorscheme of your choice as a command as in :colorscheme VIvid. This is the one I am using now. As expected, this colorscheme has high contrast but it makes my airline status bar very prominent. molokai is bit easy on eyes but the background is still dark. I prefer wombat or yaml or google as they make things very soft. Btw - you can always set up a default colorscheme in the .vimrc. 
+There are hundreds of colorschemes available for Vim. Its really cumbersome, if you were to install each of them as a separate plug-in to be able to try them. Instead, just install colorscheme plugin from flazz. This plugin, catalogs  vim.org for the colorschemes and downloads them automatically. Then you can pass the colorscheme of your choice as a command as in :colorscheme VIvid. This is the one I am using now. As expected, this colorscheme has high contrast but it makes my airline status bar very prominent. molokai is bit easy on eyes but the background is still dark. I prefer wombat or yaml or google as they make things very soft. Btw - you can always set up a default colorscheme in the .vimrc 
 
 ### tpope/Fugitive
 
@@ -229,6 +232,7 @@ Here is a sample table created with Tabularize (and further formatted with plast
 |-------------------|------------|------------------------|
 | Start spell check | :set spell | Use it in command mode |
 
+Tabularize can manage more than tables. For example in regular text if you want to align the =s or ,s or :s , it is an easy way. If you are in habit of commenting at the end of your code , it can align all the comments. 
 
 ### plasticboy/vim-markdown 
 
@@ -255,18 +259,30 @@ Some basic navigation
 Let me caution here that Nerdtree is addictive. Once you get used to managing your files here, other file managers will appear too much work. 
 
 ### vim-airline/vim-airline
-
+This plug in provides a cool status bar at the bottom of your vim window. It tells you following among other things. 
+- Mode
+- Spell Language
+- Git branch
+- File name
+- File format
+- Encoding
+- Number of words.
+- Number of lines
 
 # Markdown (GitHub flavoured)
 
 lets just say that markdown is an easier (and elegant) way to create html documents. Rather than using difficult tags, markdown supplies a set of notations that are work well when document is displayed by a browser. GitHub automatically shows the README.md on the front page of repository just below all the files. Good integration. Here is my go to blog post on [markdown](https://blog.ghost.org/markdown/) . And some of the commands I regularly use.
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
+- **Code Block** - Indent your line by 4 to automatically create a code block
+- **Links** - [title] immediately followed by (url)
+- **Headings** #, ##, ### - they can go up to six levels. 
 
 # Web Server and Content Manager (Jekyll )
 
-Jekyll a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
+[Jekyll](https://jekyllrb.com/) is  a tool to suck up a website and render on web with least back and forth with server. It works great with static websites (blogs). That much for technology :-)  For a reader, it offers beautiful and instant reading environment; from writer standpoint , it has ton of customizable templates to host your content. Its a default hosting mechanism of GitHub pages as well. My blog is hosted on gh pages and thus you are reading this text via jekyll. 
 
+Jekyll offers a number of [themes](https://github.com/jekyll/jekyll/wiki/Themes) to get you started quickly with a blog (or static website). 
 # Screen Play writer (Fountain )
 
 [Fountain](https://fountain.io/)  is inspired by simplicity of markdown for writing screenplays. Screenplay writers can write their scenes (or a full play) in text files using fountain tags and the files can be easily imported into Final Draft, Movie magic or Celtx. , The idea of Fountain is simple but very powerful. It defines tags for describing a scene. For example we use 
@@ -279,7 +295,8 @@ Jekyll a tool to suck up a website and render on web with least back and forth w
 Files are saved as .fountain'. There is a vim' plugin , that highlights the .fountain' tags.. 
 This means you can write a complete screenplay without having to worry about the format future production will use. 
 
-# Fomats conversion (Pandoc )
+# Formats Conversion (Pandoc )
 While .md' is a great way to publish online, many times we need to send offline copies. That is where [Pandoc](http://pandoc.org/index.html) comes in. A swiss-army knife for format conversion. Pandoc is open source, it can convert almost into any possible format. Most notable are Adobe pdf and Microsoft Word for writers. We need latex-engine installed for Pandoc to be able to convert to .pdf'. If you don't want to install latex, you can always convert to Open or Microsoft Office and then push a .pdf export. The syntax is very simple
+
 	Pandoc file_name -o file_name.pdf
 
