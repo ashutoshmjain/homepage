@@ -5,7 +5,7 @@ date: 2017-08-03
 desc: "My Commandline Cheatsheet"
 keywords: "zsh, tmux, vim"
 categories: [Inspirationss]
-tags: [zsh,tmux,vim]]
+tags: [zsh,tmux,vim]
 icon: icon-fire-alt
 ---
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
