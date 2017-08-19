@@ -6,23 +6,23 @@ desc: "My writing toolbox"
 keywords: "zsh, tmux, vim, markdown, jekyll, pandoc"
 categories: [Inspirations, FOSS]
 tags: [zsh,tmux,vim, markdown, jekyll, pandoc]
-# Linux (Slackware)
+icon: icon-fire-alt
+---
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
+As an IT project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
 
->A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+>A word about this post: it is about tools I am exploring to bring rigor of coding into my writing . I have used online tools to write since geo-cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time. True to their core mission - make writing accessible on web. Easy for everyone. But somewhere along the lines, they dumbed it down. It became simple but limiting. Same plight for desktop tools such as MS Office. I felt tied to proprietary systems and formats. 	 Up until I discovered  GitHub and Jekyll and the rich repositories of open source. I soon realized 'ease of use' is overrated and possibly hyped. Since then, I have made a significant change in my writing workflow. Details as we go along . 
 
-I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
+Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thought, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
 
->A word on Dot files : Most of the things (apps) in command line world don't (obviously) have a menu driven preference dialog box. And still they are highly configurable. How? Changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on GitHub (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+Here is a little table of content to help you navigate my  workshop .. 
 
-	- .zshrc that controls the behaviour of shell. 
-	- .tmux.conf controls the tmux multiplexer
-	- .vimrc - the mother of all configurations for a writer.
-	- .gitconf - git configuration.
-	- _config.yml - jekyll configuration file 
+
 
 <!-- vim-markdown-toc GFM -->
+* [Linux (Slackware)](#linux-slackware)
 * [Shell (Zsh)](#shell-zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
@@ -48,6 +48,22 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 * [Formats Conversion (Pandoc )](#formats-conversion-pandoc-)
 
 <!-- vim-markdown-toc -->
+# Linux (Slackware)
+
+Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
+
+>A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
+
+I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
+
+>A word on Dot files : Most of the things (apps) in command line world don't (obviously) have a menu driven preference dialog box. And still they are highly configurable. How? Changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on GitHub (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+
+	- .zshrc that controls the behaviour of shell. 
+	- .tmux.conf controls the tmux multiplexer
+	- .vimrc - the mother of all configurations for a writer.
+	- .gitconf - git configuration.
+	- _config.yml - jekyll configuration file 
+
 # Shell (Zsh)
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)'. I am currently using 'agnoster' as my default theme. In addition to themes, 'Oh my zsh' brings number of plugins to the table. I use web-search plug in that lets me google any term right from the terminal.
