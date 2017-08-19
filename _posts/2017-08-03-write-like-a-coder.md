@@ -6,21 +6,23 @@ desc: "My writing toolbox"
 keywords: "zsh, tmux, vim, markdown, jekyll, pandoc"
 categories: [Inspirations, FOSS]
 tags: [zsh,tmux,vim, markdown, jekyll, pandoc]
-icon: icon-fire-alt
----
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+# Linux (Slackware)
 
-As an IT project manager I always wanted developers to put ample comments in their code. Elaborate, unambiguous and clear. Saying used to go around "code like a writer". I think reverse too is true. Writing like a coder, makes a writer more efficient and readable.. 
+Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
 
->A word about this post: it is about tools I am exploring to bring rigor of coding into my writing . I have used online tools to write since geo-cities. Moved to blogger, Wordpress and finally to Medium. All great tools for their time. True to their core mission - make writing accessible on web. Easy for everyone. But somewhere along the lines, they dumbed it down. It became simple but limiting. Same plight for desktop tools such as MS Office. I felt tied to proprietary systems and formats. 	 Up until I discovered  GitHub and Jekyll and the rich repositories of open source. I soon realized 'ease of use' is overrated and possibly hyped. Since then, I have made a significant change in my writing workflow. Details as we go along . 
+>A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
 
-Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thought, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
+I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
 
-Here is a little table of content to help you navigate my  workshop .. 
+>A word on Dot files : Most of the things (apps) in command line world don't (obviously) have a menu driven preference dialog box. And still they are highly configurable. How? Changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on GitHub (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
+
+	- .zshrc that controls the behaviour of shell. 
+	- .tmux.conf controls the tmux multiplexer
+	- .vimrc - the mother of all configurations for a writer.
+	- .gitconf - git configuration.
+	- _config.yml - jekyll configuration file 
 
 <!-- vim-markdown-toc GFM -->
-* [Linux (Slackware)](#linux-slackware)
 * [Shell (Zsh)](#shell-zsh)
 	* [Navigation and editing](#navigation-and-editing)
 	* [Admin Stuff](#admin-stuff)
@@ -46,24 +48,6 @@ Here is a little table of content to help you navigate my  workshop ..
 * [Formats Conversion (Pandoc )](#formats-conversion-pandoc-)
 
 <!-- vim-markdown-toc -->
-
-
-# Linux (Slackware)
-
-Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
-
->A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
-
-I am sure, I will keep on exploring more. For example, recently I tried bunch of [Puppies](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm). Truly amazed with their agility. Point is - just pick up an old machine (or install Virtual Box on your work machine) and start with any Linux distribution. There are ton of tutorials on internet to get you started. If you are starting fresh, I will highly recommend visit [Linux Mint](https://www.linuxmint.com/). If you already have your feet wet, jump into [Slackware](http://www.slackware.com/)
-
->A word on Dot files : Most of the things (apps) in command line world don't (obviously) have a menu driven preference dialog box. And still they are highly configurable. How? Changes to application behavior happens through something commonly called dot files. What they actually mean is the file name starts with a (.) . That is counter intuitive cuz anything starting with . is a hidden file (or directory :-). Probably the idea was to keep these files hidden so that normal user don't mess with it .. Hey - normal user don't use Linux :-) . To add pain to injury, most of the times these files won't even be there. So you need to create one :-) . Though its very very easy. As easy as a 'touch' command. The good news, however, is that you never create these files from scratch. Good intelligent people have all there dot files freely available on GitHub (or elsewhere on web). Many programs supply a recommended template that can be easily copied. Word of wisdom though is to build your own dot files. Slowly and gradually. Cuz if you could fit into someone else's environment then you should be using ones from Apple and Microsoft :-) Another key thing on the dot files is a kind of precedence. Most of the dot files in your home (~) directory are specific to your user. Something maintained at system level applies cross the board but your home file takes precedence.  Some of the key dot files that we need to worry about as a writer are 
-
-	- .zshrc that controls the behaviour of shell. 
-	- .tmux.conf controls the tmux multiplexer
-	- .vimrc - the mother of all configurations for a writer.
-	- .gitconf - git configuration.
-	- _config.yml - jekyll configuration file 
-
 # Shell (Zsh)
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)'. I am currently using 'agnoster' as my default theme. In addition to themes, 'Oh my zsh' brings number of plugins to the table. I use web-search plug in that lets me google any term right from the terminal.
@@ -142,20 +126,22 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 
 >One word of caution, till you grasped most normal mode commands (which are many), your cursor will go random places cuz you will invariably hit a key that invokes some motion command. There are only two ways to handle this. Either undo (u) or just be careful in normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
 
-- **Horizontal movement** h, j , k , l - Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach. . 
-- **Undo**  u - Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
-- **Jump** $ - move the cursor to the end of the current line
-- **Jump Back** ^ - move the cursor to the beginning of the current line
-- **Jump Back** 0 - move the cursor to the first character of the line 
-- **Jump and Insert** A - move the cursor at the end of the current row and put you in insert mode.
-- **Jump Back and Insert** I - move the cursor to the start of current row and put you in insert mode..
-- **Spell Check** ]s, [s - I normally keep  *Spell Checker* off till I really want to do spell check. That's cuz highlighted errors make me go into the edit mode. When i turn spell check (command :set spell) on, ]s and [s move me forward and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
-- **Delete line** dd - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.
-- **Copy a line** yy - more of yanking under visual mode.
-- **Paste a line** p - whatever was previously yanked or deleted.
-- **Search** Vim has powerful search and its a lot more involved topic. For now / invokes search in forward direction. 
-- **Go to the Top** - gg takes the cursor to the top. 
-- **Go to the Bottom** G takes the cursor to the bottom of the page. 
+- **Horizontal movement** `h, j , k , l `- Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach. . 
+- **One screen line** A line in vim is the input between two press of enters (NOT Fullstops). In a writer's world , a line can be a full paragraph. So pressing j or k would move a paragraph up or down. How do we move one line up or down as displayed on screen  - press `gj or gk`. 
+- **Undo**  `u `- Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
+- **Jump** `$ `- move the cursor to the end of the current line
+- **Jump Back**` ^ `- move the cursor to the beginning of the current line
+- **Jump Back** `0` - move the cursor to the first character of the line 
+- **Jump and Insert**` A` - move the cursor at the end of the current row and put you in insert mode.
+- **Jump Back and Insert**` I` - move the cursor to the start of current row and put you in insert mode..
+- **Spell Check** `]s, [s` - I normally keep  *Spell Checker* off till I really want to do spell check. That's cuz highlighted errors make me go into the edit mode. When i turn spell check (command :set spell) on, ]s and [s move me forward and backward to the highlighted words. Once there, I use *zg* to add the word to dictionary or *z=*to look for the available options. 
+- **Delete line** `dd` - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.
+- **Copy a line** `yy` - more of yanking under visual mode.
+- **Paste a line** `p` - whatever was previously yanked or deleted.
+- **Search** Vim has powerful search and its a lot more involved topic. For now `/` invokes search in forward direction. 
+- **Go to the Top** - `gg` takes the cursor to the top. 
+- **Go to the Bottom** `G` takes the cursor to the bottom of the page. 
+- **Center screen** `zz` to scroll the screen to bring cursor vertically center of the screen.
 	>Above commands should make your move around the screen  easy. Lets say you can now magically place your cursor wherever you want (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes these operations :- 
 
 - **Copy or as Vim calls it -Yank** 'y' is the key to initiate the selection. You press y, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example yw will yank next word. y$ will yank till end of line. yy is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So yy is --> 0y$. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use P to paste at cursor, or p to paste a place ahead of cursor. 
@@ -284,6 +270,7 @@ let's just say that markdown is an easier (and elegant) way to create html docum
 
 - **Block Quote** - A forward arrow '>' will put your lines into a quote. A good way to quote someone or bring your own perspective
 - **Code Block** - Indent your line by 4 to automatically create a code block
+- **Inline Code Block**  Wrap back ticks (the key right under escape) to code block a words in the line. 
 - **Links** - [title] immediately followed by (url)
 - **Headings** #, ##, ### - they can go up to six levels. 
 
