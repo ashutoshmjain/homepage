@@ -20,7 +20,7 @@ Faith is a belief that is not based on scientific proof . For example, we don't 
 
 The scripture says humans are made out of `Shraddha`. We are what we believe in. We manifest our faith. The physicality around us is a creation of our faith. As said in chapter 17 verse 3 of Gita.
 
-![](/home/ashutosh/github/homepage/static/img/Shraddha.png)
+![](/homepage/static/img/Shraddha.png)
 
 [Translation](http://www.bhagavad-gita.org/Gita/verse-17-03.html)
 The faith of everyone comes according to the perceptions of the mind. The living personality is the embodiment of faith, one is identified by , whatever faith one has. 
