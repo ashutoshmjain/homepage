@@ -57,7 +57,7 @@ Every manifestation, be it living or non-living, has a nature. For example refri
 >In essence `Karma` is the action of free will . Beyond the slavery of our `Swadharma` (nature) . However though , the window of `Karma` is very small. We are still the same animal at core - built by our manifestation. Depending on what Karma manifests into , Gita defines three types of `Karmas`  - `Satvik` - That leads to internal development and  happiness. `Rajas` - That leads to external growth, conflict and  chase, and lastly `Tamas` - That leads to lust, consumption and lethargy. 
 
 
-# Abhyasa (Practice)
+# `Abhyasa` (Practice)
 
 In addition to creating something new, `Karma` has the ability to reshape your own `Swadharma` (nature).  Regular indulgence in `Tamasik Karmas` will make you lethargic and consumer. Similarly `Satvik` Karma will make you interested in pursuit of knowledge and happiness. 
 
@@ -70,8 +70,8 @@ In addition to creating something new, `Karma` has the ability to reshape your o
 	`Nishkam Karma` (a deed that's neither `Swadhrma` nor done out of any desire) stabilizes the growth. And as proportion of `Nishkam` increases your in ypur `Swadharma`, manifestation starts gradually receding. This journey from zero `Nishkam` to say 90% Nishkam is called `Nishkam Karm Yoga`. Gita does say that with a living body, you can never attain 100 % `Nishkam Yoga`. Obviously cuz manifestation will cease to exist for you. That stage is normally referred to as `Moksha` - meaning exit from circle of life and death. 
 
 # `Prakriti and Purush`
-The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complemntary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
+The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complementary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
 	`Prakriti` and `Pusrush` are eternal. Neither is good or bad. There is no beginning or end to their existence. It is the `Maya` that causes all the troubles :-)
 	
-# Maya (The web of Manifestation )
-`Maya` is the complexity of `Prakriti`. When it grows beyond a certain level, our `Buddhi` is unable to deciper desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
+# `Maya` (The web of Manifestation )
+`Maya` is the complexity of `Prakriti`. When it grows beyond a certain level, our `Buddhi` is unable to decipher desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
