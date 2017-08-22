@@ -67,11 +67,23 @@ In addition to creating something new, `Karma` has the ability to reshape your o
 
 `Nishkam Karma` means actions without any expectation. `Satvik` , `Rajas` as well as `Tamas` actions, all have expectations tied to it. In fact anything you do beyond `swadharma` must have a solid incentive for change. Why else would you do it? Thus normally very strong desires lead to `Karma` (good or bad). Accordingly you manifest new stuff and change yourself (good or bad). And manifestations continues to increase in complexity. 
 
-	`Nishkam Karma` (a deed that's neither `Swadhrma` nor done out of any desire) stabilizes the growth. And as proportion of `Nishkam` increases your in ypur `Swadharma`, manifestation starts gradually receding. This journey from zero `Nishkam` to say 90% Nishkam is called `Nishkam Karm Yoga`. Gita does say that with a living body, you can never attain 100 % `Nishkam Yoga`. Obviously cuz manifestation will cease to exist for you. That stage is normally referred to as `Moksha` - meaning exit from circle of life and death. 
+	`Nishkam Karma` (a deed that's neither `Swadhrma` nor done out of any desire) stabilizes the growth. And as proportion of `Nishkam` increases your in your `Swadharma`, manifestation starts gradually receding. This journey from zero `Nishkam` to say 90% Nishkam is called `Nishkam Karm Yoga`. Gita does say that with a living body, you can never attain 100 % `Nishkam Yoga`. Obviously cuz manifestation will cease to exist for you. That stage is normally referred to as `Moksha` - meaning exit from circle of life and death. Important to distingusih `Nishkam Karma` from inaction. Inaction is a `Tamsik Karma`. 
 
 # `Prakriti and Purush`
 The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complementary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
 	`Prakriti` and `Pusrush` are eternal. Neither is good or bad. There is no beginning or end to their existence. It is the `Maya` that causes all the troubles :-)
-	
+
+>From science standpoint , imagine `Prakriti` as all the observable universe (and multiverses if they exist). And `Purush` as the energy that has potential to  convert into matter. May be dark energy :-). If a universe gets to big crunch , all that is left is energy. Energy converts into matter with big bang. Thus the clever definition by design encompasses everything including nothingness and its claim to eternal perpetuity is quite logical. This rest the constant nagging question - When and How it all started? Why and how it would end ? If we take all these unnecessary questions out of debate, we can get started on to something constructive. Which is how do I fix myself !
+
 # `Maya` (The web of Manifestation )
-`Maya` is the complexity of `Prakriti`. When it grows beyond a certain level, our `Buddhi` is unable to decipher desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
+`Maya` is the complexity of `Prakriti`. When `Prakriti`  grows beyond a certain level, our `Buddhi` is unable to decipher desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
+
+>A word on web of Maya (Matrix) - Manifestations rarely live in isolation. For example it is as incorrect to say 'God alone created universe' as it would be to say 'Steve Jobs alone created iPhone'. A better way to understand is that Steve had some `Karma` that led to manifestation of an idea. Then Johnny Ive manifested his design onto Steve's idea. Phil Schiller added his marketing machine atop. And thousands of designers, developers, marketers made it a web of manifestation. That is just one product. Imagine this at a universal scale. Imagine there are beings with much greater capacities than  humans. Beings that can manifest stars and planets and galaxies. But never alone. Even for a simple bottle of wine we take help of bacteria. All this mush mush of `Swadharma` and `Karma` leads to an creation. 
+
+# `Khsheta and Kshetragya` (The field and the warrior)
+
+Gita is written for a person who strives to end the misery of `Maya`. `Karmas` (except Nishkam) are essentially driven by desires. All desires during the process of acquisition as well as on fulfillment, lead to misery. 
+
+> A word on desires - Think of desires as addiction. Lets say liquor. An alcoholic strives hard to get his evening fix. Drinks with effort. But next day a hangover hits. Repeated use will lead to destroyed liver. Similarly everything that we are manifesting , including our body, is an addiction. We need more of it. One day, it must end. Process of end has perceived pains. Process of managing our collection is a pain too. Enjoyment must end in sorrow. Love will end in grief. 
+
+Krishna describes the Maya around you as a battlefield `Kshetra`. The battles are not outside in some physical field. We are constantly at battle with in ourselves. One who understand this internal battle field is called `Kshetragya`. 
