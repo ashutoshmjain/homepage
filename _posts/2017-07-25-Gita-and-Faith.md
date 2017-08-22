@@ -35,6 +35,7 @@ Gita says `Atma` is something that doesn't die. Fire can't burn it, Water can't 
 A close comparison would be electricity. Electricity can manifest itself into fans, cars, refrigerators or thousands of other gadgets. Without electricity, they are all dead. We can't dry the current or wet it. Nor can we burn it. It doesn't die or takes birth. Its just there. Motion of electrons is  everywhere but electrons are NOT electricity either.. It sits there unmanifested but has potential to manifest. Unlimited potential. But we can't know electricity by looking at a refrigerator or a fan. Electricity is connected to a common source. It can inter-operate on machines. Same current runs refrigerator as well as fans. It doesn't build gadgets but it is the life in them. You know it is there but you can't see it. It is older than anything you know and it will outlive anything you know. 
 
 	`Atma` shapes your reality based on the `Sharddha` you have. 
+
 # `Bhoota` ( The Manifested - living or dead)
 Everything that we see around us, that we can feel with our senses is a `Bhoota`. Gita doesn't differentiate living from non living. Carrying on the example above - A refrigerator is a `Bhoota`. So is a fan. A stone, a mountain , a river , you and me. All are `Bhoota`. 
 
@@ -54,20 +55,23 @@ Every manifestation, be it living or non-living, has a nature. For example refri
 `Karma` is the action guided by our `Buddhi` that is not controlled by our `Swadhrama`. That means , it is something you do against your nature. Thus Karma manifests something new. In a way, it alters our manifestation. It is because of `Buddhi` (intelligence) , humans could do `Karma` that led to huge change in our manifestation. For example roads, buildings, transportation , communication - all our because of human `Karma`. Building airplanes was NOT human nature. It is because we had intelligence to sway from our `Bhoot swadhrma` (manifested nature). 
 
 >In essence `Karma` is the action of free will . Beyond the slavery of our `Swadharma` (nature) . However though , the window of `Karma` is very small. We are still the same animal at core - built by our manifestation. Depending on what Karma manifests into , Gita defines three types of `Karmas`  - `Satvik` - That leads to internal development and  happiness. `Rajas` - That leads to external growth, conflict and  chase, and lastly `Tamas` - That leads to lust, consumption and lethargy. 
+
+
 # Abhyasa (Practice)
 
 In addition to creating something new, `Karma` has the ability to reshape your own `Swadharma` (nature).  Regular indulgence in `Tamasik Karmas` will make you lethargic and consumer. Similarly `Satvik` Karma will make you interested in pursuit of knowledge and happiness. 
 
->It appears to an untrained eye that we should indulge in `Satvik Karma`. But Gita says that we want to reach a stage where none of these  are playing. Such karma is called **Nishkam Karma**. This is what leads 'to' ultimate exit. 
+>It appears to an untrained eye that we should indulge in `Satvik Karma`. But Gita says that we want to reach a stage where none of these  are playing. Such karma is called **Nishkam Karma**. This is what leads 'to' ultimate eternal exit from manifestations. 
 
-`Nishkam` means something without any expectation. `Satvik` , `Rajas` as well as `Tamas` actions, all have an expectation tied to it. In fact anything you do beyond `swadharma` must have a solid incentive for change. Why else would you do it? Thus desires lead to `Karma` (good or bad). Accordingly the faith changes (good or bad). And `Prakriti` continues to further complex our lives. `Nishkam Karma` (a deed that's neither `Swadhrma` nor done out of any desire) stabilizes the growth. And as volume of `Nishkam` increases in your faith, manifestation starts receding. Basically you changed your self to a state of no longing. That means your manifestation is no manifestation. Which leads to discovery of your self `Atma`. Since you are in a state without desires, you are beyond mental gratification or pain. . 
+# `Nishkam` (Without expectations)
 
-# Death (Change of Clothes)
+`Nishkam Karma` means actions without any expectation. `Satvik` , `Rajas` as well as `Tamas` actions, all have expectations tied to it. In fact anything you do beyond `swadharma` must have a solid incentive for change. Why else would you do it? Thus normally very strong desires lead to `Karma` (good or bad). Accordingly you manifest new stuff and change yourself (good or bad). And manifestations continues to increase in complexity. 
 
-I don't think that anyone contests the fact that during our lifetime our actions are governed by our faith and in turn they slowly maneuver our faith in certain direction. The debate really starts at "what happens at death" . This is where Gita is very different from rest of the scriptures. Gita doesn't impart death more weight than a sleep cycle. The purpose of physical body is to carry the leftover faith from unbalanced `karma` 
+	`Nishkam Karma` (a deed that's neither `Swadhrma` nor done out of any desire) stabilizes the growth. And as proportion of `Nishkam` increases your in ypur `Swadharma`, manifestation starts gradually receding. This journey from zero `Nishkam` to say 90% Nishkam is called `Nishkam Karm Yoga`. Gita does say that with a living body, you can never attain 100 % `Nishkam Yoga`. Obviously cuz manifestation will cease to exist for you. That stage is normally referred to as `Moksha` - meaning exit from circle of life and death. 
+
+# `Prakriti and Purush`
+The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complemntary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
+	`Prakriti` and `Pusrush` are eternal. Neither is good or bad. There is no beginning or end to their existence. It is the `Maya` that causes all the troubles :-)
+	
 # Maya (The web of Manifestation )
-Krishna (our own evolved self - Atma) goes a step further. He says that I stem your faith in whatever you want to follow.  This makes sense. We have faith in our parents. In our teachers. Why? Cuz we are designed to trust without reason  and create a reality from our blind trust. It continues as we age. We all do different things. Cuz we all have faith in different ways of lively hood. There are infinite possibilities of our being. Diversity is created by our ability to have faith in different courses of life. Scripture names this diversity 'Maya' (Matrix).
-
-Krishna also says that though I stem your faith and get you whatever you place your faith in, but this is the cause of all miseries. For, the outcomes never last. The source of eternal pleasure and exit from matrix is in entrusting your faith in Krishna (our own evolved self - Atma). The idea is again simple. If you don't put faith in any of the worldly artifacts, you will not manifest the Matrix. And hence you will be able to enrich your own self (Atma) to an extent that your Atma becomes a super soul ( Parmatma). A connected state that is in eternal equilibrium across endless manifestations.
-
-If this all was that simple, then why are we not entrusting our faith in our Atma alone? That is cuz the matrix has strong temptations. It pulls you in through four key tools on its disposal - Kama (desires), Krodha (Anger), Lobha (greed), Moha (Love). And fifth being the confusions created by Maya (Matrix) itself. These five basic culprits, move your faith into endless series of activities. Each time accomplishing something temporal. And pain follows at the end. Be it relationships, careers, science, arts or sports - there is always an end and its always miserable.
+`Maya` is the complexity of `Prakriti`. When it grows beyond a certain level, our `Buddhi` is unable to deciper desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
