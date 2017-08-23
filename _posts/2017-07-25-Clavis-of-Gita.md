@@ -19,10 +19,12 @@ Gita is a powerful framework of ideas but it introduces hundreds of Sanskrit ter
 # `Shraddha` (The Faith - The source of Manifestation)
 
 Faith is a belief that is not based on scientific proof . For example, we don't need faith in Einstein to trust the Theory of Relativity. We don't need faith in Math for it is pure logic. But we need faith in God if we want to believe in him. `Shraddha` is slightly different, for  faith has a tinge of authority. If not full authority at least an equal footing. You have faith in a master or a friend. `Shraddha` is bit more devotional and less demanding. Unlike faith, it can change. Its NOT set in stone. In fact, it changes quite frequently. 
-	
+
+
+![](/homepage/static/img/blog/AmJBlog/1703_Shraddha1.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
 > A word on mindless comparisons - Science v/s God- How many of us understand Relativity? Or Quantum Mechanics? But most of us trust science cuz someone else who has seen the scientific proof. Isn't it faith in that someone? That someone could be a teacher, a friend or a book. Another characteristic of this mechanism is that the proof must be  available in open domain.  If we are willing to invest our time, we should be able to verify the proof on our own. But that  isn't that true about spirituality as well ?  Books like Gita and Bible tell us that that there exists something beyond physical.  And we  can find one (ourselves) if we are willing to invest our time. Then where is the conflict ?. Another difference is that science has experimental proofs. So does spirituality. There is proven healing impact of meditation and breathing. People cure and endure through faith. Bottom line - comparisons are misplaced. Don't really serve any purpose. On the contrary, We know for sure that science continuously  evolves . Einstein proved Newton was wrong and later changed his own theory. Quantum Mechanics is still at odds with classical science. Does that mean that we can't have absolute trust in science? Or should we say we have faith in science?
 
-![](/homepage/static/img/blog/AmJBlog/1703_Shraddha.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 The scripture says humans are made out of `Shraddha`. We are what we believe in. We manifest our faith. The physicality around us is a creation of our faith. As said in chapter 17 verse 3 of Gita.
 
@@ -34,7 +36,7 @@ Obviously, there is no mathematical proof here but the argument  appears compell
 # `Atma` (The Unmanifested.)
 Gita says `Atma` is something that doesn't die. Fire can't burn it, Water can't wet it. In essence, it is beyond the physical realm. What is it then ? Well `Atma` is NOTHING in physical parlance for it is unmanifested. But it has potential to manifest. In fact, it is the only thing that can manifest. It manifests in line with your `Shraddha`. 
 
-![](/homepage/static/img/blog/AmJBlog/Atma.JPG){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![](/homepage/static/img/blog/AmJBlog/0220_Atma.PNG){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 A close comparison would be electricity. Electricity can manifest itself into fans, cars, refrigerators or thousands of other gadgets. Without electricity, they are all dead. We can't dry the current or wet it. Nor can we burn it. It doesn't die or takes birth. Its just there. Motion of electrons is  everywhere but electrons are NOT electricity either.. It sits there unmanifested but has potential to manifest. Unlimited potential. But we can't know electricity by looking at a refrigerator or a fan. Electricity is connected to a common source. It can inter-operate on machines. Same current runs refrigerator as well as fans. It doesn't build gadgets but it is the life in them. You know it is there but you can't see it. It is older than anything you know and it will outlive anything you know. 
 
 	`Atma` shapes your reality based on the `Sharddha` you have. 
