@@ -36,6 +36,7 @@ Obviously, there is no mathematical proof here but the argument  appears compell
 # `Atma` (The Unmanifested.)
 Gita says `Atma` is something that doesn't die. Fire can't burn it, Water can't wet it. In essence, it is beyond the physical realm. What is it then ? Well `Atma` is NOTHING in physical parlance for it is unmanifested. But it has potential to manifest. In fact, it is the only thing that can manifest. It manifests in line with your `Shraddha`. 
 
+![](/homepage/static/img/blog/AmJBlog/Atma.JPG){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 A close comparison would be electricity. Electricity can manifest itself into fans, cars, refrigerators or thousands of other gadgets. Without electricity, they are all dead. We can't dry the current or wet it. Nor can we burn it. It doesn't die or takes birth. Its just there. Motion of electrons is  everywhere but electrons are NOT electricity either.. It sits there unmanifested but has potential to manifest. Unlimited potential. But we can't know electricity by looking at a refrigerator or a fan. Electricity is connected to a common source. It can inter-operate on machines. Same current runs refrigerator as well as fans. It doesn't build gadgets but it is the life in them. You know it is there but you can't see it. It is older than anything you know and it will outlive anything you know. 
 
 	`Atma` shapes your reality based on the `Sharddha` you have. 
