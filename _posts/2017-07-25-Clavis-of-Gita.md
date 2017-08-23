@@ -22,12 +22,10 @@ Faith is a belief that is not based on scientific proof . For example, we don't 
 	
 > A word on mindless comparisons - Science v/s God- How many of us understand Relativity? Or Quantum Mechanics? But most of us trust science cuz someone else who has seen the scientific proof. Isn't it faith in that someone? That someone could be a teacher, a friend or a book. Another characteristic of this mechanism is that the proof must be  available in open domain.  If we are willing to invest our time, we should be able to verify the proof on our own. But that  isn't that true about spirituality as well ?  Books like Gita and Bible tell us that that there exists something beyond physical.  And we  can find one (ourselves) if we are willing to invest our time. Then where is the conflict ?. Another difference is that science has experimental proofs. So does spirituality. There is proven healing impact of meditation and breathing. People cure and endure through faith. Bottom line - comparisons are misplaced. Don't really serve any purpose. On the contrary, We know for sure that science continuously  evolves . Einstein proved Newton was wrong and later changed his own theory. Quantum Mechanics is still at odds with classical science. Does that mean that we can't have absolute trust in science? Or should we say we have faith in science?
 
+![](/homepage/static/img/blog/AmJBlog/1703_Shraddha.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
 The scripture says humans are made out of `Shraddha`. We are what we believe in. We manifest our faith. The physicality around us is a creation of our faith. As said in chapter 17 verse 3 of Gita.
 
-![](/homepage/static/img/Shraddha.png)
-
-[Translation](http://www.bhagavad-gita.org/Gita/verse-17-03.html)
-The faith of everyone comes according to the perceptions of the mind. The living personality is the embodiment of faith, one is identified by , whatever faith one has. 
 
 Obviously, there is no mathematical proof here but the argument  appears compelling. I see it in my own experiences. And in experiences of many around me. We do science only if we have faith in science. We run if we have faith in running. We live if we have faith in life. In essence, faith is the root. Not the other way around.
 
