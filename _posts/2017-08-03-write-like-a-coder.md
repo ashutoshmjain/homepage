@@ -17,37 +17,6 @@ As an IT project manager I always wanted developers to put ample comments in the
 
 Another reason is  to formalize a system of writing that is consistent with code development. Today, most of the enterprise projects use separate  tools for software development and documentation. This creates lag, friction and makes developers abhor documentation. Describing your work should be fun. Many open source projects, that removed this friction, already enjoy high quality documentation at a fraction of resources in comparison to commercial IT projects. I understand the lure for apparently easier and shining interfaces for I have been down that path many times. But the time thus spent is at best wasted. I thought, I was probably tool agnostic. Nothing could be farther from truth. Tools shape our thinking, our approach and ultimately the outcomes. To an extent that our relationship with them is almost spiritual.
 
-Here is a little table of content to help you navigate my  workshop .. 
-
-
-
-<!-- vim-markdown-toc GFM -->
-* [Linux (Slackware)](#linux-slackware)
-* [Shell (Zsh)](#shell-zsh)
-	* [Navigation and editing](#navigation-and-editing)
-	* [Admin Stuff](#admin-stuff)
-* [Git and GitHub](#git-and-github)
-* [Terminal Multiplexer. (tmux)](#terminal-multiplexer-tmux)
-* [Editor (Vim)](#editor-vim)
-	* [Normal Mode](#normal-mode)
-	* [Insert mode](#insert-mode)
-	* [Command Mode](#command-mode)
-	* [Visual mode](#visual-mode)
-	* [Plug-Ins](#plug-ins)
-		* [gmarik/Vundle](#gmarikvundle)
-		* [flazz/vim-colorschemes](#flazzvim-colorschemes)
-		* [tpope/Fugitive](#tpopefugitive)
-		* [godlygeek/Tabular](#godlygeektabular)
-		* [plasticboy/vim-markdown](#plasticboyvim-markdown)
-		* [scrooloose/nerdtree](#scrooloosenerdtree)
-		* [vim-airline/vim-airline](#vim-airlinevim-airline)
-		* [mzlogic/vim-markdown-toc](#mzlogicvim-markdown-toc)
-* [Markdown (GitHub flavoured)](#markdown-github-flavoured)
-* [Web Server and Content Manager (Jekyll )](#web-server-and-content-manager-jekyll-)
-* [Screen Play writer (Fountain )](#screen-play-writer-fountain-)
-* [Formats Conversion (Pandoc )](#formats-conversion-pandoc-)
-
-<!-- vim-markdown-toc -->
 # Linux (Slackware)
 
 Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
@@ -70,6 +39,8 @@ I recently moved over to zsh as my default shell. Primarily cuz I wanted beautif
 
 
 >A word about shell - Things are bit hazy when it comes to defining a console or terminal. It probably has roots shared with earlier hardware consoles that started the video interactions with computers. However, there is no ambiguity on shell - Its a program that converts user inputs into actions. Typically the shells are associated with the command line interface but windows graphical interface (explorer.exe) is also technically a shell. On the Unix like OSs, distinction is clearer. We have popular shells for the terminal such as sh, ksh, csh, tcsh, bash and zsh. These shells support the command line interface in terminal (or console) whereas graphical interface is implemented by a server X11. Linux and other Unix like system allows you to access multiple sessions of consoles even when graphical interface is running. Press ctrl+Alt+F1 through F9. The graphical interface usually runs at F7. If you want to run console from with in graphical interface, you can use 'Terminal Emulators'. Weather you are running a console session or a Terminal emulator, you are effectively interacting with the shell. The default shell in Linux distributions is usually 'bash'. You can change the default to any other shell (say zsh). If the things are not complicated  enough yet then here is the final one , you can start multiple sessions of same (or different shells) with in same terminal window. For example you can run zsh with in bash. Lets not worry about these for now and change the default shell to zsh. Why zsh ? - simple answer - it is friendly without any compromise. 
+
+If you don't run the Graphical interface (by choice or hardware limitations), you may find that the console colors and fonts are somewhat limited. For example you may not get the beautiful Zsh themes as you get in Terminal emulators. The solution is **fbterm**. Frame buffer terminal is a way to enhance the bundled Linux terminal to something more palatable. 
 
 Here are few commonly used shell commands. ..
 
