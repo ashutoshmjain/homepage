@@ -1,0 +1,16 @@
+font-size=20
+font-names=DejaVu Sans Mono,WenQuanYi Micro Hei Mono,mono
+history-lines=1000
+cursor-shape=1
+cursor-interval=0
+
+# not specifying an input method for now -
+# # fbterm_ucimf tends to crash (at least when a pinyin.cin is
+# # put into ~/.openvanilla/OVIMGeneric/), and fcitx-fbterm
+# # needs fcitx which needs dbus which needs X11 :-(
+#
+
+# default color of foreground/background text
+# available colors: 0 = black, 1 = red, 2 = green, 3 = brown, 4 = blue, 5 = magenta, 6 = cyan, 7 = white
+color_foreground=7
+color_background=0
