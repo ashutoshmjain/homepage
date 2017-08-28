@@ -293,6 +293,7 @@ This means you can write a complete screenplay without having to worry about the
 While .md' is a great way to publish online, many times we need to send offline copies. That is where [Pandoc](http://pandoc.org/index.html) comes in. A swiss-army knife for format conversion. Pandoc is open source, it can convert almost into any possible format. Most notable are Adobe pdf and Microsoft Word for writers. We need latex-engine installed for Pandoc to be able to convert to .pdf'. If you don't want to install latex, you can always convert to Open or Microsoft Office and then push a .pdf export. The syntax is very simple
 
 	Pandoc file_name -o file_name.pdf
+
 ## Text Browser (Links)
 Links is a simple fast text browser. It works great on command line without X (Graphical user interface). The older brother is Lynx which is bit faster but doesn't support frames. The best thing about text browsers is the distraction free environment for browsing if thats is what you really want to do. 
 
