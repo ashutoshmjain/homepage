@@ -19,7 +19,7 @@ Another reason is  to formalize a system of writing that is consistent with code
 
 # Linux (Slackware)
 
-Not only linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
+Not only Linux is free, it runs fast on old machines. For a hobbyist writer (assuming unsuccessful :-), its the best alternative to MacOS (and probably better). The beauty of Linux truly shows up in a huge variety of distributions, granularly designed for every segment of users. I tried many variants of Ubuntu before settling with Slackware. Primary reason - its unassuming , hack-able to the core and zero frills. Slackware's default behavior, puts you right at the command line without even starting graphical interface. Which is neat cuz, most of the tools I love are in command line. 
 
 >A quick word on Command Line tools: They are fast. Even on most old computers. Distractions free. Allows you to separate 'research' from writing. Research, for me often leads to wandering :-). So command line keeps me on leash. And here is the kicker - Its more feature full than most GUI based editors. You can  design your own environment. One, that suits your style. And best part - Getting rid of mouse is good for your hands. And its just chill. 
 
@@ -33,6 +33,8 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
 
+
+If you must use Windows and are scared of installing Linux as a virtual machine , the best bet would be to use [git for Windows](https://git-for-windows.github.io/) . Git for windows will install git bash and git on your windows machine. Git bash is a command line emulator that will give you a close feel of Linux with limited commands. This is the fastest and least disruptive way to get productive on windows. I am writing this paragraph in `vim` invoked from `git bash`. 
 # Shell (Zsh)
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)'. I am currently using 'agnoster' as my default theme. In addition to themes, 'Oh my zsh' brings number of plugins to the table. I use web-search plug in that lets me google any term right from the terminal.
