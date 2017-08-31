@@ -312,3 +312,9 @@ Links is a simple fast text browser. It works great on command line without X (G
 ## Search (Googler) 
 The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Googler does this. 
 > Googler needs Python3 which is not a default on Slackware 14.2. You can install from the available Slackbuild.
+
+## Cloud Storage (Mega)
+Even though you can share your files through GitHub , you may still have content that you want to share among your computers privately, across platforms and mobile device. Unfortunately Google doesn't provide a auto sync for Linux (strange!!) . Mega provides a GUI as well as command line based interface (and 50 gigs of free storage) that works on Windows , Macs, Linux, Android and iOS. God's gift. I don't understand all the subtleties but it says it is fully encrypted. 
+
+We are interested here in the Mega Command line tools that let you sync with cloud storage from the comfort (and speed) of your terminal. Good folks at Slackware provide a Slackbuild for command line tools. A must use for any writer and coder as well. 
+
