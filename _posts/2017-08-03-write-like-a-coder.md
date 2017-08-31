@@ -296,8 +296,19 @@ While .md' is a great way to publish online, many times we need to send offline 
 
 	Pandoc file_name -o file_name.pdf
 
+> Pandoc needs Haskell compiler (ghc) and Haskell Platform. Slackware 14.2 doesn't include these by default but [slack builds](https://slackbuilds.org) are available. Ghc takes a lot of space to compile ~4.5 gigs. 
+
+
 ## Text Browser (Links)
 Links is a simple fast text browser. It works great on command line without X (Graphical user interface). The older brother is Lynx which is bit faster but doesn't support frames. The best thing about text browsers is the distraction free environment for browsing if thats is what you really want to do. 
 
+### Basic Commands
+- `g` provides a dialog box for typing in the url
+- `Esc` Brings up the menu. Easily navigable with arrow keys or shortcuts
+- `Arrow keys` Move from link to link with up and down arrows, even if the links are in the same row. 
+- `z` move  to the previous page
+- `d` Download from the link. A dialog box will let you type in the directory where you want to save the file.
+
 ## Search (Googler) 
-The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Googler does this. Going to try it out in couple days. 
+The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Googler does this. 
+> Googler needs Python3 which is not a default on Slackware 14.2. You can install from the available Slackbuild.
