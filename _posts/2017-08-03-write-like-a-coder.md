@@ -300,4 +300,4 @@ While .md' is a great way to publish online, many times we need to send offline 
 Links is a simple fast text browser. It works great on command line without X (Graphical user interface). The older brother is Lynx which is bit faster but doesn't support frames. The best thing about text browsers is the distraction free environment for browsing if thats is what you really want to do. 
 
 ## Search (Googler) 
-The web-search plugin in 'Oh my zSH' doesn't support the console (without X). I just discovered that there is a application Googler that does this. Going to try it out in couple days. 
+The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Googler does this. Going to try it out in couple days. 
