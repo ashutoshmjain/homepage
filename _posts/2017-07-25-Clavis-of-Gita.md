@@ -97,6 +97,8 @@ The question is why should we try to stop manifestation. Answer is simple. As lo
 
 People normally think `Nishkam Karma` is a good deed done for benefits of others. It can be as long as there is no desires attached. Though the truth is most of the good actions have expectations attached. Raising a family, social work etc all have a motive. Gita says that motives will bear fruit. Good deeds will manifest good. But they will always deprecate your `Atma` - the inner potential. For a beginner, doing complex actions (good or bad) without motives is almost impossible. Thus you need to start with simple tasks  - counting your breath commonly known as meditation , or counting the waves. Cleaning the house, chores. Serving and charity without disclosing your identity. Learning a new skill that you will probably not use for any gains. 
 
+Last but the most important , Gita says that `Nishkam Karma` is experiential. As said above , reading about it like reading about swimming. Reading helps a swimmer do better but it doesn't make you a swimmer. When you take first step with knowledge of purpose and information , you are called a `Gyan Yogi`. When you do the similar `Nishkam` activities as a follower - You are called `Bhakti Yogi`. Later done under a watchful eye is easier. `Gyan Yog` is difficult. 
+
 
 # `Prakriti and Purush`
 The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complementary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
