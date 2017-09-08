@@ -34,7 +34,10 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- _config.yml - jekyll configuration file 
 
 
-If you must use Windows and are scared of installing Linux as a virtual machine , the best bet would be to use [git for Windows](https://git-for-windows.github.io/) . Git for windows will install git bash and git on your windows machine. Git bash is a command line emulator that will give you a close feel of Linux with limited commands. This is the fastest and least disruptive way to get productive on windows. I am writing this paragraph in `vim` invoked from `git bash`. 
+# Native *nix experience on Windows.
+
+If you must use Windows and don't want to install Linux as a virtual machine , the best bet would be to use [git for Windows](https://git-for-windows.github.io/) . In addition to command line git, Git for windows will install 'git bash' on your windows machine. Git bash is a command line emulator that will give you a close feel of Linux with limited commands. This is the fastest and least disruptive way to get productive on windows. I am writing this paragraph in `vim` invoked from `git bash`. 'Git for Windows' is based on [msys2](www.msys2.org) (a fork of msys). The goal of msys2 (and msys) is to provide a native *nix type of development environment for the windows users. They leverage [MinGW](www.mingw.org) (Minimalist GNU for Windows).
+
 # Shell (Zsh)
 
 I recently moved over to zsh as my default shell. Primarily cuz I wanted beautiful themes from  [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)'. I am currently using 'agnoster' as my default theme. In addition to themes, 'Oh my zsh' brings number of plugins to the table. I use web-search plug in that lets me google any term right from the terminal.
