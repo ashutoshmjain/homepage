@@ -36,7 +36,11 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 
 # Native *nix experience on Windows.
 
-If you must use Windows and don't want to install Linux as a virtual machine , the best bet would be to use [git for Windows](https://git-for-windows.github.io/) . In addition to command line git, Git for windows will install 'git bash' on your windows machine. Git bash is a command line emulator that will give you a close feel of Linux with limited commands. This is the fastest and least disruptive way to get productive on windows. I am writing this paragraph in `vim` invoked from `git bash`. 'Git for Windows' is based on [msys2](www.msys2.org) (a fork of msys). The goal of msys2 (and msys) is to provide a native *nix type of development environment for the windows users. They leverage [MinGW](www.mingw.org) (Minimalist GNU for Windows).
+If you must use Windows and don't want to install Linux as a virtual machine , the best bet would be to use [git for Windows](https://git-for-windows.github.io/) . In addition to command line git, Git for windows will install 'git bash' on your windows machine. Git bash is a command line emulator that will give you a close feel of Linux with limited commands. This is the fastest and least disruptive way to get productive on windows. I am writing this paragraph in `vim` invoked from `git bash`. 'Git for Windows' is based on [msys2](http://www.msys2.org) (a fork of msys). The goal of msys2 (and msys) is to provide a native *nix type of development environment for the windows users. They leverage [MinGW](http://www.mingw.org) (Minimalist GNU for Windows).
+
+'Git for Windows' allows you to access all the git commands from windows Command Prompt as well as from 'Git Bash'. I prefer Git Bash over the Command Prompt for simple / vs \ reason :-). In addition Git Bash provides  commands such as `ls`, `cp`, `mv`. You can probably circumvent using Windows Power Shell. Bottom line  - If you are a windows developer, you would probably use Command Prompt ( Or Power Shell) , If you are coming in from *nix world, you will find at how in Git Bash. 
+
+To make things a bit more complex, Msys2, too has its own terminal. It comes with Pacman (Package Manager for Arch Linux). You can use it to update the underlying Msys and MinGW system. 
 
 # Shell (Zsh)
 
