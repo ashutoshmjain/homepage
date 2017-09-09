@@ -132,7 +132,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - **Jump and Insert**`A` - move the cursor at the end of the current row and put you in insert mode.
 - **Jump Back and Insert**`I` - move the cursor to the start of current row and put you in insert mode..
 - **Go to the Top** - `gg` takes the cursor to the top of the document. 
-- **Go to the Bottom** `G` takes the cursor to the bottom of the document. 
+- **Go to the Bottom** `G` takes the cursor to the bottom of the document. Line number followed by `G` will take you to that line
 - **Top of visible page** `Shift h` will do the trick.
 - **Bottom of the visible page** - `Shift l` will do the trick.
 - **Back the previous position** - `ctrl o` will bring you back to last position. 
@@ -143,7 +143,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - **Delete line** `dd` - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.So `yggG` will select the whole document. `dggG` will delete all the lines. 
 - **Copy a line** `yy` - more of yanking under visual mode.
 - **Paste a line** `p` - whatever was previously yanked or deleted.
-- **Search** Vim has powerful search and its a lot more involved topic. For now `/` invokes search in forward direction. `*` looks for the word on cursor. 
+- **Search** Vim has powerful search and its a lot more involved topic. For now `/` invokes search in forward direction. `*` looks for the word on cursor. `n` moves the search forward one instance at a time. `N` goes backward. If you wanted to search backwards in the first place, use `?` in place of `/`. Remember `Ctrl o` to come back to where you started. `Ctrl I` is the reverse of `ctrl o`
 	>Above commands should make your move around the screen  easy. Lets say you can now magically place your cursor wherever you want (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes these operations :- 
 
 - **Copy or as Vim calls it -Yank** `y` is the key to initiate the selection. You press `y`, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example `yw` will yank next word. `y$` will yank till end of line. `yy` is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So `yy is --> 0y$`. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use `P` to paste at the cursor, or `p` to paste a place ahead of cursor. If you have done `yy`, `p` will paste a line below. 
