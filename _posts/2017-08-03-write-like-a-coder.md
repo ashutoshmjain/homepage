@@ -123,9 +123,9 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 
 >One word of caution, till you grasped most normal mode commands (which are many), your cursor will go random places cuz you will invariably hit a key that invokes some motion command. There are only two ways to handle this. Either undo (u) or just be careful in normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
 
-- **Basic movement** `h, j , k , l `- Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach.
+- **Basic movement** `h, j , k , l `- Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach. `w` will move the cursor to the beginning of next word. `e` will move to the end of current word.
 - **One screen line** A line in vim is the input between two press of enters (NOT Fullstops). In a writer's world , a line can be a full paragraph. So pressing j or k would move a paragraph up or down. How do we move one line up or down as displayed on screen  - press `gj or gk`. For writers,  Its a good idea to map  `gj` to  `j` and  `gk` to `k`.  
-- **Undo**  `u`- Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember. 
+- **Undo**  `u`- Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember.`U` will fix the whole line.  
 - **Jump** `$`- move the cursor to the end of the current line
 - **Jump Back**`^`- move the cursor to the beginning of the current line
 - **Jump Back** `0` - move the cursor to the first character of the line 
