@@ -112,7 +112,10 @@ Here are the basic commands ..
 - (ctrl) a d 	detach from current session
 
 # Editor (Vim)
-It might surprise you but vim is lot like an iPhone keyboard. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it.
+
+[Vim](https://vim.sourceforge.io) stands for vi improved. Probably the most widely available text editor. Its natively available on all Unix like OSs and Mac OS. A gui version is available on most versions of Windows. Independent ports are available for iOS and Android. It is rock solid; highly configurable and extendable; and probably the most [loved](https://www.diffur.com/q/what-is-the-best-text-editor-for-programming) text editor.
+
+It might surprise you but vim is lot like a smart phone native editor. Like typing on an onscreen keyboard, in vim, we spend more time in determining what to edit  then the act of inserting or altering text. On a smart phone, we move up, down and sideways with  touch gestures; in vim, we have highly  intuitive key combinations to move around. Idea is simple but powerful  - spend more time in deciding what to do before  start doing it. And a clear distinction of evaluation v/s insert. The evaluation mode, in vim, is called normal mode (nomo for shorts). The learning curve for vim is getting through the normal mode. Once you are comfortable moving around, rest will come to you. 
 
 
 >Lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim . This time well equipped. I read through internet. Listened to the vim Podcasts. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
