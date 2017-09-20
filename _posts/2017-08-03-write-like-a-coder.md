@@ -32,6 +32,7 @@ I am sure, I will keep on exploring more. For example, recently I tried bunch of
 	- .vimrc - the mother of all configurations for a writer.
 	- .gitconf - git configuration.
 	- _config.yml - jekyll configuration file 
+	- .megarc - your account information for the Mega cloud storage. 
 
 
 # Native *nix experience on Windows.
@@ -339,5 +340,11 @@ The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Go
 ## Cloud Storage (Mega)
 Even though you can share your files through GitHub , you may still have content that you want to share among your computers privately, across platforms and mobile device. Unfortunately Google doesn't provide a auto sync for Linux (strange!!) . Mega provides a GUI as well as command line based interface (and 50 gigs of free storage) that works on Windows , Macs, Linux, Android and iOS. God's gift. I don't understand all the subtleties but it says it is fully encrypted. 
 
-We are interested here in the Mega Command line tools that let you sync with cloud storage from the comfort (and speed) of your terminal. Good folks at Slackware provide a Slackbuild for command line tools. A must use for any writer and coder as well. 
+We are interested here in the Mega Command line tools that let you sync with cloud storage from the comfort (and speed) of your terminal. Good folks at Slackware provide a Slackbuild for Mega command line tools. A must use for any writer and coder as well. 
 
+Once you have registered a new account with command `megareg` or added  your existing account information to `.megarc`, Mega storage is just an extension of your harddisc.  Similar commands ( each has its on man page) 
+
+- `megamkdir` - For creating a directory on your cloud account 
+- `megals` - Just like ls on your computer to list directories and files
+- `megadf` - Just like df on your computer to show the storage consumption 
+- `megacopy`- to sync a local directory with cloud or vice versa

@@ -34,5 +34,4 @@ I think, after search and social,  this is the next horizon of technology. Done 
 
 ## Update - Jan 2017
 
-
 Google has started 'Google Fit' as a Android based health kit. Microsoft has started 'MS Health Vault'. Given the importance of health market it's very encouraging to see tech giants invest heavily in this space. Both Google and Microsft initiatives are more or less same blueprint as that of Apple. Meanwhile the health tracking devices have exploded in last two years. Fitbit is the only noteable standalone player that doesn't integrate with Apple Health though it has its own independent app for iOS and Android. 
