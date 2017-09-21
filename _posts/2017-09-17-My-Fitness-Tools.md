@@ -8,14 +8,14 @@ categories: [Inspirations]
 tags: [Apple, health, bigdata]
 icon: icon-fire-alt
 ---
- No, this article is not about the Iron Pumping machines. In fact, `running` is the only exercise I do. This article is not even about workouts. This is about how I track my fitness.  How can we leverage the technology to enhance our well being. And this article is also about a holistic view on fitness. Not just the weight loss or physical activities. Though they are a significant part. 
+ No, this article is not about the Iron Pumping machines :-)  In fact, `running` is the only exercise I do. This article is not even about workouts. This is about how I track my fitness.  How can we leverage the technology to enhance our well being. And this article is also about a holistic view on fitness. Not just the `weight loss` or `physical activities`. Though they are a significant part. This article is also personal. I will plug in my `fitness journey` (shamelessly :-) to make a point - If I could do it, anyone can. As you will see during the course of this long post , I lost around 20% of my body weight (40 pounds) and reversed the course from a sure lifelong trap of diabetes pills. Did I find the holy grail of fitness? - No. Will it work for everyone? - No. Then why should I read ? It will sure put you on a path. Make you curios of your body. And may be help you put your cellular investments to a better use. And I promise to keep it fun :-)
  
-Let me first give you the four corners. I think fitness has four dimensions that we need on our Daily dashboard. One measurement for each of these. .
+Before we plough the whole nine yards, let me give you the four corners. I think fitness has four dimensions. I think we need them in front of our eyes. Always on our tips. Lets just call it our `Daily dashboard`. One measurement for each of these. kinda our four top stocks ...
  
  - Body Mass
  - Physical Wellness 
  - Mental Wellness
- - Condition Management
+ - Condition Management (if you have no medical conditions , just put your average heart rate here. Its good to know thing is still kicking inside :-) 
  
 
 > A word about my motivation: I believe in measurements. To the extent , I think, if we start measuring religiously, the intended effect automagically starts. Reasons could be psychological. For example, if you want to reduce your weight. Just start hopping on the weigh scale three times a day. If you want to improve your steps, just start checking your motion six times a day. The act of measuring somehow shapes our priorities. The good thing about mobile devices and wearables is most of the measurements are almost automated. But we still need to look at them. Look at the graphs. Understand the trends. For example, after regular measurements, I found that my wight goes up a pound the morning. Also that weight loss follows a sign curve. Body weight changes with the phases of moon! Okay that last one was a joke but you get the point.
