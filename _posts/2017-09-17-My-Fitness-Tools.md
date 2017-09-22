@@ -80,10 +80,33 @@ I think we are driving our minds nuts with distractions. Its not that we are ove
 
 Unfortunately- our weight , physical motion and mental focus ; all three are deeply intertwined. We just can't fix one in isolation. The good news is both - our body and our mind and excellent designs. They respond quickly to little upkeep. All we need to do is put them into a positive feedback cycle. Then mind takes pleasure in workouts and body return the gift with more mental satisfaction.
 
-Apple Watch a little app of goodness called `Brethe`.  It only asks you to 'you guessed right' - Breathe. A nice depiction of inflating lungs like petals of a flower if you need to focus your vision. A little haptic touch to indicate when to start breathing and when to exhale. The beginner is just one minute. Just one minute - three times a day is the stay of the journey. Once you see the benefit, you can increase it to two , three and five minutes. There is no upper goal here. As much as you can. 
+### Stop Notifications
+
+Smartphones have done great things for us. But they have gone overboard with notifications. Every app wants a piece of you to boost their monthly user counts. Thanks but no thanks. I want to check an app when I need it. So the first thing is stop all notifications. Then take fifteen minutes and think, what notifications you really need. Do you want to be notified when your dog swings by your Nest Camera ? Do you need a pop up for every email? WhatsApp, iMessage, Twitter, Facebook. Hell no. 
+I get email notifications only if my boss sends me a note or three of my key customers. You can set up your iPhone to notify you only when the contacts in your VIP list send you a message. Other thing I care is my front door bell. Oh yes, don't stop government emergency alerts. You can safely switch off amber alerts. 
+
+Thankfully laptops are not as bad as cell phones in notifications. But the evil is creeping into Mac as well as Windows 10. I strongly suggest to use a command line environment on Linux. If you must use a graphical interface , just switch off all notifications. 
+
+### Phone calls 
+
+I hate solicitations on phone call. I am sure you do too. We have tried everything from "Do not call registry" to "Service providers spam filters". But the marketers always find a way out. So here is my solution. Forward your cell phone calls to a Google Voice number. And set up "Do not Disturb" on GV. Calls will automatically go to voice mail. If some one really need to get in touch with you, they will leave a voice message. GV instantly notifies you on your cell phone app. You can also have the voice mails sent to Google Hangouts. Google transcription is very powerful now. The GV message gives a complete transcript. The best thing is, Google voice has among the best spam filter.
+
+What if you are driving? Good question. Here is the answer - You are NOT supposed to take calls while driving. Favor yourself and your near ones. Nothing is as important as your safety and that of your fellow passengers on the road. 
+
+### Meditation Apps
+
+Now that we have tamed our phones and laptops, lets see how technology can help us. 
+
+Apple Watch has a  little app of goodness called `Brethe`.  It only asks you to 'you guessed right' - *Breathe*. A nice depiction of inflating lungs like petals of a flower if you need to focus your vision. A little haptic touch to indicate when to start breathing and when to exhale. The beginner is just one minute. Just one minute - three times a day is the stay of the journey. Once you see the benefit, you can increase it to two , three and five minutes. There is no upper goal here. As much as you can. 
 
 Recently I discovered another app for meditation. A recommendation from some old Tim Ferris podcast. `Headspace` appears to be a complete solution to meditation. I am still in free basic pack of ten sessions. I will come back to this post once I am done with more feedback. 
 
+### Spirituality
+
+No I am not asking you to become religious if you don't have faith. It is possible to be an atheist and still be spiritual. I personally feel peace in a place of worship. It may be a temple or a church. A weekly visit help me get my mind in order. Reading or listening to a holy book daily is even better. I regularly listen to Gita podcast. Once I finish it, I will listen to Bible. Try out few days on your walks. If it helps, why not ? Our goal is to achieve fitness. It is quite difficult to be fit with a wandering mind :-)
+
+### Minimalism 
+Our bodies learn from our habits. If you have twenty pairs of shoes, you should not be surprised that your body got trained in hoarding extra twenty pounds. Start with your ward robe. Give those extra jeans to needy. Thrift stores will thank you. You will have more space in your closet. And your body will learn to let go. 
 ## Condition Management 
 The hard fact of getting old is sooner or later we will succumb to some medical condition. Hypertension , Diabetes, Heart conditions, Cancer to name few. Medical advice is absolute essential in such cases, but if you are fit, and follow a daily routine, chances are you will negotiate well. I remember words of wisdom from an old friend - I quote 
 
