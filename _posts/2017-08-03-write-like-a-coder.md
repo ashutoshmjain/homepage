@@ -152,7 +152,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 >Above commands should make your move around the screen  easy. Lets say you can now magically place your cursor wherever you want (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes these operations :- 
 
 - **Copy or as Vim calls it -Yank** `y` is the key to initiate the selection. You press `y`, vim is ready for you to tell it what to yank. Then motion keys are used to determine the selection. For example `yw` will yank next word. `y$` will yank till end of line. `yy` is a special case here which actually tells vim to go the start of the current line (0) and then yank till the end ($). So `yy is --> 0y$`. If you noticed, there is no need to go into 'insert' mode yet. Since you are still in normal mode, you can continue to use the motion keys to move to where ever you want to paste the copied text. Once there, use `P` to paste at the cursor, or `p` to paste a place ahead of cursor. If you have done `yy`, `p` will paste a line below.
-- **Delete** `d`  is the key to initiate the selection. You press `d`, vim is ready for you to tell it what to delete. Then motion keys are used to determine the selection. For example `dw` will delete the next word. `d$` will delete till end of line. `dd` is a special case here we actually tell vim to go the start of the current line (0) and then delete till the end ($). So `dd is --> 0d$` If you noticed, there is no need to go into 'insert' mode for this operation. Just like `yy`, you can use `p` or `P` to paste. **`y` supports `copy and paste` where as `d` supports `cut and paste`.** 
+- **Delete** `d`  is the key to initiate the selection. You press `d`, vim is ready for you to tell it what to delete. Then motion keys are used to determine the selection. For example `dw` will delete the next word. `d$` will delete till end of line. `dd` is a special case here we actually tell vim to go the start of the current line (0) and then delete till the end ($). So `dd is --> 0d$` If you noticed, there is no need to go into 'insert' mode for this operation. Just like `yy`, you can use `p` or `P` to paste. So you can say that **`y` supports `copy and paste` where as `d` supports `cut and paste`.** 
 - **Change** `c`  is the key to initiate the selection for change. You press c, vim is ready for you to tell it what to change. Then motion keys are used to determine the selection. For example `cw`  will change the next word. `c$` will change till end of line. If you need to change a single character under the cursor, an easy way is to use `r`. If you want to go into "Overwrite mode" R will do the trick. Note that `c` will put you in insert mode at the end of operation. So you are ready to change. `d` and `y` will continue to to keep you in normal mode. 
 	
 >Keys y,d and c (in normal mode) open up a memory store, there after, the motion keys become a mechanism to make a selection. Whatever you select goes into memory store. Also called a hidden register. This is the reason, Vim can undo these operations. And here is the kicker - the operation done with `y` and `d` are repeatable with `.` . You can keep on repeating the last edit operations as long as you  want even if you have used the motion keys. For example, if you deleted a word (dw), now you can take the cursor anywhere and press  `.`. Viola - the word on cursor will be deleted. You can even use undo `u` in between the operations. 
@@ -175,7 +175,9 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 - **Save File**  :w -  Mix with q to save and quit. 
 - **Quit** :q - Quit without saving. Mix with ! to just abandon. 
 - **Save and Quit**  :x (same as :wq)
+
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
+
 - **Invoke Spell Check** :setlocal spell
 - **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
 - **Change colorscheme** :colorscheme molokai will set the colors to molokai. And likewise for others. 
@@ -215,10 +217,9 @@ There are hundreds of colorschemes available for Vim. Its really cumbersome, if 
 
 Fugitive really makes git a thing for writers. Now we don't need to go out of vim (to shell command line) and add, commit or push as a separate operation. We can now do all these operations from with in the open vim file (post) without even specifying the name of the file (duh). Here are the four basic commands
 - **Gwrite** add the current post to git
-- **Gcommit -m 'commit message'** This will add the post to the current branch. 
+- **Gcommit -m 'commit message'** This will add the post to the current branch.
 - **Gpush** - That's it. Your post is now on GitHub and possibly on your blog. 
-
-    	Important point : All the commands are starting with a capital letter. 
+Important point : All the commands are starting with a capital letter. 
 
 ### godlygeek/Tabular
 
