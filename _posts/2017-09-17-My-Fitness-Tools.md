@@ -26,7 +26,7 @@ While I cover my dashboard , I will also attempt to demystify the health space w
 	I thought this life style was normal for a mid forties mid level manager. I really did. I had missed my regular physical two years in a row in the name of Work Pressure ! And I was not planning this time either. The only reason I was forced to go to doctor was to ask for a cure for my snoring. Thank you wifey!! After routine tests, doctor announced that I was diabetic. My A1C was 7.2. At my insistance of not going on a daily pill, he reluctantly believed in my resolve to cure myself with regular exercise:-)  and diet control. He didn't miss to ask me show up two months hence..... Eight weeks flew by. I didn't change a bit. I even convinced myself that it was pre-diabetes. More on my story as we go along...  Lets get started 
 
 
-## Body mass Index.
+# Body mass Index.
 Yes good old BMI. That translates directly to your weight (if your height is not changing) . But still look at BMI. Because there is a healthy weight. You don't want to go negative either.  You need to be between 20 to 22. Anything above 25 is a strict no. For a six feet tall the weight should be 155 pounds (~70 Kilos) . That is simple. Measure weight every month. Okay every week .. NO .. You need to measure at least twice daily. Why ? 
 
 As I said above, weight is a sign curve. If you take one measurement in a month , you will need at least two years to build a trend. If you take two measurements a day, you will start seeing a trend with in two weeks. The benefit of looking at a trend line is, over a longer horizon, it evens out the anomalies such as - when you measured ? What you ate last night ? Did you consume too much water? Goes without saying we are talking naked weight here. (Just to remove the effect of that costly leather jacket you impulse bought to impress your bike buddies :-) 
@@ -37,7 +37,7 @@ And also, I dare you to record your weight twice daily, calculate BMI and then d
 
 > Just weigh twice daily and see how your body trends in two weeks. Believe me, you will start losing weight if thats what you wanted. At least start trending in right direction. The question is how much and how quickly. That is where the tricks play in. First a reminder : You can't reduce weight by exercising hard. There is just no way. Weight loss is possible only through diet control. Why? Our regular diets have too many calories. Unless you are prepping for Olympics there is no chance to beat the mouth. 
 
-### Weight loss cool trick
+## Weight loss cool trick
 The problem is evolution plays against weight watchers. For millions of years, we have lived in shortage of food up until the last few decades . We have designed ourselves to save fat for the rainy day. Human body wants to save the precious calories you eat, into fat cells as quickly as possible. That is the reason we feel sleepy after a sumptuous meal. Body wants to cut down the activity so that it could append the fat store in your body.
 
 Thanks to agricultural revolution and global supply chains, first time in our entire stay on mother earth, we find ourselves in abundance of calories. How do we fight the evolution? 
@@ -46,12 +46,12 @@ Thanks to agricultural revolution and global supply chains, first time in our en
 
 So where were we? How do we beat the evolution? The answer is actually very simple. If body can deposit to fat store during snooze mode, Then it must be able to reverse it as well. So if I skipped dinner, and somehow forced myself to sleep, body should extract some calories from my fat store. I think this was the key. The realization that we can make our body burn fat without climbing a mountain was key to my success. But don't think even for a minute that its easy. Sleeping on empty stomach is actually very hard:-) And you don't need to starve yourself. Just make sure you have three hours between your dinner and sleep. These three hours need to active hours. If you must watch TV, I highly recommend a TV on treadmill. Watch while you slow walk on the mill. Outdoor walk is obviously the best. 
 
-### What to eat?
+## What to eat?
 Of course you need to watch what you eat. For me sugar, alcohol , rice and potatos were to be stopped ,anyways,to manage my diabetes. Turns out they are the biggest source of calories as well. In a way there seemed a direct co-relation between weight gain and diabetes. A vegan diet is proven good. I am born vegetarian. Never had any supplements. I don't see any sign of weakness at 49. More than what you eat, the real point is "How much you eat" and at what intervals. If you can eat less more frequently and make sure you don't watch TV or sleep after a meal, I am sure you will see a positive weight loss trend. 
 
 There are many apps to measure your calorie intake but they need you to key in every meal and every snack. Unless you are on a very strict and fixed diet, its almost impossible to punch in data. I tried many times but finally gave up. I think, this is one area that can use more innovation. For now, my only measure is - Stay hungry :-)
 
-## Physical wellness
+# Physical wellness
 Our bodies are made for motion. Motion is so important, we can literally interchange "Physical Wellness" with "Physical motion". If you look at growing kids, it is hard to make them sit. As we grow old, we slow down. As much as we need incentive to move. Clearly, there is a direct co-relation between motion and health. 
 
 Thanks to wearable tech, measuring your motion is well automated now.
@@ -60,40 +60,40 @@ Thanks to wearable tech, measuring your motion is well automated now.
 
 As I said , Fitbit is easy and a full suite for Physical motion (and sleep). Apple watch trumps it only on the thoughtful design of motion KPIs.  The three rings of Apple watch have rightly become the new measure of Physical motion. 
 
-### Active Calories - Move Goal.
+## Active Calories - Move Goal.
 In contrast to Fitbit (which gives you a total calories), the focus in Apple Watch is Active Calories. Based on your weight and age, there are certain number of calories you will consume even if you don't move a step. This is called `Resting Energy` measured in calories. It is point less to look at this number if you really want to measure your movement. Apple watch carefully subtracts your resting energy from total calories and shows you `Active Calories`. It also allows you to set a goal. A typical starting goal is 300 active calories which roughly translates to 10 K steps.  300 Active calories, with a controlled diet will put you on a five year plan to reduce your weight. If you want to up the game , you are looking at 600 active calories ( 20 K steps). 1000 active calories, consistently means you are an athlete. I am currently at 600 and I beat this goal at least six days a week consistently. 
-### Workout minutes - Exercise Goal
+## Workout minutes - Exercise Goal
 Apple watch demands that you are aerobically active at least 30 minutes a day. This means depending on your age and weight, your heart rate must be above a certain threshold  for 30 minutes across 24 hours. One full minute of brisk walking earns you one minute of exercise goal. 
 
-### Don't s*it long - Stand Goal
+## Don't s*it long - Stand Goal
 Apple watch demands that you stand at least for one minute every hour. If you been on your bum whole hour , watch will send you a notification at the 50th minute , to stand up and get a credit for one hour. You need to get credits for 12 hours in a day  to meet your stand goal. 
 
 	I won't let you pass through the Physical wellness without bragging that I finally ran a half marathon. Yes , May 2016 , Santa Barbara Half Marathon was the target . We ( a group of six friends from same school back in India) started "Couch to Half Marathon" Project in Jan 2016 , right when I was about to hit my first 5 Miles run. "Couch to HM" couldn't have come at more appropriate time. We religiously followed a strict program. No external coach. Just a weekly schedule. If you want the plan, I will be happy to share. Of the six , only three showed up and completed. Again big thanks to my wife. She was there shoulder to shouder in every practice session. And also one of the there to ring the bell.  To date, its  the proudest moment of my life. Of course we are prepping for a full now !! Bottom line, you can't do it alone. Your freinds, your spouse needs to be there. If they are not there, you need to bring them around. They will be happy later that you brought them in. This is another reason , I am writing this post. If I could inspire one soul to give up the couch, it is time worth spent :-)
 
 Before we move to the next topic, I must say that Exercise and Stand Goals on Apple watch are very modest. Let me just say what are the bare minimums
 
-### Minimum motion 
+## Minimum motion 
 Forget Fitbit , forget watch - If you have nothing  , here is the basic minimum motion. One hour walk in the morning. One hour run /walk on Treadmill where ever you are . And an hour long walk after dinner. Three hours a day and you are good.  Why I say Treadmill ?  You can catch up your TV on Treadmill . Yes I am fitness freak but I am no savage. You must watch your Game of Thrones (or House of Cards) , just watch it on a Tread Mill . All it takes is a 250 dollars TV and 40 dollars Roku or Amazon Stick. Oh ya , you already have that  Google cast - good for you. 
 
-## Mental Wellness
+# Mental Wellness
 I think we are driving our minds nuts with distractions. Its not that we are overclocking the mind with more computations. I think our minds are much more capable than what we are using them for. The problem really is we are constantly shifting the gears. Attention span is going probably as big a challenge as obesity.
 
 Unfortunately- our weight , physical motion and mental focus ; all three are deeply intertwined. We just can't fix one in isolation. The good news is both - our body and our mind and excellent designs. They respond quickly to little upkeep. All we need to do is put them into a positive feedback cycle. Then mind takes pleasure in workouts and body return the gift with more mental satisfaction.
 
-### Stop Notifications
+## Stop Notifications
 
 Smartphones have done great things for us. But they have gone overboard with notifications. Every app wants a piece of you to boost their monthly user counts. Thanks but no thanks. I want to check an app when I need it. So the first thing is stop all notifications. Then take fifteen minutes and think, what notifications you really need. Do you want to be notified when your dog swings by your Nest Camera ? Do you need a pop up for every email? WhatsApp, iMessage, Twitter, Facebook. Hell no. 
 I get email notifications only if my boss sends me a note or three of my key customers. You can set up your iPhone to notify you only when the contacts in your VIP list send you a message. Other thing I care is my front door bell. Oh yes, don't stop government emergency alerts. You can safely switch off amber alerts. 
 
 Thankfully laptops are not as bad as cell phones in notifications. But the evil is creeping into Mac as well as Windows 10. I strongly suggest to use a command line environment on Linux. If you must use a graphical interface , just switch off all notifications. 
 
-### Phone calls 
+## Phone calls 
 
 I hate solicitations on phone call. I am sure you do too. We have tried everything from "Do not call registry" to "Service providers spam filters". But the marketers always find a way out. So here is my solution. Forward your cell phone calls to a Google Voice number. And set up "Do not Disturb" on GV. Calls will automatically go to voice mail. If some one really need to get in touch with you, they will leave a voice message. GV instantly notifies you on your cell phone app. You can also have the voice mails sent to Google Hangouts. Google transcription is very powerful now. The GV message gives a complete transcript. The best thing is, Google voice has among the best spam filter.
 
 What if you are driving? Good question. Here is the answer - You are NOT supposed to take calls while driving. Favor yourself and your near ones. Nothing is as important as your safety and that of your fellow passengers on the road. 
 
-### Meditation Apps
+## Meditation Apps
 
 Now that we have tamed our phones and laptops, lets see how technology can help us. 
 
@@ -101,13 +101,13 @@ Apple Watch has a  little app of goodness called `Brethe`.  It only asks you to 
 
 Recently I discovered another app for meditation. A recommendation from some old Tim Ferris podcast. `Headspace` appears to be a complete solution to meditation. I am still in free basic pack of ten sessions. I will come back to this post once I am done with more feedback. 
 
-### Spirituality
+## Spirituality
 
 No I am not asking you to become religious if you don't have faith. It is possible to be an atheist and still be spiritual. I personally feel peace in a place of worship. It may be a temple or a church. A weekly visit help me get my mind in order. Reading or listening to a holy book daily is even better. I regularly listen to Gita podcast. Once I finish it, I will listen to Bible. Try out few days on your walks. If it helps, why not ? Our goal is to achieve fitness. It is quite difficult to be fit with a wandering mind :-)
 
-### Minimalism 
+## Minimalism 
 Our bodies learn from our habits. If you have twenty pairs of shoes, you should not be surprised that your body got trained in hoarding extra twenty pounds. Start with your ward robe. Give those extra jeans to needy. Thrift stores will thank you. You will have more space in your closet. And your body will learn to let go. 
-## Condition Management 
+# Condition Management 
 The hard fact of getting old is sooner or later we will succumb to some medical condition. Hypertension , Diabetes, Heart conditions, Cancer to name few. Medical advice is absolute essential in such cases, but if you are fit, and follow a daily routine, chances are you will negotiate well. I remember words of wisdom from an old friend - I quote 
 
 > You are either going to reduce weight to avoid heart attack or heart attack will make you do so. Do it before or do it after, your choice. 
