@@ -63,7 +63,8 @@ A close comparison would be electricity. Electricity can manifest itself into fa
 	`Atma` shapes your reality based on the `Sharddha` you have. 
 
 # `Bhoota` 
-* The Manifested - living or dead*
+*The Manifested - living or dead*
+
 Everything that we see around us, that we can feel with our senses is a `Bhoota`. Gita doesn't differentiate living from non-living. Carrying on the example above - A refrigerator is a `Bhoota`. So is a fan. A stone, a mountain , a river , you and me. All are `Bhoota`. 
 
 >In another context, `Bhoota` means past. Which is correct cuz all that is manifested is already in past. `Atma` enables all `Bhootas` and also represents all the possibilities of future. Thus `Atma` is future already wrapped within you. You will unpack it with your `Shraddha`. 
@@ -72,10 +73,12 @@ Everything that we see around us, that we can feel with our senses is a `Bhoota`
 
 # `Swadharma` , `Swabhava` 
 *The nature of `Bhoota`*
+
 Every manifestation, be it living or non-living, has a nature. For example refrigerator has a nature of cooling things. That is what it is made for. Water is supposed to move down. Air spreads in all directions. The designed nature of manifested is called `Swabhava` and acting in line with one's nature is `Swadharma`. We are bound by our `Swadharma`. We can't sway much from it even if we wish to. That is the downside of manifested. 
 	We are slave to our `Swabhava` (nature)
 # `Buddhi` 
 *Intelligence*
+
 `Buddhi` allows to to deviate from `Swabhava`. How much can you deviate ? Very little. No matter how strong your intelligence, it is still miniscule to the complexity of your manifestation. No one can alter `Swadharma` with sheer stroke of Intelligence. But many can understand their nature with intelligence. In Gita, this is called `Atmoupamyen Drishti` - which means our ability to look at us as a third person and analyse our nature. 
 	Human life is a gift because of our intelligence. No other living or non-living has this blessing. Some animals may have instances of intelligence but its very limited. In effect, most animals and non-living act as per their `Swabhava`. 
 
@@ -116,6 +119,7 @@ The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Kar
 
 # `Maya` 
 *The web of Manifestation *
+
 `Maya` is the complexity of `Prakriti`. When `Prakriti`  grows beyond a certain level, our `Buddhi` is unable to decipher desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
 
 >A word on web of Maya (Matrix) - Manifestations rarely live in isolation. For example it is as incorrect to say 'God alone created universe' as it would be to say 'Steve Jobs alone created iPhone'. A better way to understand is that Steve had some `Karma` that led to manifestation of an idea. Then Johnny Ive manifested his design onto Steve's idea. Phil Schiller added his marketing machine atop. And thousands of designers, developers, marketers made it a web of manifestation. That is just one product. Imagine this at a universal scale. Imagine there are beings with much greater capacities than  humans. Beings that can manifest stars and planets and galaxies. But never alone. Even for a simple bottle of wine we take help of bacteria. All this mush mush of `Swadharma` and `Karma` leads to an creation. 
@@ -130,9 +134,11 @@ Gita is written for a person who strives to end the misery of `Maya`. `Karmas` (
 Krishna describes the Maya around you as a battlefield `Kshetra`. The battles are not outside in some physical field. We are constantly at battle with in ourselves. One who understand this internal battle field is called `Kshetragya`. 
 # `Daivi Sampad ` 
 *The spoils of war* 
+
 The path to `Nishkam` is not one but for most it goes from lowly `Tamasik Karma` to middle `Rajasi Karma` and the upper `Satvik Karma`. The real battle starts when your `Satva` started manifesting into self actualization, recognition and respect. The accomplishments and influence - known as `Daivy Sampad` of this stage normally leads to `Ahankara` (extreme pride) and that becomes the reason of fall. Gita says that ones with `Daivy Sampad` must tread carefully. 
 
 Quite the opposite is `Aasuri Sampad` which is manifestation of `Tamasik Karma`. Led by  extreme desires, anger and lust `Aasuri Sampad` is the lowest fall of `Atma`. 
 # `Hinsa` 
 *Violence - Fall of `Atma`*
+
 Unlike the definitions of Jain and Buddhism - Gita doesn't care about external violence. Though the outcomes may be similar. As per Gita `Hinsa` is fall of one's own Atma. Gita says that through `Karma` we can push our `Atma` in `Aasuri` stages or pull it up into `Devi` Sampad. A person with `Devi Sampad` will obviously abstain from mental, verbal or physical violence. The focus is `Atma` ; outcome is non-violence. Not the other way around. This definition solves many problems. For example - a soldier fighting for his country, though committing acts of violence, is fine with Gita cuz he is not putting is `Atma` to `Aasuri` stage. 
