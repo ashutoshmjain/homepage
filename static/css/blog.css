@@ -1,6 +1,7 @@
 .article p {
   font-size: 1.3em;
   margin-bottom: 1.3rem;
+  color: dimgray;
 }
 
 .article li {
