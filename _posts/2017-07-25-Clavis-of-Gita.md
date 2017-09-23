@@ -112,13 +112,15 @@ Last but the most important , Gita says that `Nishkam Karma` is experiential. As
 
 
 # `Prakriti and Purush`
+*Duality of Nature*
+
 The complete set of all `Bhootas` , their `Swadharmas` , their `Buddhi` and `Karmas` represent something called `Prakriti`. Generally speaking all that is manifested and its collective nature is `Prakriti`. Complementary to `Prakriti` is `Purush` - the potential at source and sitting in small buckets in all the `Bhootas`. 
 	`Prakriti` and `Pusrush` are eternal. Neither is good or bad. There is no beginning or end to their existence. It is the `Maya` that causes all the troubles :-)
 
 >From science standpoint , imagine `Prakriti` as all the observable universe (and multiverses if they exist). And `Purush` as the energy that has potential to  convert into matter. May be dark energy :-). If a universe gets to big crunch , all that is left is energy. Energy converts into matter with big bang. Thus the clever definition by design encompasses everything including nothingness and its claim to eternal perpetuity is quite logical. This rest the constant nagging question - When and How it all started? Why and how it would end ? If we take all these unnecessary questions out of debate, we can get started on to something constructive. Which is how do I fix myself !
 
 # `Maya` 
-*The web of Manifestation *
+*The web of Manifestation*
 
 `Maya` is the complexity of `Prakriti`. When `Prakriti`  grows beyond a certain level, our `Buddhi` is unable to decipher desires from `Nishkam`. Its like a spider caught in its own web. Along with `Kaama` (desires) , `Krodha` (anger) , `Lobha` (greed) , Moha (lust) ; it becomes the fifth sin. 
 
