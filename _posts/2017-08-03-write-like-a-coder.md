@@ -334,7 +334,18 @@ Links is a simple fast text browser. It works great on command line without X (G
 
 ## Search (Googler) 
 The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Googler does this. 
-> Googler needs Python3 which is not a default on Slackware 14.2. You can install from the available Slackbuild.
+> Googler needs Python3 which is not a default on Slackware 14.2. You can install from the available Slackbuild. You may also need to to export your browser. 
+
+	export BROWSER=links
+
+Once you are done with installation, browser export and spent 15 minutes in Googler, I bet you will never go back to browser based search particularly on a GUI. It is fast, clean and there are many more things you can do with `googler`.
+
+- `?` opens a basic help in line on the terminal
+- `n , p` moves you next ten search results forward or backward. 
+- Each search result has a number. Entering the search number on the cursor will opne the search page in links
+- You can come back to `googler` (from links) with links's `q` command. And continue where you left off. Press a `n` and then `p` to come back to same set of results. 
+- A double enter or `q` exits the googler
+- You can export different browsers in separate sessions of `fbterm`. Lynx is a good option to explore. Very fast. 
 
 ## Cloud Storage (Mega)
 Even though you can share your files through GitHub , you may still have content that you want to share among your computers privately, across platforms and mobile device. Unfortunately Google doesn't provide a auto sync for Linux (strange!!) . Mega provides a GUI as well as command line based interface (and 50 gigs of free storage) that works on Windows , Macs, Linux, Android and iOS. God's gift. I don't understand all the subtleties but it says it is fully encrypted. 
