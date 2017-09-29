@@ -17,7 +17,7 @@ Before we plough the whole nine yards, let me give you the four corners. I think
  - Body Mass
  - Physical Wellness 
  - Mental Wellness
- - Condition Management (if you have no medical conditions , just put your average heart rate here. Its good to know thing is still kicking inside :-) 
+ - Condition Management
  
 
 > A word about my motivation: I believe in measurements. To the extent , I think, if we start measuring religiously, the intended effect automagically starts. Reasons could be psychological. For example, if you want to reduce your weight. Just start hopping on the weigh scale three times a day. If you want to improve your steps, just start checking your motion six times a day. The act of measuring somehow shapes our priorities. The good thing about mobile devices and wearables is most of the measurements are almost automated. But we still need to look at them. Look at the graphs. Understand the trends. For example, after regular measurements, I found that my wight goes up a pound the morning. Also that weight loss follows a sine curve. Body weight changes with the phases of moon! Okay that last one was a joke but you get the point.
