@@ -11,7 +11,9 @@ icon: icon-fire-alt
  No, this article is not about the Iron Pumping machines :-)  In fact, `running` is the only exercise I do. This article is not even about workouts. This is about how I track my fitness.  How can we leverage the technology to enhance our well being. And this article is also about a holistic view on fitness. Not just the `weight loss` or `physical activities`. Though they are a significant part. This article is also personal. I will plug in my `fitness journey` (shamelessly :-) to make a point - If I could do it, anyone can. As you will see during the course of this long post , I lost around 20% of my body weight (40 pounds) and reversed the course from a sure lifelong trap of diabetes pills. Did I find the holy grail of fitness? - No. Will it work for everyone? - No. Then why should I read ? It will sure put you on a path. Make you curios of your body. And may be help you put your cellular investments to a better use. And I promise to keep it fun :-)
  
 Before we plough the whole nine yards, let me give you the four corners. I think fitness has four dimensions. I think we need them in front of our eyes. Always on our tips. Lets just call it our `Daily dashboard`. One measurement for each of these. kinda our four top stocks ...
- 
+
+<img style="float: right;" src="/homepage/static/img/blog/AmJBlog/health_dashboard.jpg">
+
  - Body Mass
  - Physical Wellness 
  - Mental Wellness
