@@ -1,20 +1,24 @@
 .article p {
   font-size: 2.0rem;
   letter-spacing: 0.2rem;
-  line-height: 2.3rem;
+  line-height: 2.4rem;
   margin-bottom: 1.3rem;
 }
 
 .article li {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.4rem;
 }
 
 .article code {
-  font-size: 1.1rem;
+  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.4rem;
 }
 
 .article blockquote {
-   font-size: 1.1em;
+   font-size: 1.0em;
 }
 
 .article h1,
