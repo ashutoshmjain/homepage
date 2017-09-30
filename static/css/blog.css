@@ -1,5 +1,6 @@
 .article p {
   font-size: 2.0rem;
+  font-weight: inherit;
   margin-bottom: 1.3rem;
 }
 
