@@ -43,6 +43,7 @@ permalink: /
         </div>
     </nav>
 </div>
+<!--
 #<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
 #    <ol class="carousel-indicators">
 #        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
@@ -78,7 +79,7 @@ permalink: /
 #       <span class="sr-only">Next</span>
 #   </a>
 # </div>
-
+-->
 {% for section in site.data.landing %}
   {% assign loopindex = forloop.index | modulo: 2 %}
   <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
