@@ -128,18 +128,17 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 >One word of caution, till you grasped most normal mode commands (which are many), your cursor will go random places cuz you will invariably hit a key that invokes some motion command. There are only two ways to handle this. Either undo (u) or just be careful in normal mode. If something untoward happens , be curious to know the behavior. You will probably not remember which key you pressed. Still keep your eyes open. Chances of this happening in insert mode are less. 
 
 - **Basic movement** `h, j , k , l `- Also called the home row. Its moving the cursor left right up and down. Replacement for the up down and side arrows. Four keys saved. Don't know why Blackberry didn't implement it in their physical keyboard :-) You can do 2j to move 2 lines down. Suffixing numbers to the motion keys a powerful way to extend your reach. `w` will move the cursor to the beginning of next word. `e` will move to the end of current word.
-- **One screen line** A line in vim is the input between two press of enters (NOT Fullstops). In a writer's world , a line can be a full paragraph. So pressing j or k would move a paragraph up or down. How do we move one line up or down as displayed on screen  - press `gj or gk`. For writers,  Its a good idea to map  `gj` to  `j` and  `gk` to `k`.  
-- **Undo**  `u`- Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember.`U` will fix the whole line.  
+- **One screen line** A line in vim is the input between two press of enters (NOT Fullstops). In a writer's world , a line can be a full paragraph. So pressing j or k would move a paragraph up or down. How do we move one line up or down as displayed on screen  - press `gj or gk`. For writers,  Its a good idea to map  `gj` to  `j` and  `gk` to `k`.
+- **Undo**  `u`- Undo last action. Vim has a long memory, more than your mind. You can continue to undo as long as you remember.`U` will fix the whole line.
 - **Jump** `$`- move the cursor to the end of the current line
 - **Jump Back**`^`- move the cursor to the beginning of the current line
 - **Jump Back** `0` - move the cursor to the first character of the line 
-- **Jump and Insert**`A` - move the cursor at the end of the current row and put you in insert mode.
-- **Jump Back and Insert**`I` - move the cursor to the start of current row and put you in insert mode..
 - **Go to the Top** - `gg` takes the cursor to the top of the document. 
 - **Go to the Bottom** `G` takes the cursor to the bottom of the document. Line number followed by `G` will take you to that line
+- **Toggle open and close brackets** If you keep your cursor on the open bracket `{` and press `%` vim will jump you the closing bracket and vice versa. This is a handy feature in coding to make sure all the brackets are closed. 
 - **Top of visible page** `Shift h` will do the trick.
 - **Bottom of the visible page** - `Shift l` will do the trick.
-- **Back the previous position** - `ctrl o` will bring you back to last position. 
+- **Back the previous position** - `ctrl o` will bring you back to last position. `Ctrl I` will do the reverse.  
 - **Center screen** `zz` to scroll the screen to bring cursor vertically center of the screen.
 - **Indenting** `Shift >` You don't need to go to insert mode for indenting the lines. Shift with `Greater than` indents right and `less than` indents left.
 - **Pull the line below to merger on cursor line** `Shift j`
@@ -147,7 +146,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - **Delete line** `dd` - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.So `yggG` will select the whole document. `dggG` will delete all the lines. 
 - **Copy a line** `yy` - more of yanking under visual mode.
 - **Paste a line** `p` - whatever was previously yanked or deleted.
-- **Search** Vim has powerful search and its a lot more involved topic. For now `/` invokes search in forward direction. `*` looks for the word on cursor. `n` moves the search forward one instance at a time. `N` goes backward. If you wanted to search backwards in the first place, use `?` in place of `/`. Remember `Ctrl o` to come back to where you started. `Ctrl I` is the reverse of `ctrl o`
+- **Search** Vim has powerful search . `/` invokes search in forward direction. `*` looks for the word on cursor. `n` moves the search forward one instance at a time. `N` goes backward. If you wanted to search backwards in the first place, use `?` in place of `/`. Remember `Ctrl o` to come back to where you started. `Ctrl I` is the reverse of `ctrl o`. Thus search can be used as a powerful tool to navigate the document for editing. 
 
 >Above commands should make your move around the screen  easy. Lets say you can now magically place your cursor wherever you want (like touch on iPhone) , then there are only four  basic operations that the editing is all about  - 1) Copy , 2) Delete, 3) Change and lastly 4) insert. This is how vim accomplishes these operations :- 
 
@@ -160,9 +159,10 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 ## Insert mode 
 'i' is the key to initiate the 'insert' mode. You press i, vim is ready for you to tell it what to insert. We can get into insert mode with 
 - A (end of the line), 
-- I (start of the line, 
-- O insert a line above and be in insert mode.
-- o insert a new line below and be in insert mode
+- a (end of  the word)
+- I (start of the line), 
+- O (insert a line above and be in insert mode).
+- o (insert a new line below and be in insert mode)
 
 >The key difference in keys y,d,c v/s i (and rest of the above insert mode invocation keys) is that in insert mode you don't have option to use motion keys to make a selection. Rightly so, cuz now you have the whole keyboard for you to type. You can't even get to command mode from insert mode i.e if you press colon , it print : on screen rather than taking you to command mode. To get into command mode, you need to come back to normal mode with a press of escape. 
 
@@ -178,16 +178,22 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 
-- **Invoke Spell Check** :setlocal spell
-- **Relative Numbering for the Rows** :set rnu As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
-- **Change colorscheme** :colorscheme molokai will set the colors to molokai. And likewise for others. 
-- **Making buffer modifiable** :set ma  and :set noma to do the opposite. 
+- **Invoke Spell Check** ` :setlocal spell` then you can use `]s or [s` to move to the misspelled words and use `z=`to find the correct options. `zg` to add the word to local library. 
+- **Substitute words** `:%s/<old>/<new>/gc` - This will take you to every instance of `<old>` and seek your permission  to substitute it with `<new>`. 
+- **Insert a text file at the prompt** `:r <text file>` will insert the whole text file. This is the best way to consolidate notes into one file. zSH auto completion is supported to find  the file path.  
+- **Relative Numbering for the Rows** `:set rnu` As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
+- **Change colorscheme** `:colorscheme molokai` will set the colors to molokai. And likewise for others. 
+- **Making buffer modifiable** `:set ma`  and `:set noma` to do the opposite. 
+
+
+>In addition its own commands (which are many), Vim supports all the terminal commands right from with in the editor screen. From Normal mode press `:!` followed by any terminal command. For example in Linux `:!ls` will give you the contents of the current directory. In Windows `!dir` will do the same. You can even delete or create new files without ever leaving the editor. Try doing this in MS Word :-) The best part is, you can pull the output of terminal commands into vim using `:r !<Terminal Command>`. This means that you never need to leave vim. You can create a log of all your terminal actions. A great boon for system admins. This also means that despite being a light weight editor, vim can scale from system admin to coding in any language. In essence , it serves as a unified text interface for writers, coders, and admins. 
 
 Needless to say that this list is tip of iceberg. The best way to explore vim is to type :help in an open vim.
 
 ## Visual mode
-This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (copy) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
->I rarely use visual mode as I can easily select the text in normal mode with y. 
+The primary use of visual mode is to cut, copy and paste. This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (or d to delete) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
+
+>In addition to copy and paste, `v`has a unique use. The text , selected with `v` can be saved into a new file using :w <Filename> . This comes in handy if you want to safe keep a para of text (or a piece of code) before making changes to it . Just `v` to select with motion keys and :w to save in a file, without leaving the your current file in editor. 
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
