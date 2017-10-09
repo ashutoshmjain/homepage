@@ -178,11 +178,12 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 
-- **Invoke Spell Check** ` :setlocal spell` then you can use `]s or [s` to move to the misspelled words and use `z=`to find the correct options. `zg` to add the word to local library. 
+- **Invoke Spell Check** `:setlocal spell` then you can use `]s or [s` to move to the misspelled words and use `z=`to find the correct options. `zg` to add the word to local library. 
 - **Substitute words** `:%s/<old>/<new>/gc` - This will take you to every instance of `<old>` and seek your permission  to substitute it with `<new>`. 
 - **Insert a text file at the prompt** `:r <text file>` will insert the whole text file. This is the best way to consolidate notes into one file. zSH auto completion is supported to find  the file path.  
 - **Relative Numbering for the Rows** `:set rnu` As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
 - **Change colorscheme** `:colorscheme molokai` will set the colors to molokai. And likewise for others. 
+- **Commands to improve search** We know we can search forward with `/` and backwards with `?`. `n and N` are used to move forward and backward for the next match. `:set ic` will make search case insensitive. `:set noic` will make search case sensitive again. `:set hls` will highlight all the matches. `:set nohls` will do the opposite. `:set is` for increase search will match partial phrases. `:set nois` will make the search exact again. You can set multiple options in one shot. For example `:set hls is ic`  is a valid command. 
 - **Making buffer modifiable** `:set ma`  and `:set noma` to do the opposite. 
 
 
