@@ -372,8 +372,6 @@ Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to rel
 ## Music
 Simple console command `play` can play any mp3 or .ogg files. Prefer .ogg as its open source v/s mp3 which I guess is a proprietary format.
 
-## Download music from YouTube
-
 You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip the audio piece with `ffmpeg`. To make it simple, let `ffmpeg` handle the codecs with command below 
 
 	ffmpeg -i videofile.mp4 -vn -acodec libvorbis audiofile.ogg
