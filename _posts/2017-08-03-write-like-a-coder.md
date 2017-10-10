@@ -380,7 +380,10 @@ You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip t
 You can use `-acodec libmp3lame` and change the extension of output file to mp3 for mp3 encoding. 
 Both `youtube-dl` and `ffmpeg` are available on Slackbuilds.org
 
-If you don't want to copy the urls of the YouTube videos from a graphical interface, the easiest way is  to use `gvsearch` and pass on the url to `youtibe-dl`
+If you don't want to copy the urls of the YouTube videos from a graphical interface, the easiest way is  to use `gvsearch` and pass on the url to `youtube-dl`
+
+It might appear a lot of work but once you have these two long commands in your terminal, you can arrow up /down to get to to them (or search your commandline history). Offline listeing is really fun :-) c
+
 
 	youtube-dl "gvsearchX:search tag" 
 	(X stands for the number of hits you want to pass on ..typically 1)
