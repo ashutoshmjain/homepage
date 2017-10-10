@@ -365,3 +365,25 @@ Once you have registered a new account with command `megareg` or added  your exi
 - `megals` - Just like ls on your computer to list directories and files
 - `megadf` - Just like df on your computer to show the storage consumption 
 - `megacopy`- to sync a local directory with cloud or vice versa
+
+# Fun Stuff
+Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to relax. What's better than music ?
+
+## Music
+Simple console command `play` can play any mp3 or .ogg files. Prefer .ogg as its open source v/s mp3 which I guess is a proprietary format.
+
+## Download music from YouTube
+
+You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip the audio piece with `ffmpeg`. To make it simple, let `ffmpeg` handle the codecs with command below 
+
+	ffmpeg -i videofile.mp4 -vn -acodec libvorbis audiofile.ogg
+	(-i is for input video file; -vn is nor no video; -acodec allows ffmpeg to determine the audio format of the input vidio file on and libvorbis helps to make it .ogg )
+
+You can use `-acodec libmp3lame` and change the extension of output file to mp3 for mp3 encoding. 
+Both `youtube-dl` and `ffmpeg` are available on Slackbuilds.org
+
+If you don't want to copy the urls of the YouTube videos from a graphical interface, the easiest way is  to use `gvsearch` and pass on the url to `youtibe-dl`
+
+	youtube-dl "gvsearchX:search tag" 
+	(X stands for the number of hits you want to pass on ..typically 1)
+
