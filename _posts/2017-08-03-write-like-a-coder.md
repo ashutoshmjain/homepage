@@ -366,6 +366,9 @@ Once you have registered a new account with command `megareg` or added  your exi
 - `megadf` - Just like df on your computer to show the storage consumption 
 - `megacopy`- to sync a local directory with cloud or vice versa
 
+## Email 
+Good old email is a must have for writers. Command line has numbers of solid email clients. I use Alpine. Its simple, user friendly but the composing messages (editor) is very limited. I think mutt has a lot better integration with vim for writing longer emails. 
+
 # Fun Stuff
 Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to relax. What's better than music ?
 
