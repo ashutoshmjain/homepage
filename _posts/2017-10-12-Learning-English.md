@@ -514,156 +514,89 @@ Here is the complete conjugation of the verb "Love"--_Active Voice_.
 
 ### ADVERB
 
-An _adverb_ is a word which modifies a verb, an adjective or another
-adverb. Thus, in the example--"He writes _well_," the adverb shows the
-manner in which the writing is performed; in the examples--"He is
-remarkably diligent" and "He works very faithfully," the adverbs modify
-the adjective _diligent_ and the other adverb _faithfully_ by expressing
-the degree of diligence and faithfulness.
+An _adverb_ is a word which modifies a verb, an adjective or another adverb. Thus, in the example--"He writes _well_," the adverb shows the manner in which the writing is performed; in the examples--"He is remarkably diligent" and "He works very faithfully," the adverbs modify the adjective _diligent_ and the other adverb _faithfully_ by expressing the degree of diligence and faithfulness.
 
-Adverbs are chiefly used to express in one word what would otherwise
-require two or more words; thus, _There_ signifies in that place;
-_whence_, from what place; _usefully_, in a useful manner.
+Adverbs are chiefly used to express in one word what would otherwise require two or more words; thus, _There_ signifies in that place; _whence_, from what place; _usefully_, in a useful manner.
 
-Adverbs, like adjectives, are sometimes varied in their terminations to
-express comparison and different degrees of quality.
+Adverbs, like adjectives, are sometimes varied in their terminations to express comparison and different degrees of quality.  Some adverbs form the comparative and superlative by adding _er_ and _est_; as, _soon_, _sooner_, _soonest_.
 
-Some adverbs form the comparative and superlative by adding _er_ and
-_est_; as, _soon_, _sooner_, _soonest_.
+Adverbs which end in _ly_ are compared by prefixing _more_ and _most_; as, _nobly_, _more nobly_, _most nobly_.
 
-Adverbs which end in _ly_ are compared by prefixing _more_ and _most_;
-as, _nobly_, _more nobly_, _most nobly_.
-
-A few adverbs are irregular in the formation of the comparative and
-superlative; as, _well_, _better_, _best_.
+A few adverbs are irregular in the formation of the comparative and superlative; as, _well_, _better_, _best_.
 
 
-PREPOSITION
+### PREPOSITION
 
-A _preposition_ connects words, clauses, and sentences together and shows
-the relation between them. "My hand is on the table" shows relation
-between hand and table.
+A _preposition_ connects words, clauses, and sentences together and shows the relation between them. "My hand is on the table" shows relation between hand and table.
 
-Prepositions are so called because they are generally placed _before_ the
-words whose connection or relation with other words they point out.
+Prepositions are so called because they are generally placed _before_ the words whose connection or relation with other words they point out.
 
 
-CONJUNCTION
+### CONJUNCTION
 
-A _conjunction_ joins words, clauses and sentences; as "John _and_
-James." "My father and mother have come, _but_ I have not seen them."
+A _conjunction_ joins words, clauses and sentences; as "John _and_ James." "My father and mother have come, _but_ I have not seen them."
 
-The conjunctions in most general use are _and, also; either, or; neither,
-nor; though, yet; but, however; for, that; because, since; therefore,
-wherefore, then; if, unless, lest_.
+The conjunctions in most general use are _and, also; either, or; neither, nor; though, yet; but, however; for, that; because, since; therefore, wherefore, then; if, unless, lest_.
 
 
-INTERJECTION
+### INTERJECTION
 
-An _interjection_ is a word used to express some sudden emotion of the
-mind. Thus in the examples,--"Ah! there he comes; alas! what shall I do?"
-_ah_, expresses surprise, and _alas_, distress.
+An _interjection_ is a word used to express some sudden emotion of the mind. Thus in the examples,--"Ah! there he comes; alas! what shall I do?" _ah_, expresses surprise, and _alas_, distress.
 
-Nouns, adjectives, verbs and adverbs become interjections when they are
-uttered as exclamations, as, _nonsense! strange! hail! away!_ etc.
+Nouns, adjectives, verbs and adverbs become interjections when they are uttered as exclamations, as, _nonsense! strange! hail! away!_ etc.  
 
-We have now enumerated the parts of speech and as briefly as possible
-stated the functions of each. As they all belong to the same family they
-are related to one another but some are in closer affinity than others.
-To point out the exact relationship and the dependency of one word on
-another is called _parsing_ and in order that every etymological
-connection may be distinctly understood a brief resume of the foregoing
-essentials is here given:
+We have now enumerated the parts of speech and as briefly as possible stated the functions of each. As they all belong to the same family they are related to one another but some are in closer affinity than others.  To point out the exact relationship and the dependency of one word on another is called _parsing_ and in order that every etymological connection may be distinctly understood a brief resume of the foregoing essentials is here given:
 
-The signification of the noun is _limited_ to _one_, but to any _one_ of
-the kind, by the _indefinite_ article, and to some _particular_ one, or
-some particular _number_, by the _definite_ article.
+The signification of the noun is _limited_ to _one_, but to any _one_ of the kind, by the _indefinite_ article, and to some _particular_ one, or some particular _number_, by the _definite_ article.
 
-_Nouns_, in one form, represent _one_ of a kind, and in another, _any
-number_ more than one; they are the _names of males_, or _females_, or of
-objects which are neither male nor female; and they represent the
-_subject_ of an affirmation, a command or a question,--the _owner_ or
-_possessor_ of a thing,--or the _object_ of an action, or of a relation
-expressed by a preposition.
+_Nouns_, in one form, represent _one_ of a kind, and in another, _any number_ more than one; they are the _names of males_, or _females_, or of objects which are neither male nor female; and they represent the _subject_ of an affirmation, a command or a question,--the _owner_ or _possessor_ of a thing,--or the _object_ of an action, or of a relation expressed by a preposition.
 
-_Adjectives_ express the _qualities_ which distinguish one person or
-thing from another; in one form they express quality _without
-comparison_; in another, they express comparison _between two_, or
-between _one_ and a number taken collectively,--and in a third they
-express comparison between _one_ and a _number_ of others taken
+_Adjectives_ express the _qualities_ which distinguish one person or thing from another; in one form they express quality _without comparison_; in another, they express comparison _between two_, or between _one_ and a number taken collectively,--and in a third they express comparison between _one_ and a _number_ of others taken
 separately.
 
-_Pronouns_ are used in place of nouns; one class of them is used merely
-as the _substitutes_ of _names_; the pronouns of another class have a
-peculiar _reference_ to some _preceding words_ in the _sentence_, of
-which they are the substitutes,--and those of a third class refer
-adjectively to the persons or things they represent. Some pronouns are
-used for both the _name_ and the _substitute_; and several are frequently
-employed in _asking questions_.
+_Pronouns_ are used in place of nouns; one class of them is used merely as the _substitutes_ of _names_; the pronouns of another class have a peculiar _reference_ to some _preceding words_ in the _sentence_, of which they are the substitutes,--and those of a third class refer adjectively to the persons or things they represent. Some pronouns are used for both the _name_ and the _substitute_; and several are frequently employed in _asking questions_.
 
-_Affirmations_ and _commands_ are expressed by the verb; and different
-inflections of the verb express _number_, _person_, _time_ and _manner_.
-With regard to _time_, an affirmation may be _present_ or _past_ or
-_future_; with regard to manner, an affirmation may be _positive_ or
-_conditional_, it being doubtful whether the condition is fulfilled or
-not, or it being implied that it is not fulfilled;--the verb may express
-_command_ or _entreaty_; or the sense of the verb may be expressed
-_without affirming_ or _commanding_. The verb also expresses that an
-action or state _is_ or _was_ going on, by a form which is also used
-sometimes as a noun, and sometimes to qualify nouns.
+_Affirmations_ and _commands_ are expressed by the verb; and different inflections of the verb express _number_, _person_, _time_ and _manner_.  With regard to _time_, an affirmation may be _present_ or _past_ or _future_; with regard to manner, an affirmation may be _positive_ or _conditional_, it being doubtful whether the condition is fulfilled or not, or it being implied that it is not fulfilled;--the verb may express _command_ or _entreaty_; or the sense of the verb may be expressed _without affirming_ or _commanding_. The verb also expresses that an action or state _is_ or _was_ going on, by a form which is also used sometimes as a noun, and sometimes to qualify nouns.
 
-_Affirmations_ are _modified_ by _adverbs_, some of which can be
-inflected to express different degrees of modification.
+_Affirmations_ are _modified_ by _adverbs_, some of which can be inflected to express different degrees of modification.
 
-Words are joined together by _conjunctions_; and the various _relations_
-which one thing bears to another are expressed by _'prepositions. Sudden
-emotions_ of the mind, and _exclamations_ are expressed by _interjections_.
+Words are joined together by _conjunctions_; and the various _relations_ which one thing bears to another are expressed by _'prepositions. 
 
-Some words according to meaning belong sometimes to one part of speech,
-sometimes to another. Thus, in "After a storm comes a _calm_," _calm_ is
-a noun; in "It is a _calm_ evening," _calm_ is an adjective; and in
-"_Calm_ your fears," _calm_ is a verb.
+Sudden emotions_ of the mind, and _exclamations_ are expressed by _interjections_.
 
-The following sentence containing all the parts of speech is parsed
-etymologically:
+Some words according to meaning belong sometimes to one part of speech, sometimes to another. Thus, in "After a storm comes a _calm_," _calm_ is a noun; in "It is a _calm_ evening," _calm_ is an adjective; and in "_Calm_ your fears," _calm_ is a verb.
 
-_"I now see the old man coming, but, alas, he has walked with much
-difficulty."_
+The following sentence containing all the parts of speech is parsed etymologically:
 
-_I_, a personal pronoun, first person singular, masculine or feminine
-gender, nominative case, subject of the verb _see_.
+_"I now see the old man coming, but, alas, he has walked with much difficulty."_
+
+_I_, a personal pronoun, first person singular, masculine or feminine gender, nominative case, subject of the verb _see_.  
 
 _now_, an adverb of time modifying the verb _see_.
 
-_see_, an irregular, transitive verb, indicative mood, present tense,
-first person singular to agree with its nominative or subject I.
+_see_, an irregular, transitive verb, indicative mood, present tense, first person singular to agree with its nominative or subject I.
 
 _the_, the definite article particularizing the noun man.
 
 _old_, an adjective, positive degree, qualifying the noun man.
 
-_man_, a common noun, 3rd person singular, masculine gender, objective
-case governed by the transitive verb _see_.
+_man_, a common noun, 3rd person singular, masculine gender, objective case governed by the transitive verb _see_.
 
-_coming_, the present or imperfect participle of the verb "to come"
-referring to the noun man.
+_coming_, the present or imperfect participle of the verb "to come" referring to the noun man.
 
 _but_, a conjunction.
 
 _alas_, an interjection, expressing pity or sorrow.
 
-_he_, a personal pronoun, 3rd person singular, masculine gender,
-nominative case, subject of verb has walked.
+_he_, a personal pronoun, 3rd person singular, masculine gender, nominative case, subject of verb has walked.
 
-_has walked_, a regular, intransitive verb, indicative mood, perfect tense,
-3rd person singular to agree with its nominative or subject _he_.
+_has walked_, a regular, intransitive verb, indicative mood, perfect tense, 3rd person singular to agree with its nominative or subject _he_.
 
 _with_, a preposition, governing the noun difficulty.
 
 _much_, an adjective, positive degree, qualifying the noun difficulty.
 
-_difficulty_, a common noun, 3rd person singular, neuter gender,
-objective case governed by the preposition _with_.
+_difficulty_, a common noun, 3rd person singular, neuter gender, objective case governed by the preposition _with_.
 
 N.B.--_Much_ is generally an adverb. As an adjective it is thus compared:
 
@@ -673,51 +606,28 @@ N.B.--_Much_ is generally an adverb. As an adjective it is thus compared:
 
 
 
-CHAPTER III
+# CHAPTER III THE SENTENCE
 
-THE SENTENCE
-
-Different Kinds--Arrangement of Words--Paragraph
+## Different Kinds--Arrangement of Words--Paragraph
 
 
-A sentence is an assemblage of words so arranged as to convey a determinate
-sense or meaning, in other words, to express a complete thought or idea.
-No matter how short, it must contain one finite verb and a subject or agent
-to direct the action of the verb.
+A sentence is an assemblage of words so arranged as to convey a determinate sense or meaning, in other words, to express a complete thought or idea.  No matter how short, it must contain one finite verb and a subject or agent
+to direct the action of the verb.  "Birds fly;" "Fish swim;" "Men walk;"--are sentences.
 
-"Birds fly;" "Fish swim;" "Men walk;"--are sentences.
-
-A sentence always contains two parts, something spoken about and something
-said about it. The word or words indicating what is spoken about form what
-is called the _subject_ and the word or words indicating what is said about
-it form what is called the _predicate_.
-
-In the sentences given, _birds_, _fish_ and _men_ are the subjects, while
+A sentence always contains two parts, something spoken about and something said about it. The word or words indicating what is spoken about form what is called the _subject_ and the word or words indicating what is said about it form what is called the _predicate_.  In the sentences given, _birds_, _fish_ and _men_ are the subjects, while
 _fly_, _swim_ and _walk_ are the predicates.
 
 There are three kinds of sentences, _simple_, _compound_ and _complex_.
 
-The _simple sentence_ expresses a single thought and consists of one
-subject and one predicate, as, "Man is mortal."
+The _simple sentence_ expresses a single thought and consists of one subject and one predicate, as, "Man is mortal."
 
-A _compound sentence_ consists of two or more simple sentences of equal
-importance the parts of which are either expressed or understood, as,
-"The men work in the fields and the women work in the household," or "The
-men work in the fields and the women in the household" or "The men and
-women work in the fields and in the household."
+A _compound sentence_ consists of two or more simple sentences of equal importance the parts of which are either expressed or understood, as, "The men work in the fields and the women work in the household," or "The men work in the fields and the women in the household" or "The men and women work in the fields and in the household."
 
-A _complex sentence_ consists of two or more simple sentences so combined
-that one depends on the other to complete its meaning; as; "When he
-returns, I shall go on my vacation." Here the words, "when he returns"
-are dependent on the rest of the sentence for their meaning.
+A _complex sentence_ consists of two or more simple sentences so combined that one depends on the other to complete its meaning; as; "When he returns, I shall go on my vacation." Here the words, "when he returns" are dependent on the rest of the sentence for their meaning.
 
-A _clause_ is a separate part of a complex sentence, as "when he returns"
-in the last example.
+A _clause_ is a separate part of a complex sentence, as "when he returns" in the last example.  A _phrase_ consists of two or more words without a finite verb.
 
-A _phrase_ consists of two or more words without a finite verb.
-
-Without a finite verb we cannot affirm anything or convey an idea,
-therefore we can have no sentence.
+Without a finite verb we cannot affirm anything or convey an idea, therefore we can have no sentence.
 
 Infinitives and participles which are the infinite parts of the verb
 cannot be predicates. "I looking up the street" is not a sentence, for it
