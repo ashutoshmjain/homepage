@@ -113,14 +113,17 @@ The _positive_ is the simple form of the adjective without expressing increase o
 
 _or_
 
-An adjective is in the positive form when it does not express comparison; as, "A _rich_ man." An adjective is in the comparative form when it expresses comparison between two or between one and a number taken collectively, as, "John is _richer_ than James"; "he is _richer_ than all the men in Boston." An adjective is in the superlative form when it expresses a comparison between one and a number of individuals taken separately; as, "John is
-the _richest_ man in Boston."
+An adjective is in the positive form when it does not express comparison; as, "A _rich_ man." An adjective is in the comparative form when it expresses comparison between two or between one and a number taken collectively, as, "John is _richer_ than James"; "he is _richer_ than all the men in Boston." An adjective is in the superlative form when it expresses a comparison between one and a number of individuals taken separately; as, "John is the _richest_ man in Boston."
 
 Adjectives expressive of properties or circumstances which cannot be increased have only the positive form; as, A _circular_ road; the _chief_ end; an _extreme_ measure.
 
 Adjectives are compared in two ways, either by adding _er_ to the positive to form the comparative and _est_ to the positive to form the superlative, or by prefixing _more_ to the positive for the comparative and _most_ to the positive for the superlative; as, _handsome_, _handsomer_, _handsomest_ or _handsome_, _more handsome_, _most handsome_.  Adjectives of two or more syllables are generally compared by prefixing more and most.  Many adjectives are irregular in comparison; as, Bad, worse, worst; Good, better, best.
 
-
+	Noun 
+	Proper [number {singular ,plural}; gender {m ,f, n, c}; case {nom, pos, obj} ]
+	Common {Number, Gender, Case}
+	Adjective - Positive, Comparative, Superlative {}
+	Pronoun - Personal, Reletive, Adjective {number, gender, case}
 ### PRONOUN
 
 A _pronoun_ is a word used in place of a noun; as, "John gave his pen to James and _he_ lent it to Jane to write _her_ copy with _it_." Without the pronouns we would have to write this sentence,--"John gave John's pen to James and James lent the pen to Jane to write Jane's copy with the pen."
