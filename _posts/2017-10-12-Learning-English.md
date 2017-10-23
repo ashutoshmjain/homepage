@@ -1,7 +1,9 @@
 My Notes from " How to Speak and Write Correctly" by Joseph Devlin
 
 
-I was looking for a simple guide on English ever since the thought of somewhat serious writing occurred to me. I believe natural languages (particularly English) is more important than their coding counterparts for the ideas must first be described well in English. In a software project, for every single line of code, there are at least ten lines written in English. If the specs aren't accurate, the product is bound to be an inferior outcome. In my quest to improve my language, I stumbled upon this great work from Joseph Devlin. It clicked. More on my motivations as we go along and my approach to annotating this open domain work. 
+I was looking for a simple guide on English ever since the thought of somewhat serious writing occurred to me. I believe natural languages (particularly English) is more important than their coding counterparts for the ideas must first be described well in English. In a software project, for every single line of code, there are at least ten lines written in English. If the specs aren't accurate, the product is bound to be an inferior outcome. In my quest to improve my language, I stumbled upon this great work from Joseph Devlin. It clicked. 
+
+A word about my motivation to convert this entire book into markdown (or a post as you are seeing it). Its not that I haven't read the English Grammar in school, but it was when I never thought about writing in English. It made sense to refresh. For me the best (and probably only ) way to read a longer work is through annotation. When I downloaded this open domain master piece as a text file, the intent was to add my notes as and where I needed. I started too; but soon I realized that I am anyways key stroking my editor, why not convert into markdown so that it could be published as a post. A single page !! That led to wonder, if it is technically feasible to publish 6000 lines through a single markdown post on `ghpages`. And how much time will it take to load in a browser ? I decided to push the technology  to the limits. If you are reading it at my blog. It obviously worked :-)
 
 This introductory paragraph won me over :
 
@@ -30,94 +32,44 @@ All the words in the English language are divided into nine great classes. These
 - **Conjunction** A _conjunction_ is a word which joins words, phrases, clauses and sentences together.
 - **Interjection** An _interjection_ is a word which expresses surprise or some sudden emotion of the mind.
 
-Of these, the Noun is the most important, as all the others are more or less dependent upon it. There are two kinds of Nouns, Proper and Common. Common Nouns are names which belong in common to a race or class, as _man_, _city_. Proper Nouns distinguish individual members of a race or class as _John_, _Philadelphia_. In the former case _man_ is a name which belongs in common to the whole race of mankind, and _city_ is also a name which is common to all large centres of population, but _John_ signifies a particular individual of the race, while _Philadelphia_ denotes a particular one from among the cities of the world.  Nouns are varied by Person, Number, Gender, and Case. Person is that relation existing between the speaker, those addressed and the subject under consideration, whether by discourse or correspondence. The Persons are _First_, _Second_ and _Third_ and they represent respectively the speaker, the person addressed and the person or thing mentioned or under consideration.  _Number_ is the distinction of one from more than one. There are two numbers, singular and plural; the singular denotes one, the plural two or more. The plural is generally formed from the singular by the addition of _s_ or _es_.  _Gender_ has the same relation to nouns that sex has to individuals, but while there are only two sexes, there are four genders, viz., masculine, feminine, neuter and common. The masculine gender denotes all those of the male kind, the feminine gender all those of the female kind, the neuter gender denotes inanimate things or whatever is without life, and common gender is applied to animate beings, the sex of which for the time being is indeterminable, such as fish, mouse, bird, etc. Sometimes things which are without life as we conceive it and which, properly speaking, belong to the neuter gender, are, by a figure of speech called Personification, changed into either the masculine or feminine gender, as, for instance, we say of the sun, _He_ is rising; of the moon, _She_ is setting.  _Case_ is the relation one noun bears to another or to a verb or to a preposition. There are three cases, the _Nominative_, the _Possessive_ and the _Objective_. The nominative is the subject of which we are speaking or the agent which directs the action of the verb; the possessive case denotes possession, while the objective indicates the person or thing which is affected by the action of the verb.
+Of these Noun is the most important. Here are the inflections of Noun. 
+
 
 ## THREE ESSENTIALS
 
-The three essentials of the English language are: _Purity_, _Perspicuity_ and _Precision_.
-
-By _Purity_ is signified the use of good English. It precludes the use of all slang words, vulgar phrases, obsolete terms, foreign idioms, ambiguous expressions or any ungrammatical language whatsoever. Neither does it sanction the use of any newly coined word until such word is adopted by the best writers and speakers.
-
-_Perspicuity_ demands the clearest expression of thought conveyed in unequivocal language, so that there may be no misunderstanding whatever of the thought or idea the speaker or writer wishes to convey. All ambiguous words, words of double meaning and words that might possibly be construed in a sense different from that intended, are strictly forbidden. Perspicuity requires a style at once clear and comprehensive and entirely free from pomp and pedantry and affectation or any straining after effect.
-
+>The three essentials of the English language are: _Purity_, _Perspicuity_ and _Precision_.  
+By _Purity_ is signified the use of good English. It precludes the use of all slang words, vulgar phrases, obsolete terms, foreign idioms, ambiguous expressions or any ungrammatical language whatsoever. Neither does it sanction the use of any newly coined word until such word is adopted by the best writers and speakers.  
+_Perspicuity_ demands the clearest expression of thought conveyed in unequivocal language, so that there may be no misunderstanding whatever of the thought or idea the speaker or writer wishes to convey. All ambiguous words, words of double meaning and words that might possibly be construed in a sense different from that intended, are strictly forbidden. Perspicuity requires a style at once clear and comprehensive and entirely free from pomp and pedantry and affectation or any straining after effect.  
 _Precision_ requires concise and exact expression, free from redundancy and tautology, a style terse and clear and simple enough to enable the hearer or reader to comprehend immediately the meaning of the speaker or writer. It forbids, on the one hand, all long and involved sentences, and, on the other, those that are too short and abrupt. Its object is to strike the golden mean in such a way as to rivet the attention of the hearer or reader on the words uttered or written.  
-
-	A word about my motivation to convert this entire book into markdown (or a post as you are seeing it). Its not that I haven't read the English Grammar in school, but it was when I never thought about writing in English. It made sense to refresh. For me the best (and probably only ) way to read a longer work is through annotation. When I downloaded this open domain master piece as a text file, the intent was to add my notes as and where I needed. I started too; but soon I realized that while, I am anyways key stroking my editor, why not convert into markdown so that it could be published as a post. A single page !! That led to wonder, if it is technically feasible to publish 6000 lines through a single markdown post on `ghpages`. And how much time will it take to load in a browser ? I decided to push the technology  to the limits. If you are reading it at my blog. It obviously worked :-)
 
 
 # CHAPTER II ESSENTIALS OF ENGLISH GRAMMAR
 
-## Divisions of Grammar--Definitions--Etymology.
-
-In order to speak and write the English language correctly, it is imperative that the fundamental principles of the Grammar be mastered, for no matter how much we may read of the best authors, no matter how much we may associate with and imitate the best speakers, if we do not know the underlying principles of the correct formation of sentences and the relation of words to one another, we will be to a great extent like the parrot, that merely repeats what it hears without understanding the import of what is said. Of course the parrot, being a creature without reason, cannot comprehend; it can simply repeat what is said to it, and as it utters phrases and sentences of profanity with as much facility as those of virtue, so by like analogy, when we do not understand the grammar of the language, we may be making egregious blunders while thinking we are speaking with the utmost accuracy.
-
-
 ## DIVISIONS OF GRAMMAR
 
-There are four great divisions of Grammar, viz.:
-
-_Orthography_, _Etymology_, _Syntax_, and _Prosody_.  _Orthography_ treats of letters and the mode of combining them into words.  _Etymology_ treats of the various classes of words and the changes they undergo.  _Syntax_ treats of the connection and arrangement of words in sentences.  _Prosody_ treats of the manner of speaking and reading and the different kinds of verse.
-
-The three first mentioned concern us most.
-
+>There are four great divisions of Grammar, viz.: _Orthography_, _Etymology_, _Syntax_, and _Prosody_.  _Orthography_ treats of letters and the mode of combining them into words.  _Etymology_ treats of the various classes of words and the changes they undergo.  _Syntax_ treats of the connection and arrangement of words in sentences.  _Prosody_ treats of the manner of speaking and reading and the different kinds of verse.
 
 ## LETTERS
 
-A _letter_ is a mark or character used to represent an articulate sound.  Letters are divided into _vowels_ and _consonants_. A vowel is a letter which makes a distinct sound by itself. Consonants cannot be sounded without the aid of vowels. The vowels are _a_, _e_, _i_, _o_, _u_, and sometimes _w_ and _y_ when they do not begin a word or syllable.
-
+>A _letter_ is a mark or character used to represent an articulate sound.  Letters are divided into _vowels_ and _consonants_. A vowel is a letter which makes a distinct sound by itself. Consonants cannot be sounded without the aid of vowels. The vowels are _a_, _e_, _i_, _o_, _u_, and sometimes _w_ and _y_ when they do not begin a word or syllable.
 
 ## SYLLABLES AND WORDS
 
-A syllable is a distinct sound produced by a single effort of [Transcriber's note: 1-2 words illegible] shall, pig, dog. In every syllable there must be at least one vowel.  A word consists of one syllable or a combination of syllables.
-
-Many rules are given for the dividing of words into syllables, but the best is to follow as closely as possible the divisions made by the organs of speech in properly pronouncing them.
+>A syllable is a distinct sound produced by a single effort viz.: shall, pig, dog. In every syllable there must be at least one vowel.  A word consists of one syllable or a combination of syllables.  
 
 ## THE PARTS OF SPEECH
 
-### ARTICLE
+Definitions already covered in chapter 2
 
-An _Article_ is a word placed before a noun to show whether the noun is used in a particular or general sense.  There are two articles, _a_ or _an_ and _the_. _A_ or _an_ is called the indefinite article because it does not point put any particular person or thing but indicates the noun in its widest sense; thus, _a_ man means any man whatsoever of the species or race.  _The_ is called the definite article because it points out some particular
-person or thing; thus, _the_ man means some particular individual.  
+	English = {Article, Noun, Adjective, Pronoun, Verb, Adverb, Conjugation, Preposition, Interjection }
+	
+	Noun = [Proper { Person (First , Second , Third) ; Number (Singular, Plural); Gender (Male, Female, Neuter, Common); Case (Nominative, Possesive, Objective) } ; Common { Number (Singular , Plural); Gender (Male , Female, Neuter, Common); Case (Nominative, Possessive, Objective)}]
 
-### NOUN 
-A _noun_ is the name of any person, place or thing as _John_, _London_, _book_. Nouns are proper and common.  _Proper_ nouns are names applied to _particular_ persons or places.  _Common_ nouns are names applied to a whole kind or species.
+	Adjective = {Positive, Comparative, Superlative}
 
-Nouns are inflected by _number_, _gender_ and _case_.
+	Pronoun = {Personal (Number, Gender, case ); Relative (Number, Gender); Adjective (Demonstrative, Distributive, Possessive)  }
 
-_Number_ is that inflection of the noun by which we indicate whether it represents one or more than one.
-
-_Gender_ is that inflection by which we signify whether the noun is the name of a male, a female, of an inanimate object or something which has no distinction of sex.
-
-_Case_ is that inflection of the noun which denotes the state of the person, place or thing represented, as the subject of an affirmation or question, the owner or possessor of something mentioned, or the object of an action or of a relation.  Thus in the example, "John tore the leaves of Sarah's book," the distinction between _book_ which represents only one object and _leaves_ which represent two or more objects of the same kind is called _Number_; the distinction of sex between _John_, a male, and _Sarah_, a female, and _book_ and _leaves_, things which are inanimate and neither male nor female, is called _Gender_; and the distinction of state between _John_, the person who tore the book, and the subject of the affirmation, _Mary_, the owner of the book, _leaves_ the objects torn, and _book_ the object related to leaves, as the whole of which they were a part, is called _Case_.  
-
-### ADJECTIVE
-
-An _adjective_ is a word which qualifies a noun, that is, shows or points out some distinguishing mark or feature of the noun; as, A _black_ dog.  Adjectives have three forms called degrees of comparison, the _positive_, the _comparative_ and the _superlative_.
-
-The _positive_ is the simple form of the adjective without expressing increase or diminution of the original quality: _nice_.  The _comparative_ is that form of the adjective which expresses increase or diminution of the quality: _nicer_.  The _superlative_ is that form which expresses the greatest increase or diminution of the quality: _nicest_.
-
-_or_
-
-An adjective is in the positive form when it does not express comparison; as, "A _rich_ man." An adjective is in the comparative form when it expresses comparison between two or between one and a number taken collectively, as, "John is _richer_ than James"; "he is _richer_ than all the men in Boston." An adjective is in the superlative form when it expresses a comparison between one and a number of individuals taken separately; as, "John is the _richest_ man in Boston."
-
-Adjectives expressive of properties or circumstances which cannot be increased have only the positive form; as, A _circular_ road; the _chief_ end; an _extreme_ measure.
-
-Adjectives are compared in two ways, either by adding _er_ to the positive to form the comparative and _est_ to the positive to form the superlative, or by prefixing _more_ to the positive for the comparative and _most_ to the positive for the superlative; as, _handsome_, _handsomer_, _handsomest_ or _handsome_, _more handsome_, _most handsome_.  Adjectives of two or more syllables are generally compared by prefixing more and most.  Many adjectives are irregular in comparison; as, Bad, worse, worst; Good, better, best.
-
-	Noun 
-	Proper [number {singular ,plural}; gender {m ,f, n, c}; case {nom, pos, obj} ]
-	Common {Number, Gender, Case}
-	Adjective - Positive, Comparative, Superlative {}
-	Pronoun - Personal, Reletive, Adjective {number, gender, case}
-### PRONOUN
-
-A _pronoun_ is a word used in place of a noun; as, "John gave his pen to James and _he_ lent it to Jane to write _her_ copy with _it_." Without the pronouns we would have to write this sentence,--"John gave John's pen to James and James lent the pen to Jane to write Jane's copy with the pen."
-
-There are three kinds of pronouns--Personal, Relative and Adjective Pronouns.
-
-_Personal_ Pronouns are so called because they are used instead of the names of persons, places and things. The Personal Pronouns are _I_, _Thou_, _He_, _She_, and _It_, with their plurals, _We_, _Ye_ or _You_ and _They_.  _I_ is the pronoun of the first person because it represents the person speaking.  _Thou_ is the pronoun of the second person because it represents the person spoken to.  _He_, _She_, _It_ are the pronouns of the third person because they represent the persons or things of whom we are speaking.
-
-Like nouns, the Personal Pronouns have number, gender and case. The gender of the first and second person is obvious, as they represent the person or persons speaking and those who are addressed. The personal pronouns are thus declined:
+	Personal Pronouns:
 
 
                              First Person.
@@ -162,19 +114,9 @@ Like nouns, the Personal Pronouns have number, gender and case. The gender of th
                                Sing.       Plural.
                       N.        It          They
                       P.        Its        Theirs
-                      O.        It          Them
-
-
-N. B.--In colloquial language and ordinary writing Thou, Thine and Thee are seldom used, except by the Society of Friends. The Plural form You is used for both the nominative and objective singular in the second person and Yours is generally used in the possessive in place of Thine.
-
-The _Relative_ Pronouns are so called because they relate to some word or phrase going before; as, "The boy _who_ told the truth;" "He has done well, _which_ gives me great pleasure." Here _who_ and _which_ are not only used in place of other words, but _who_ refers immediately to boy, and _which_ to the circumstance of his having done well.
-
-The word or clause to which a relative pronoun refers is called the _Antecedent_.  The Relative Pronouns are _who_, _which_, _that_ and _what_.  _Who_ is applied to persons only; as, "The man _who_ was here." _Which_ is applied to the lower animals and things without life; as, "The horse _which_ I sold." "The hat _which_ I bought." _That_ is applied to both persons and things; as, "The friend _that_ helps." "The bird _that_ sings." "The knife _that_ cuts." _What_ is a compound relative, including both the antecedent and the relative and is equivalent to _that which_; as, "I did what he desired," i. e. "I did _that which_ he desired."
-
-Relative pronouns have the singular and plural alike.
-
-_Who_ is either masculine or feminine; _which_ and _that_ are masculine, feminine or neuter; _what_ as a relative pronoun is always neuter.  _That_ and _what_ are not inflected.  _Who_ and _which_ are thus declined:
-
+                      O.        It          
+		      
+	Relative Pronouns
 
                   Sing. and Plural   Sing. and Plural
 
@@ -183,19 +125,17 @@ _Who_ is either masculine or feminine; _which_ and _that_ are masculine, feminin
                   O.      Whom       O.     Which
 
 
-_Who_, _which_ and _what_ when used to ask questions are called _Interrogative Pronouns_.
+	Adjective Pronouns 
 
-_Adjective_ Pronouns partake of the nature of adjectives and pronouns and are subdivided as follows:
+	_Demonstrative Adjective Pronouns_ which directly point out the person or object. They are _this_, _that_ with their plurals _these_, _those_, and _yon_, _same_ and _selfsame_.
 
-_Demonstrative Adjective Pronouns_ which directly point out the person or object. They are _this_, _that_ with their plurals _these_, _those_, and _yon_, _same_ and _selfsame_.
+	_Distributive Adjective Pronouns_ used distributively. They are _each_, _every_, _either_, _neither_.
 
-_Distributive Adjective Pronouns_ used distributively. They are _each_, _every_, _either_, _neither_.
+	_Indefinite Adjective Pronouns_ used more or less indefinitely. They are _any_, _all_, _few_, _some_, _several_, _one_, _other_, _another_, _none_.
 
-_Indefinite Adjective Pronouns_ used more or less indefinitely. They are _any_, _all_, _few_, _some_, _several_, _one_, _other_, _another_, _none_.
+	_Possessive Adjective Pronouns_ denoting possession. They are _my_, _thy_, _his_, _her_, _its_, _our_, _your_, _their_.
 
-_Possessive Adjective Pronouns_ denoting possession. They are _my_, _thy_, _his_, _her_, _its_, _our_, _your_, _their_.
-
-N. B.--(The possessive adjective pronouns differ from the possessive case of the personal pronouns in that the latter can stand _alone_ while the former _cannot_. "Who owns that book?" "It is _mine_." You cannot say "it is _my_,"--the word book must be repeated.)
+	N. B.--(The possessive adjective pronouns differ from the possessive case of the personal pronouns in that the latter can stand _alone_ while the former _cannot_. "Who owns that book?" "It is _mine_." You cannot say "it is _my_,"--the word book must be repeated.)
 
 
 ### THE VERB
