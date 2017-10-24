@@ -212,7 +212,7 @@ There are many example vim configuration files available online, however, best w
 ## Working with multiple files (Buffers)
 
 If you have come this far, you probably already need to work with multiple files together. Vim really excels in keeping tens (if not hundreds) of files at your tips. Here is the core vim features that can be later expanded with the plugins. 
-	"open a new or existing file
+	"open a new or existing file 
 	:e <file path /filename1> # Auto completion should make it easy. Wild cards such as * should also work. 
 	"open one more file
 	:e <file path /filename2> # Auto completion should make it easy. Wild cards such as * should also work. 
