@@ -175,15 +175,16 @@ As the name suggests, this is where big commands go. We invoke the command mode 
 - **Save File**  :w -  Mix with q to save and quit. 
 - **Quit** :q - Quit without saving. Mix with ! to just abandon. 
 - **Save and Quit**  :x (same as :wq)
+- **Auto Complete** Vim has powerful auto completion tools. For example :e followed by <ctrl>d will show all the commands starting with e. You can then tab through to select appropriate command. 
 
 > Notice the way we are mixing the commands. This happens a lot in vim. And this is what makes vim magical:-)
 
 - **Invoke Spell Check** `:setlocal spell` then you can use `]s or [s` to move to the misspelled words and use `z=`to find the correct options. `zg` to add the word to local library. 
-- **Substitute words** `:%s/<old>/<new>/gc` - This will take you to every instance of `<old>` and seek your permission  to substitute it with `<new>`.  To sustitute in a range `: #,#s/<old>/<new>/gc (# - row numbers) 
+- **Substitute words** `:%s/<old>/<new>/gc` - This will take you to every instance of `<old>` and seek your permission  to substitute it with `<new>`.  To substitute in a range `: #,#s/<old>/<new>/gc (# - row numbers)`
 - **Insert a text file at the prompt** `:r <text file>` will insert the whole text file. This is the best way to consolidate notes into one file. zSH auto completion is supported to find  the file path.  
 - **Relative Numbering for the Rows** `:set rnu` As you know, we can jump to a row with nj or nk , but finding the n is a hassle. You don't have time to run mind math. Relative numbering makes it easy. It basically makes the row with your cursor as zero and then counts up and down. I normally don't keep the absolute numbering on. Just keep the relative numbers. It also helps me find my cursor. Just look for row 0. 
 - **Change colorscheme** `:colorscheme molokai` will set the colors to molokai. And likewise for others. 
-- **Commands to improve search** We know we can search forward with `/` and backwards with `?`. `n and N` are used to move forward and backward for the next match. `:set ic` will make search case insensitive. `:set noic` will make search case sensitive again. `:set hls` will highlight all the matches. `:set nohls` will do the opposite. `:set is` for increase search will match partial phrases. `:set nois` will make the search exact again. You can set multiple options in one shot. For example `:set hls is ic`  is a valid command. 
+- **Commands to improve search** We know we can search forward with `/` and backwards with `?`. `n and N` are used to move forward and backward for the next match. `:set ic` will make search case insensitive. `:set noic` will make search case sensitive again. `:set hls` will highlight all the matches. `:set nohls` will do the opposite. `:set is` for incremental search will match partial phrases. `:set nois` will make the search exact again. You can set multiple options in one shot. For example `:set hls is ic`  is a valid command. 
 - **Making buffer modifiable** `:set ma`  and `:set noma` to do the opposite. 
 
 
@@ -195,6 +196,18 @@ Needless to say that this list is tip of iceberg. The best way to explore vim is
 The primary use of visual mode is to cut, copy and paste. This mode invokes when we press v in normal mode. Then we can use movement keys (hjkl) (with prefix number) to select the text. Once text is selected, use y to yank (or d to delete) the text , then use motion keys (hjkl) to move to the place where you want to paste and hit p. It looks mouthful but once we get used to it its fast and accurate. 
 
 >In addition to copy and paste, `v`has a unique use. The text , selected with `v` can be saved into a new file using :w <Filename> . This comes in handy if you want to safe keep a para of text (or a piece of code) before making changes to it . Just `v` to select with motion keys and :w to save in a file, without leaving the your current file in editor. 
+
+## Building your .vimrc
+As said earlier, most of Linux Applications are configured through their `.rc` files. In case of Vim , since it supports many platforms, the configuration files may be named or located differently. For example in Windows, the config file is normally `_vimrc`. In Linux, the file is .vimrc and is normally in your `home` directory. 
+
+There are many example vim configuration files available online, however, best way to get started is with the example file that came with  your vim installation. 
+
+	"Start a new .vimrc file in your home directory (if its not already there )
+	:e .vimrc
+	"copy example vimrc from runtime into your .vimrc
+	:r $VIMRUNTIME/vimrc_example
+	Feel free to edit as needed. 
+
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
