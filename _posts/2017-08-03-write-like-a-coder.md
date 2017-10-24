@@ -209,6 +209,33 @@ There are many example vim configuration files available online, however, best w
 	Feel free to edit as needed. 
 
 
+## Working with multiple files (Buffers)
+
+If you have come this far, you probably already need to work with multiple files together. Vim really excels in keeping tens (if not hundreds) of files at your tips. Here is the core vim features that can be later expanded with the plugins. 
+	"open a new or existing file
+	:e <file path /filename1> # Auto completion should make it easy. Wild cards such as * should also work. 
+	"open one more file
+	:e <file path /filename2> # Auto completion should make it easy. Wild cards such as * should also work. 
+	"At this stage vim has two files open and each is in its on `buffer`. You can simply move around these files
+	:b1 - go to first buffer
+	:b2 - go to second buffer
+	:bp - go to previous buffer
+	:bn - go to next buffer. 
+	:buffers - show a list of open buffers. 
+
+Imagine buffers as a single session of vim. That means you can yank cut paste across buffers. At some point, you may want to see two (or more ) files at the same time. Yes , vim does that too. We can split the screen into multiple horizontal or vertical windows and pull any buffer (even same buffer) in any window. 
+
+	"For horizontal split 
+	:sp
+	For vertical split 
+	:vsp
+	"Toggle between open windows
+	<ctrl>w w
+	"pull buffers in active window with buffer commands such as :b1 ; :b2 ; :bp ; :bn etc. 
+
+
+
+
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
 
