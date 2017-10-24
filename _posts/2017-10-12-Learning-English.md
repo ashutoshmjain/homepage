@@ -127,65 +127,25 @@ Definitions already covered in chapter 2
 
 	Adjective Pronouns 
 
-	_Demonstrative Adjective Pronouns_ which directly point out the person or object. They are _this_, _that_ with their plurals _these_, _those_, and _yon_, _same_ and _selfsame_.
+	**Demonstrative Adjective Pronouns** which directly point out the person or object. They are **this**, **that** with their plurals **these**, **those**, and **yon**, **same** and **selfsame**.
 
-	_Distributive Adjective Pronouns_ used distributively. They are _each_, _every_, _either_, _neither_.
+	**Distributive Adjective Pronouns** used distributively. They are **each**, **every**, **either**, **neither**.
 
-	_Indefinite Adjective Pronouns_ used more or less indefinitely. They are _any_, _all_, _few_, _some_, _several_, _one_, _other_, _another_, _none_.
+	**Indefinite Adjective Pronouns** used more or less indefinitely. They are **any**, **all**, **few**, **some**, **several**, **one**, **other**, **another**, **none**.
 
-	_Possessive Adjective Pronouns_ denoting possession. They are _my_, _thy_, _his_, _her_, _its_, _our_, _your_, _their_.
+	**Possessive Adjective Pronouns** denoting possession. They are **my**, **thy**, **his**, **her**, **its**, **our**, **your**, **their**.
 
-	N. B.--(The possessive adjective pronouns differ from the possessive case of the personal pronouns in that the latter can stand _alone_ while the former _cannot_. "Who owns that book?" "It is _mine_." You cannot say "it is _my_,"--the word book must be repeated.)
+	N. B.--(The possessive adjective pronouns differ from the possessive case of the personal pronouns in that the latter can stand **alone** while the former **cannot**. "Who owns that book?" "It is **mine**." You cannot say "it is **my**,"--the word book must be repeated.)
 
+	**Verb** = {Regular, Irregular, Transitive, Intransitive} [Number, Person, Tense{ Present, Past , Future}, mood{Infinitive, Indicative, Impretive, Subjunctive} ]
 
-### THE VERB
+	Verbs have two participles, the present or imperfect, sometimes called the _active_ ending in _ing_ and the past or perfect, often called the _passive_, ending in _ed_ or _d_.  The _infinitive_ expresses the sense of the verb in a substantive form, the participles in an adjective form; as "To rise early is healthful." "An early rising man." "The newly risen sun." The participle in _ing_ is frequently used as a substantive and consequently is equivalent to an infinitive; thus, "To rise early is healthful" and "Rising early is healthful" are the same.
 
-A _verb_ is a word which implies action or the doing of something, or it may be defined as a word which affirms, commands or asks a question.  Thus, the words _John the table_, contain no assertion, but when the word _strikes_ is introduced, something is affirmed, hence the word _strikes_ is a verb and gives completeness and meaning to the group.
-
-The simple form of the verb without inflection is called the _root_ of the verb; _e. g. love_ is the root of the verb,--"To Love."
-
-Verbs are _regular_ or _irregular_, _transitive_ or _intransitive_.
-
-A verb is said to be _regular_ when it forms the past tense by adding _ed_ to the present or _d_ if the verb ends in _e_. When its past tense does not end in _ed_ it is said to be _irregular_.
-
-A _transitive_ verb is one the action of which passes over to or affects some object; as "I struck the table." Here the action of striking affected the object table, hence struck is a transitive verb.
-
-An _intransitive_ verb is one in which the action remains with the subject; as _"I walk,"_ _"I sit,"_ _"I run."_ Many intransitive verbs, however, can be used transitively; thus, "I _walk_ the horse;" _walk_ is here transitive.
-
-Verbs are inflected by _number_, _person_, _tense_ and _mood_.
-
-_Number_ and _person_ as applied to the verb really belong to the subject; they are used with the verb to denote whether the assertion is made regarding one or more than one and whether it is made in reference to the person speaking, the person spoken to or the person or thing spoken about.
-
-
-#### TENSE
-
-In their tenses verbs follow the divisions of time. They have _present tense_, _past tense_ and _future tense_ with their variations to express the exact time of action as to an event happening, having happened or yet to happen.
-
-
-#### MOOD
-
-There are four simple moods,--the _Infinitive_, the _Indicative_, the _Imperative_ and the _Subjunctive_.
-
-The Mood of a verb denotes the mode or manner in which it is used. Thus if it is used in its widest sense without reference to person or number, time or place, it is in the _Infinitive_ Mood; as "To run." Here we are not told who does the running, when it is done, where it is done or anything about it.
-
-When a verb is used to indicate or declare or ask a simple question or make any direct statement, it is in the _Indicative_ Mood. "The boy loves his book." Here a direct statement is made concerning the boy. "Have you a pin?" Here a simple question is asked which calls for an answer.
-
-When the verb is used to express a command or entreaty it is in the _Imperative_ Mood as, "Go away." "Give me a penny."
-
-When the verb is used to express doubt, supposition or uncertainty or when some future action depends upon a contingency, it is in the subjunctive mood; as, "If I come, he shall remain."
-
-Many grammarians include a fifth mood called the _potential_ to express _power_, _possibility_, _liberty_, _necessity_, _will_ or _duty_. It is formed by means of the auxiliaries _may_, _can_, _ought_ and _must_, but in all cases it can be resolved into the indicative or subjunctive. Thus, in "I may write if I choose," "may write" is by some classified as in the potential mood, but in reality the phrase _I may write_ is an indicative one while the second clause, _if I choose_, is the expression of a condition upon which, not my liberty to write, depends, but my actual
-writing.
-
-Verbs have two participles, the present or imperfect, sometimes called the _active_ ending in _ing_ and the past or perfect, often called the _passive_, ending in _ed_ or _d_.
-
-The _infinitive_ expresses the sense of the verb in a substantive form, the participles in an adjective form; as "To rise early is healthful." "An early rising man." "The newly risen sun." The participle in _ing_ is frequently used as a substantive and consequently is equivalent to an infinitive; thus, "To rise early is healthful" and "Rising early is healthful" are the same.
-
-The principal parts of a verb are the Present Indicative, Past Indicative and Past Participle; as:
+	The principal parts of a verb are the Present Indicative, Past Indicative and Past Participle; as:
 
                          Love   Loved   Loved
 
-Sometimes one or more of these parts are wanting, and then the verb is said to be defective.
+	Sometimes one or more of these parts are wanting, and then the verb is said to be defective.
 
 
                 Present       Past     Passive Participle
@@ -197,29 +157,18 @@ Sometimes one or more of these parts are wanting, and then the verb is said to b
                  Ought       Ought             "
 
 
-Verbs may also be divided into _principal_ and _auxiliary_. A _principal_ verb is that without which a sentence or clause can contain no assertion or affirmation. An _auxiliary_ is a verb joined to the root or participles of a principal verb to express time and manner with greater precision than can be done by the tenses and moods in their simple form. Thus, the sentence, "I am writing an exercise; when I shall have finished it I shall read it to the class." has no meaning without the principal verbs _writing_, _finished read_; but the meaning is rendered more definite, especially with regard to time, by the auxiliary verbs _am_, _have_, _shall_.  
+	There are nine auxiliary or helping verbs, viz., _Be_, _have_, _do_, _shall_, _will_, _may_, _can_, _ought_, and _must_. They are called helping verbs, because it is by their aid the compound tenses are formed.
 
-There are nine auxiliary or helping verbs, viz., _Be_, _have_, _do_, _shall_, _will_, _may_, _can_, _ought_, and _must_. They are called helping verbs, because it is by their aid the compound tenses are formed.
+	The verb _To Be_ is the most important of the auxiliary verbs. It has eleven parts, viz., _am, art, is, are, was, wast, were, wert; be, being_ and _been_.
 
+	The _active voice_ is that form of the verb which shows the Subject not being acted upon but acting; as, "The cat _catches_ mice." "Charity _covers_ a multitude of sins."
 
-#### TO BE
-
-The verb _To Be_ is the most important of the auxiliary verbs. It has eleven parts, viz., _am, art, is, are, was, wast, were, wert; be, being_ and _been_.
-
-
-#### VOICE
-
-The _active voice_ is that form of the verb which shows the Subject not being acted upon but acting; as, "The cat _catches_ mice." "Charity _covers_ a multitude of sins."
-
-The _passive voice_: When the action signified by a transitive verb is thrown back upon the agent, that is to say, when the subject of the verb denotes the recipient of the action, the verb is said to be in the passive voice. "John was loved by his neighbors." Here John the subject is also the object affected by the loving, the action of the verb is thrown back on him, hence the compound verb _was loved_ is said to be in the _passive voice_. The passive voice is formed by putting the perfect participle of any _transitive_ verb with any of the eleven parts of the
-verb _To Be_.
+	The _passive voice_: When the action signified by a transitive verb is thrown back upon the agent, that is to say, when the subject of the verb denotes the recipient of the action, the verb is said to be in the passive voice. "John was loved by his neighbors." Here John the subject is also the object affected by the loving, the action of the verb is thrown back on him, hence the compound verb _was loved_ is said to be in the _passive voice_. The passive voice is formed by putting the perfect participle of any _transitive_ verb with any of the eleven parts of the verb _To Be_.
 
 
-#### CONJUGATION
+	The _conjugation_ of a verb is its orderly arrangement in voices, moods, tenses, persons and numbers.
 
-The _conjugation_ of a verb is its orderly arrangement in voices, moods, tenses, persons and numbers.
-
-Here is the complete conjugation of the verb "Love"--_Active Voice_.
+	Here is the complete conjugation of the verb "Love"--_Active Voice_.
 
 
                             PRINCIPAL PARTS
@@ -438,7 +387,6 @@ Here is the complete conjugation of the verb "Love"--_Active Voice_.
           Being loved       Been loved       Having been loved
 
 
-(N. B.--Note that the plural form of the personal pronoun, _you_, is used in the second person singular throughout. The old form _thou_, except in the conjugation of the verb "To Be," may be said to be obsolete. In the third person singular he is representative of the three personal pronouns of the third person, _He_, _She_ and _It_.) 
 
 ### ADVERB
 
