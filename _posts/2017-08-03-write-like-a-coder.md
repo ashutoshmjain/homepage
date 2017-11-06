@@ -425,9 +425,30 @@ Both `youtube-dl` and `ffmpeg` are available on Slackbuilds.org
 
 If you don't want to copy the urls of the YouTube videos from a graphical interface, the easiest way is  to use `gvsearch` and pass on the url to `youtube-dl`
 
-It might appear a lot of work but once you have these two long commands in your terminal, you can arrow up /down to get to to them (or search your commandline history). Offline listeing is really fun :-) c
+It might appear a lot of work but once you have these two long commands in your terminal, you can arrow up /down to get to to them (or search your command line history). Offline listening is really fun :-) c
 
 
 	youtube-dl "gvsearchX:search tag" 
 	(X stands for the number of hits you want to pass on ..typically 1)
+## Chat
+There are many command line tools that support IRC (Internet Relay Chat). I find `irssi` very friendly and stable. The most populated and probably only growing IRC network in `freenode`. There are chartrooms for practically every interest or topic and IRC allows one on one direct messaging. `irssi` comes prepackaged with Slackware 14.2. 
 
+Here are basic commands to get you started. 
+
+	"Connecting to a network 
+	/connect freenode #you can replace freenode with dalnet or efnet ( these are big networks - think of them as Slack or WhatsApp)
+	"By default, irssi will connect you as as your host name. The name you are joining with is called your `nick`
+	"Rarely you would expose your hostname on the IRC network. So you can set up your nick whatever you want 
+	/nick ThisIsMyNewNick
+	"With your new nick, you can join any channel that might interest you. Try out #writers on freenode.
+	/j #writers 
+	"typically channel names start with a #. A sub channel will start with ##. You can close a channel with 
+	/part
+	"To quit irssi
+	/quit
+	"Finding a channel on freenode
+	/msg alis LIST  *Searchterm for Channel* #alis is a freenode service that messeges back the channel info.
+	/msg alis LIST *Linux* -min 20 would find all the linux related channels with minimum 20 nicks
+
+
+Some of the busy channels would require you to have your nick verified with the network. You can do that on freenode.net. Most of the channels will have a mode `+i` set . Which means these channels are invite only. You can look up channel modes on freenode.net
