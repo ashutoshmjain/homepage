@@ -121,6 +121,9 @@ It might surprise you but vim is lot like a smart phone native editor. Like typi
 
 >Lot has been said in praise of vim. And its all true. And also that it takes time.  I got my first exposure last year as I started discovering command line. I jumped into it without any help. It was tough. Soon I found myself sheltered under 'Atom'. Which again is a great editor but I came back to vim . This time well equipped. I read through internet. Listened to the vim Podcasts. Watched you tube videos. And now there is no going back. I wouldn't say you need to lock your up and down keys. Or just use hjkl. I would just say that you need to give yourself time. Keep playing with it. It happens ..when it does, you will know it. And you will want to tell the world :-)
 
+
+The additional benefit of learning vim (particularly normal mode) is you will get very effective  with the *man* pages. The navigation of man pages, follows most of the vi motions (and search). This will save you ton of time from googling Linux features and commands. There is practically a *man* page for everything you do in Linux. So much so that there is a man page for man. Type  `man man` on command prompt.  
+
 ## Normal Mode
 Vim opens in the normal mode. This is where you review, move and determine the text - to copy, delete or change. If only you want to change the text (or insert something new), you invoke the 'insert' mode. Its hard to wrap around that there are more commands in 'normal' mode than in 'insert'. In fact I don't even know if there are commands in insert mode cuz the whole keyboard is at your disposal to insert or alter text.. The idea is - you don't do anything in insert mode except for typing the content. The moment you are done with typing (it may be a long essay or a word) , you escape back to the normal mode 
 
@@ -409,10 +412,62 @@ Once you have registered a new account with command `megareg` or added  your exi
 ## Email 
 Good old email is a must have for writers. Command line has numbers of solid email clients. I use Alpine. Its simple, user friendly but the composing messages (editor) is very limited. I think mutt has a lot better integration with vim for writing longer emails. 
 
+## Voice Memos
+
+Writers are often struck with inspiration. Complex ideas are difficult to write down without proper pre thinking. The best is to quickly voice record and come back to listen when time permits. Command line has three primary tools to record voice. I am sure there are more that I am unaware of . Lets first look at the oldest of all . The good old SoX.
+
+### SoX - Sound Exchange 
+
+It doesn't get simpler than SoX. All you need  to say on command line is 
+
+	rec voice-memo.wav
+	# It will record a voice memo in wav format
+	rec voice-memo.ogg
+	#will do the same in ogg format
+
+To save space on your disc you can always convert .wav or .ogg files into mp3s
+
+	lame voice-memo.wav voice-memo.mp3
+
+Converting wav files to mp3 format yields a 90% space savings but mp3 is not a free format. Rather use open .ogg format that sometimes give even better results than mp3 in terms of space saving without any perceptible loss in audio quality. SoX can convert to .ogg without any other package (eg lame) 
+
+	sox voice-memo.wav voice-memo.ogg
+
+The recorded files can be played with 
+
+	play voice-memo.wav (or ogg or mp3)
+
+In addition to record and play , SoX can be used to do many sound files operations as well effects. For example, we can trim a file out of an exiting file , concatenate multiple files, mix files. Increase or reduce volume, echo , chorus, noise reduction. SoX can also automagically record from a audio input (eg CDs ) or rip streaming audio. 
+
+### Alsa utilities
+
+ALSA stands for `Advanced Linux Sound Architecture`. The primary goal of ALSA project was to give Linux a 'plug and play' capability for identifying computer sound cards. In essence Alsa works as the software interface for the sound hardware. Alsa builds over `Open Sound System (OSS)` the default sound system in Unix.  
+
+In addition to hardware interfaces, Alsa provides simple utilities to record and play sounds. 
+
+	arecord -f cd voice-memo.wav
+	#will record a compact disk quality voice memo. (44100 Hz, 16 bit , Stereo)
+	arecord -f dat voice-memo.wav 
+	#will record a better sound if your PC sound card supprts (48000 Hz , 16 bit , Stereo)
+	aplay voice-memo.wav #will play the recoded file.
+
+Once you have the recorded files , you can use SoX for sound operations as well effects. 
+
+In my experience, the files recorded with `arecord` sounded a little better than `rec` though my test wasn't properly bench marked and my equipment is really old. 
+
+### ffmpeg
+
+ffmpeg is primarily a video converter but it can be used for sound recording on command line. 
+
+	ffmpeg -f alsa -ac 2 -i pulse voice-memo.wav
+	# should record your microphone. 
+
 # Fun Stuff
+
 Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to relax. What's better than music ?
 
 ## Music
+
 Simple console command `play` can play any mp3 or .ogg files. Prefer .ogg as its open source v/s mp3 which I guess is a proprietary format.
 
 You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip the audio piece with `ffmpeg`. To make it simple, let `ffmpeg` handle the codecs with command below 
