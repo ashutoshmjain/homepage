@@ -416,7 +416,7 @@ Good old email is a must have for writers. Command line has numbers of solid ema
 
 Writers are often struck with inspiration. Complex ideas are difficult to write down without proper pre thinking. The best is to quickly voice record and come back to listen when time permits. Command line has three primary tools to record voice. I am sure there are more that I am unaware of . Lets first look at the oldest of all . The good old SoX.
 
-### SoX - Sound Exchange 
+*SoX - Sound Exchange*
 
 It doesn't get simpler than SoX. All you need  to say on command line is 
 
@@ -425,11 +425,11 @@ It doesn't get simpler than SoX. All you need  to say on command line is
 	rec voice-memo.ogg
 	#will do the same in ogg format
 
-To save space on your disc you can always convert .wav or .ogg files into mp3s
+To save space on your disc you can always convert .wav files into mp3 format.
 
 	lame voice-memo.wav voice-memo.mp3
 
-Converting wav files to mp3 format yields a 90% space savings but mp3 is not a free format. Rather use open .ogg format that sometimes give even better results than mp3 in terms of space saving without any perceptible loss in audio quality. SoX can convert to .ogg without any other package (eg lame) 
+Converting wav files to mp3 format yields a 90% space savings but mp3 is not a free format. Rather use open .ogg format that sometimes give even better compression than mp3 without any perceptible loss in audio quality. SoX can convert to .ogg without any other package (eg lame) 
 
 	sox voice-memo.wav voice-memo.ogg
 
@@ -439,7 +439,7 @@ The recorded files can be played with
 
 In addition to record and play , SoX can be used to do many sound files operations as well effects. For example, we can trim a file out of an exiting file , concatenate multiple files, mix files. Increase or reduce volume, echo , chorus, noise reduction. SoX can also automagically record from a audio input (eg CDs ) or rip streaming audio. 
 
-### Alsa utilities
+*Alsa utilities*
 
 ALSA stands for `Advanced Linux Sound Architecture`. The primary goal of ALSA project was to give Linux a 'plug and play' capability for identifying computer sound cards. In essence Alsa works as the software interface for the sound hardware. Alsa builds over `Open Sound System (OSS)` the default sound system in Unix.  
 
@@ -448,14 +448,14 @@ In addition to hardware interfaces, Alsa provides simple utilities to record and
 	arecord -f cd voice-memo.wav
 	#will record a compact disk quality voice memo. (44100 Hz, 16 bit , Stereo)
 	arecord -f dat voice-memo.wav 
-	#will record a better sound if your PC sound card supprts (48000 Hz , 16 bit , Stereo)
+	#will record a better sound if your PC sound card supports (48000 Hz , 16 bit , Stereo)
 	aplay voice-memo.wav #will play the recoded file.
 
 Once you have the recorded files , you can use SoX for sound operations as well effects. 
 
 In my experience, the files recorded with `arecord` sounded a little better than `rec` though my test wasn't properly bench marked and my equipment is really old. 
 
-### ffmpeg
+*ffmpeg*
 
 ffmpeg is primarily a video converter but it can be used for sound recording on command line. 
 
@@ -468,14 +468,18 @@ Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to rel
 
 ## Music
 
-Simple console command `play` can play any mp3 or .ogg files. Prefer .ogg as its open source v/s mp3 which I guess is a proprietary format.
+As said above, simple console command `play` can play any mp3 or .ogg files. 
 
 You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip the audio piece with `ffmpeg`. To make it simple, let `ffmpeg` handle the codecs with command below 
 
 	ffmpeg -i videofile.mp4 -vn -acodec libvorbis audiofile.ogg
-	(-i is for input video file; -vn is nor no video; -acodec allows ffmpeg to determine the audio format of the input vidio file on and libvorbis helps to make it .ogg )
+	#-i is for input video file; 
+	#-vn is for no video; 
+	#-acodec allows ffmpeg to determine the audio format of the input vidio file 
+	#and libvorbis helps to make it .ogg 
 
 You can use `-acodec libmp3lame` and change the extension of output file to mp3 for mp3 encoding. 
+
 Both `youtube-dl` and `ffmpeg` are available on Slackbuilds.org
 
 If you don't want to copy the urls of the YouTube videos from a graphical interface, the easiest way is  to use `gvsearch` and pass on the url to `youtube-dl`
@@ -484,7 +488,7 @@ It might appear a lot of work but once you have these two long commands in your 
 
 
 	youtube-dl "gvsearchX:search tag" 
-	(X stands for the number of hits you want to pass on ..typically 1)
+	# X stands for the number of hits you want to pass on ..typically 1
 
 
 ## Chat
