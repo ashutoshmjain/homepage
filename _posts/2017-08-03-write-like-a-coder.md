@@ -144,7 +144,7 @@ Vim opens in the normal mode. This is where you review, move and determine the t
 - **Back the previous position** - `ctrl o` will bring you back to last position. `Ctrl I` will do the reverse.  
 - **Center screen** `zz` to scroll the screen to bring cursor vertically center of the screen.
 - **Indenting** `Shift >` You don't need to go to insert mode for indenting the lines. Shift with `Greater than` indents right and `less than` indents left.
-- **Pull the line below to merger on cursor line** `Shift j`
+- **Pull the line below to merge with  cursor line** `Shift j`
 - **Spell Check** `]s, [s` - I normally keep  spelling  check off till I really want to spell check. That's cuz highlighted errors make me go into the edit mode and disturb my chain of thought. When i turn spell check (command `:set spell`) on, `]s and [s` move me forward and backward to the highlighted words. Once there, I use `zg` to add the word to dictionary or `z=` to look for the available options. 
 - **Delete line** `dd` - keep in mind that a line goes till you press enter. So on screen a line might look like a complete paragraph.So `yggG` will select the whole document. `dggG` will delete all the lines. 
 - **Copy a line** `yy` - more of yanking under visual mode.
