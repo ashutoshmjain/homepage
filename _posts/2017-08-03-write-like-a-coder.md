@@ -219,12 +219,12 @@ If you have come this far, you probably already need to work with multiple files
 	:e <file path /filename1> # Auto completion should make it easy. Wild cards such as * should also work. 
 	"open one more file
 	:e <file path /filename2> # Auto completion should make it easy. Wild cards such as * should also work. 
-	"At this stage vim has two files open and each is in its on `buffer`. You can simply move around these files
+	"At this stage vim has two files open and each is in its own `buffer`. You can simply move around these files
 	:b1 - go to first buffer
 	:b2 - go to second buffer
 	:bp - go to previous buffer
 	:bn - go to next buffer. 
-	:buffers - show a list of open buffers. 
+	:buffers or :ls - show a list of open buffers. 
 
 Imagine buffers as a single session of vim. That means you can yank cut paste across buffers. At some point, you may want to see two (or more ) files at the same time. Yes , vim does that too. We can split the screen into multiple horizontal or vertical windows and pull any buffer (even same buffer) in any window. 
 
@@ -235,9 +235,6 @@ Imagine buffers as a single session of vim. That means you can yank cut paste ac
 	"Toggle between open windows
 	<ctrl>w w
 	"pull buffers in active window with buffer commands such as :b1 ; :b2 ; :bp ; :bn etc. 
-
-
-
 
 ## Plug-Ins
 There are thousands of plug ins for vim. vim.org is the legacy site for the list but its lot easier to look at [vimawesome](http://vimawesome.com/)
@@ -387,6 +384,10 @@ The web-search plugin in 'Oh my zSH' doesn't support the console (without X). Go
 > Googler needs Python3 which is not a default on Slackware 14.2. You can install from the available Slackbuild. You may also need to to export your browser. 
 
 	export BROWSER=links
+
+	$ googler <who wrote javascript> #should give you defacult ten results
+	$ googler <slackbuilds> -n 5 will top 5 google searchs for the <slackbuilds>
+	$ googler <node.js> -n 5 -w slackbuilds.org will result into 5 searchs for <node.js> on website slackbuilds.org
 
 Once you are done with installation, browser export and spent 15 minutes in Googler, I bet you will never go back to browser based search particularly on a GUI. It is fast, clean and there are many more things you can do with `googler`.
 

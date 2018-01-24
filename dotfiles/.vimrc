@@ -17,7 +17,7 @@ endif
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
-
+set t_Co=256
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -123,11 +123,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mzlogin/vim-markdown-toc'
 Plugin 'fountain.vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -138,7 +140,19 @@ colorscheme molokai
 
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_toc_autofit = 1
-
+set laststatus =2
+let g:airline_powerline_fonts = 1
+let g:airline_detect_spell=1
+let g:airline_theme= 'onedark'
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_coffeescript_checkers = ["coffee_jshint"]
+let g:syntastic_markdown_checkers = ["mdl"]
     " To ignore plugin indent changes, instead use:
     "filetype plugin on
     "
