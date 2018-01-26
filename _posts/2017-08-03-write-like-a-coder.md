@@ -469,7 +469,7 @@ Yes, we need to indulge sometimes. Writing is not an easy job. Mind needs to rel
 
 ## Music
 
-As said above, simple console command `play` can play any mp3 or .ogg files. 
+As said above, simple console command `play` can play any mp3 or .ogg files. You can also use `aplay`. 
 
 You can download YouTube  videos  with `youtube-dl <youtube url>` and then rip the audio piece with `ffmpeg`. To make it simple, let `ffmpeg` handle the codecs with command below 
 
