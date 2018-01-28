@@ -144,6 +144,7 @@ set laststatus =2
 let g:airline_powerline_fonts = 1
 let g:airline_detect_spell=1
 let g:airline_theme= 'onedark'
+let NERDTreeShowBookmarks= 1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
