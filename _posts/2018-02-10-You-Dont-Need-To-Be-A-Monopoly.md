@@ -56,7 +56,7 @@ As a technology company ( and now it goes for pretty much all industries) ; you 
 
 Though Apple is a distant second in most of the categories that matter, but they are second in all of them. Google and Microsoft are insignificant players in devices. Samsung has nothing in software. Even with-in software categories, Microsoft has lost the browser war with their Edge at less than 2 % . Google has no presence in desktop space with chromeOS less than 1 % share. A 'Second in All' strategy helps to build a walled garden for a dedicated customer base. It also means lot of hard work to keep a parallel universe alive. The idea of 'Do only one thing and be the best' doesn't hold any water any more . At lease not if your goal is to be richest company in the world. 
 
-## You don't need to cutting edge 
+## You don't need to be 'Cutting Edge' 
 
 There is a difference between 'Latest' and 'Cutting Edge'. For example , Apple has virtally no commercial presence in  virtual reality . You need to time your battles very carefully. Most of the money is made in  the mass adoption cycle. Before that , it is all brownie points. I am not saying that you should not invest in R&D. But know the difference between R&D projects and commercial ones. For example , Apple continued their hobby of Apple TV and still does that. But its a hobby. It may become a main product five years down when we have gibabit ethernet in every home. On the other hand watch (fitness band) is here and now. 
 
