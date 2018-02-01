@@ -54,7 +54,7 @@ The quality of your products is the biggest  brand ambassador . No amount of adv
 
 As a technology company ( and now it goes for pretty much all industries) ; you got to be with the latest . Sony, Sharp and so many consumer electronics companies could not make the transition.
 
-Though Apple is a distant second in most of the categories that matter, but they are second in all of them. Google and Microsoft are insignificant players in devices. Samsung has nothing in software. Even with-in software categories, Microsoft has lost the browser war with their Edge at less than 2 % . Google has no presence in desktop space with chromeOS less than 1 % share. A 'Second in All' strategy helps to build a walled garden for a dedicated customer base. It also means lot of hard work to keep a parallel universe alive. The idea of 'Do only one thing and be the best' doesn't hold any water any more . At lease not if your goal is to be richest company in the world. 
+Though Apple is a distant second in most of the categories that matter, but they are second in all of them. Google and Microsoft are insignificant players in devices. Samsung has nothing in software. Even with-in software categories, Microsoft has lost the browser war with their Edge at less than 2 % . Google has no presence in desktop space with chromeOS less than 1 % share. A 'Second in All' strategy helps to build a walled garden for a dedicated customer base. It also means lot of hard work to keep a parallel universe alive. The idea of 'Do only one thing and be the best' doesn't hold any water any more . At least not if your goal is to be richest company in the world. 
 
 ## You don't need to be 'Cutting Edge' 
 
