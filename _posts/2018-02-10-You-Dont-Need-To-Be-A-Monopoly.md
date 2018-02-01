@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "You Dont need to be a Monopoly"
+date:   2018-02-01
+desc: "You dont need to be a monopoly to be richest company in  the world"
+keywords: "OS, Desktop, Mobile, Monopoly"
+categories: [Predictions]
+tags: [OS, Mopbile, Desktop]
+icon: icon-fire-alt
+---
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+
+The lesson in most business schools and natural instict of most business leaders converges on one point. You need to gain enough maket share to be able to command the value chain, premium and ultimately shareholders' stake. The story goes around that Microsoft sold cheap and allowed third party apps to gain a momentum with their desptop OS that ultimately led to their world domination in technology space. The latest datapoints, however, suggest a totally different take. 
+
+Needless to mention that Apple continues to most valueable caompany globally for about half a decade now. Let's look at the market share of Apple in most categories they operate. Given the fickle nature of technologies , we will focus only on the recent year data ; that is from Dec 2016 to Dec 2017
+
+# Mobile OS
+
+Goes without saying Apple's biggest bounty is iPhone. As of Dec 2017 , Apple has only 20 % market share. Their ace competitor Android , on the other hand, commands a whopping 73 %. Even in North America, Apple is neck to neck with Google with both commanding fifty fifty of  the market share. 
+
+# Desktop OS
+
+The picture is even grimmer for Apple in Desktop space. Worldwide Wondows command absolute monoploy with 83 % share whereas MacOS has only 13 % share. In North America , Apple improves a bit at 22 % but Microsft still continues to be a dominant player at 73 % 
+
+# Browser 
+
+Google Chrome is reaching the critical mass with 55 % marketshare worldwide with Apple Safari a distant second at 15 %. In North America , Safari improves to 30 % but still far behind Chrome's 50 % share. 
+
+# Devices 
+
+One may argue that Apple makes money NOT from software or advertising ( as in case of Microsoft and Google) but surprising thing is Apple is not even a leader in the devices. Globally , Samsung leads the charts with 22 % market share in terms of number of shipments vs Apple , a distant second at 12 %. In Q3 of 2017 , Samsung shipped 83 Million smart phones wheras Apple barely managed 47 Million. 
+
+Which brings me to conclude as to what is it that makes Apple so rich. Here are few thoughts. 
+
+## Be a cool second
+
+People love the underdog. If you can build a community (real cult), you can always unite them as a challenger rather than as a monoplist leader. 
+
+## Command a premium 
+
+In the commercial world, there is nothing wrong asking for a fair value for your products. Don't run for numbers. Work for the value you deliver. 
+
+## Quality speaks for itself 
+
+The quality of your products is the biggest is what builds your brand. No amount of advertising can hide a burning phone battery. 
+
+## Be in the latest. And be in all of them. 
+
+As a technology company ( and now it goes for pretty much all industries) ; you got to be with the latest . Sony, Sharp and so many consumer electronics companies could not make the transition.
+
+Though Apple is second in most of the categories that matter, but it is second in all of them. Google and Microsoft are insignificant players in devices. Samsung has nothing in software. Even with-in software categories, Microsoft has lost the browser war with their Edge at less than 2 % market share. Google has no presence in desktop space with chromeOS less than 1 % share. 
+
+## You don't need to cutting edge 
+
+There is a difference between 'Latest' and 'cutting edge'. For example , Apple has virtally no presence in cloud, virtual reality or social media. You need to time your battles very carefully. Most of the money is made in  the mass adoption cycle. Before that it is all brownie points. I am not saying that you should not invest in R&D. But know the difference between R&D projects and commercial ones. For example , Apple continued their hobby of Apple TV and still does that. But its a hobby. It may become a main product five years down when we have gibabit ethernet in every home. On the other hand watch (fitness band) is here. 
+
+
