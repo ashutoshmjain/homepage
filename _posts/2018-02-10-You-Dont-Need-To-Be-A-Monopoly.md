@@ -31,12 +31,12 @@ Google Chrome is reaching the critical mass with 55 % marketshare worldwide with
 
 One may argue that Apple makes money NOT from software or advertising ( as in case of Microsoft and Google) but surprisingly,  Apple is not a leader even in devices market. Globally , Samsung leads the charts with 22 % market share in terms of number of shipments vs Apple , a distant second , at 12 %. In Q3 of 2017 , Samsung shipped 83 Million smart phones whereas Apple barely managed 47 Million. 
 
-**Which brings me to conclude as to what is it that makes Apple so rich. Here are few thoughts.**
+**Which brings me to the question - What is it that makes Apple so rich? Here are few thoughts.**
 
 
 ## Be a cool second
 
-People love the underdog. If you can build a community (read cult), you can always unite them as a challenger rather than as a monoplist leader. 
+People love the underdog. If you can build a community (read cult), you can always unite them as a challenger rather than as a monoplist leader. A bonus benefit is you will be saved from the anti trust cases. Even partners wont view you as a greedy grabber. 
 
 ## Dont be third
 
@@ -54,4 +54,4 @@ Though Apple is a distant second in most of the categories that matter, but they
 
 There is a difference between the 'Latest' and the 'Cutting Edge'. For example , Apple has virtually no commercial presence in  virtual reality gizmos. You need to time your battles very carefully. Most of the money is made in  the mass adoption cycle. Before that , it is all brownie points. I am not saying you should not invest in R&D. But know the difference between R&D projects and commercial ones. For example , Apple continued their hobby of Apple TV . But its a hobby. It may become a main product five years down when we have gibabit ethernet in every home. On the other hand watch (fitness band) is here and now. 
 
-
+To conclude - it was always known to marathoners that the second runner wins the race but business strategists always advised to gain a lead from get go. They are obviously wrong. Even in business, letting competitors gain lead on you is not a bad idea as long as you create quality products and build a dedicated user base. 
