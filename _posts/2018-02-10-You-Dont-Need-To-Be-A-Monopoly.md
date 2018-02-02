@@ -42,17 +42,11 @@ People love the underdog. If you can build a community (read cult), you can alwa
 
 If you are less than a 'cool second', you have two options - try to be second or exit. Apple carefully does that. Most of the things ( devices or software) , they do maintain at least a second spot. Else very quickly exit the market. Case in point the routers business. Rumors are Apple is letting Airport Extreme and Express go . Same about Time Capsule. Not only products and apps. Apple is quick to discontinue laggard technologies. Floppy drives, CD Roms are few examples. 
 
-## Command a premium 
-
-In the commercial world, there is nothing wrong asking for a fair value for your products. Don't run for numbers. Work for the value you deliver. 
-
-## Quality speaks for itself 
-
-The quality of your products is the biggest  brand ambassador . No amount of advertising can hide a burning phone battery. 
-
-## Be in the latest. And be in all of them. 
+## Be in the latest. 
 
 As a technology company ( and now it goes for pretty much all industries) ; you got to be with the latest . Sony and Sharp could not make the transition hence perished.
+
+# And be in all of them. 
 
 Though Apple is a distant second in most of the categories that matter, but they are second in all of them. Google and Microsoft are insignificant players in devices. Samsung has nothing in software. Even with-in software categories, Microsoft has lost the mobile OS and browser war with dream of Windows phone abondoned and their Edge at less than 2 % . Google has no presence in desktop OS (chromeOS less than 1 % share and now looking at Android Apps to justify its existence). A 'Second in All' strategy helps to build a walled garden for a dedicated customer base. It also means lot of hard work to keep a parallel universe alive. The idea of 'Do only one thing and be the best at it' doesn't hold water any more . At least not if your goal is to be richest company in the world. 
 
