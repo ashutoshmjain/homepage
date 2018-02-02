@@ -11,6 +11,9 @@ icon: icon-fire-alt
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
+	Disclosure - I have no finacial interest in any of the companies or technologies mentioned herebelow other than investments through mutual or index funds.
+	Disclaimer - The contents of this article  should not be construed as consulting advice. The views are based on personal observations. They don't reflect those of author's  current or previous employers. You are free to use this article in full or parts as deemed fit as long as there is no liability on author or the publishing platform (s)
+
 The lesson in most business schools and natural instict of most business leaders converges on one point -  You need to gain major  maket share to be able to command the value chain, premium and ultimately shareholders' stake. The story goes around that Microsoft sold cheap and allowed third party apps to gain a momentum with their desktop OS that ultimately led to their world domination in technology space. The latest datapoints, however, suggest a totally different take. 
 
 Needless to mention , Apple continues to be  most valuable company  globally for about half a decade now. Let's look at the market share of Apple in most categories they operate. Given the fickle nature of technologies , we will focus only on the recent year data ; that is from Dec 2016 to Dec 2017
