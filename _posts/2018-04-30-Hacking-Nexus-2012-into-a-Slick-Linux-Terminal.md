@@ -13,4 +13,7 @@ icon: icon-fire-alt
 
 	Disclaimer - The contents of this article  should not be construed as consulting advice. The views are based on personal observations. They don't reflect those of author's  current or previous employers. You are free to use this article in full or parts as deemed fit as long as there is no liability on author or the publishing platform (s)
 
-	I am writing this article on my newly minted Nexus 2012 (in 2018) , using the touch screen keyboard, in vim , on Termux to prove to myself that terminal without a physical keyboard is a reality . And probably the future 
+	
+I am writing this article on my newly minted Nexus 2012 (in 2018:-) , using the touch screen keyboard, in vim , on Termux to prove to myself that terminal without a physical keyboard is a reality . And probably the future. Since this is the first time for me on Nexus, I hardly understand the filesystem on Android, have no back ups, I am committing this post to github everytime I finish a writing session . So it will be edited at least thousand times live. 
+
+	A word about the post - The tools for rooting , flashing ROMs on Android have come a long way.  And are well documented on internet.  The problem now a days is not that of scarcity of tools . It is , in fact, that of  abundance. In this post , rather than giving step by step instructions , I want to focus on the rationsle of my choices. And in doing that, I want want to reflect on the rich  Android eco system of open source development . Truth be told , I still use an iPhone for my work as much as I use Windows  . But , during  course of building this Nexus , I am getting to a point where I might switch both my work and life to Android .  
