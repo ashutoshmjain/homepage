@@ -17,3 +17,17 @@ I am writing this article on my newly minted Nexus 2012 (in 2018:-) , using the 
 
 	
 >A word about the post - The tools for rooting , flashing ROMs on Android have come a long way.  And are well documented on internet.  The problem now a days is not that of scarcity of tools . It is , in fact, that of  abundance. In this post , rather than giving step by step instructions , I want to focus on the rationsle of my choices. And in doing that, I want want to reflect on the rich  Android eco system of open source development . Truth be told , I still use an iPhone for my work as much as I use Windows  . But , during  course of building this Nexus , I am getting to a point where I might switch both my work and life to Android .  
+
+Here is the outline of the things to cover 
+
+# What is a custom recovery, why do I need it and how to get one ?
+
+# What is a custom ROM , why do I need  it and how to get one ?
+
+# Do I need Google Apps ?
+
+# FOSS Appstore - Can I live with it?  
+
+# The Slick Linux Terminal and some more  .. 
+
+
