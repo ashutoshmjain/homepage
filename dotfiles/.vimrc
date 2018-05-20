@@ -122,7 +122,6 @@ set directory^=~/.vimbackup// " swap files are also written to .vimbackup.
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
@@ -133,10 +132,15 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mzlogin/vim-markdown-toc'
 Plugin 'fountain.vim'
 Plugin 'kchmck/vim-coffee-script'
+
+" colorschemes
+Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-colorscheme molokai
 
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_toc_autofit = 1
@@ -154,6 +158,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_coffeescript_checkers = ["coffee_jshint"]
 let g:syntastic_markdown_checkers = ["mdl"]
+let g:molokai_original= 1
+let g:rehash256= 1
+
     " To ignore plugin indent changes, instead use:
     "filetype plugin on
     "
