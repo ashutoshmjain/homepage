@@ -49,7 +49,7 @@ Little configuration change in .zshrc needed to point it to the powerline status
 
 # FBterm
 
-Since its a 'command line only' environment , I decided to use a fancier terminal - FBterm. The key shortcuts didn't  work cuz FBterm needs the capabilities for ` cap_sys_tty+ep' `. The command `setcap` , required to setup capabilities, didn't  work on the base server cuz  binaries of package libcap2 were missing. `apt install libcap2-bin ` to solve this issue and run command `setcap 'cap_sys_tty+ep' /usr/bin/fbterm`
+Since its a 'command line only' environment , I decided to use a fancier terminal - FBterm. The key shortcuts didn't  work cuz FBterm needs the capabilities for ` cap_sys_tty+ep `. The command `setcap`, required to setup capabilities, didn't  work on the base server cuz  binaries of package `libcap2 ` were missing. Used `apt install libcap2-bin ` to solve this issue and run command `setcap 'cap_sys_tty+ep' /usr/bin/fbterm`
 
 FBterm rocks with zsh and powerline status bar. 
 
