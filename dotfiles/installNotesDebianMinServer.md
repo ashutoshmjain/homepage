@@ -22,7 +22,7 @@ bash is great but I love zsh.
 
 # Powerline Status bar for zsh
 
-I install the powerline fonts before I install the status bar . `apt install fonts-pwerline`
+I install the powerline fonts before I install the status bar . `apt install fonts-powerline`
 
 Next `apt install powerline`
 
@@ -32,7 +32,7 @@ Little configuration change in .zshrc needed to point it to the powerline status
 
 # FBterm
 
-Since its a 'command line only' environment , I decided to use a fancier terminal - FBterm. The key shortcuts didn't  work cuz FBterm needs the capabilities for ` cap_sys_tty+ep' `. The command `setcap` , required to setup capabilities, didn't  work on the base server. the binaries of package libcap2 were missing. `apt install libcap2-bin ` to solve this issue and run command `setcap 'cap_sys_tty+ep' /usr/bin/fbterm`
+Since its a 'command line only' environment , I decided to use a fancier terminal - FBterm. The key shortcuts didn't  work cuz FBterm needs the capabilities for ` cap_sys_tty+ep' `. The command `setcap` , required to setup capabilities, didn't  work on the base server cuz  binaries of package libcap2 were missing. `apt install libcap2-bin ` to solve this issue and run command `setcap 'cap_sys_tty+ep' /usr/bin/fbterm`
 
 FBterm rocks with zsh and powerline status bar. 
 
@@ -48,7 +48,7 @@ add this line to .zshrc to automate the search results to open lynx automaticall
 
 `export BROWSER=lynx`
 
-#git and github
+# git and github
 
 `apt install git` and do the first time set of git hub user name and email address 
 
@@ -60,7 +60,7 @@ make sure this email is same as  your git hub account.
 then follow the article https://help.github.com/articles/connecting-to-github-with-ssh for setting up and testing connection with github
 
 
-#Vim vundle 
+# Vim vundle 
 
 We already installed vim nox as part of the first tutorial. Install vundle as git plugin manager from https://github.com/VundleVim/Vundle.vim
 
@@ -68,6 +68,9 @@ Now dump in your .vimrc in the home folder. You can check out mine from https://
 
 Open the .vimrc and run the :PluginInstall to let vim install all the plugins. 
 
-#Node
+# Node
 
-Now the fun part . The official Debian repository has an older version of node. If you want the latest (with npm) , you can get the node source repository.  
+Now the fun part .... . The official Debian repository has an older version of node. If you want the latest (with npm) , you can get the node source repository. Here is the link http://nodesource.com/blog/installing-node-js-tutorial-debian-linux
+
+While you are here, do install the build tools. npm is included in node 8. 
+
