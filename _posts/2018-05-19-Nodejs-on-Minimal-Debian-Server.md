@@ -1,3 +1,20 @@
+---
+layout: post
+title:  "Nodejs on a Minimal Debian Server"
+date:   2018-05-19
+desc: " My notes on installing Nodejs on a minimal Debian Server and other things"
+keywords: "OS, linux , Debian, Nodejs, npm "
+categories: [Predictions]
+tags: [OS, Debian, linux, Nodejs]
+icon: icon-fire-alt
+---
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+
+	Disclaimer - The contents of this article  should not be construed as consulting advice. The views are based on personal observations. They don't reflect those of author's  current or previous employers. You are free to use this article in full or parts as deemed fit as long as there is no liability on author or the publishing platform (s)
+
+
+
 Here are my installation notes on Debian ( Stretch) minimal server and configuring it to a node server. Also installing little things that make command line a beautiful place to work. Debian minimal server doesn't has a gui and comes with minimal packages .. The best solution for trying out your hands on an older machine before you put it to real use .. 
 
 # Minimal Server
