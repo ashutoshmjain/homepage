@@ -58,3 +58,10 @@
 .article small {
   font-size: .778em;
 }
+
+.article a:link { color: #00f; }
+.article a:visited { color: #009; }
+.article a:hover { color: #06f; }
+.article a:active { color: #0cf; }
+
+
