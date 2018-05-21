@@ -85,6 +85,12 @@ Now dump in your .vimrc in the home folder. You can check out mine from https://
 
 Open the .vimrc and run the :PluginInstall to let vim install all the plugins. 
 
+# Mega Storage
+
+`apt install megatools` to install the command line tools for mega storage. If you already have a mega account , pu the user name and pasword in `.magarc` and you are good to go with `maga copy`. If no existing account , you can register from command line withcommand `megareg` . All the details in `man megatools`.
+
+
+
 # Node
 
 Now the fun part .... . The official Debian repository has an older version of node. If you want the latest (with npm) , you can get the node source repository. Here is the link http://nodesource.com/blog/installing-node-js-tutorial-debian-linux
