@@ -51,7 +51,11 @@ Little configuration change in `.zshrc ` needed to point it to the powerline sta
 
 # FBterm
 ---
-Since its a 'command line only' environment , I decided to use a fancier terminal - FBterm. The keyboard  shortcuts didn't  work cuz FBterm needs the capabilities for ` cap_sys_tty+ep `. More trouble, the command `setcap`, required to setup capabilities, didn't  work on as the binaries of package `libcap2 ` were missing. Used `apt install libcap2-bin ` to solve this issue and ran  command `setcap 'cap_sys_tty+ep' /usr/bin/fbterm`
+Looks like Debian Minimal server is missing the bianries of the package `libcap2` needed set up the capabilities of FBterm. So run `apt install libcap2-bin`. Once the package is installed, runthe following command. 
+
+	setcap 'cap_sys_tty+ep' /usr/bin/fbterm
+
+This will allow FBTerm to use the keyboard shortcuts. Without key board shortcuts, FBTerm is pretty meaningless. 
 
 FBterm rocks with zsh and powerline status bar. 
 
