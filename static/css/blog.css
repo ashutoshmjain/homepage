@@ -1,6 +1,6 @@
 .article p {
   font-size: 2.0rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.4rem;
   line-height: 2.8rem;
   margin-bottom: 1.3rem;
 }
@@ -59,9 +59,17 @@
   font-size: .778em;
 }
 
-.article a:link { color: #00f; }
-.article a:visited { color: #009; }
-.article a:hover { color: #06f; }
-.article a:active { color: #0cf; }
+.article a:link { 
+  color: #00f;
+}
+.article a:visited {
+  color: #009; 
+}
+.article a:hover {
+  color: #06f; 
+}
+.article a:active {
+  color: #0cf; 
+}
 
 
