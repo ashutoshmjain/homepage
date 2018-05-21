@@ -18,7 +18,8 @@ icon: icon-fire-alt
 Here are my installation notes on Debian ( Stretch) minimal server and configuring it to a node server. Also installing little things that make command line a beautiful place to work. Debian minimal server doesn't has a gui and comes with minimal packages .. The best solution for trying out your hands on an older machine before you put it to real use .. 
 
 # Minimal Server
-- Followed  the tutorial at https://howtoforge.com/tutorial/debian-minimal-server
+---
+- Followed  the tutorial at [How to Forge](https://howtoforge.com/tutorial/debian-minimal-server)
 - Unetbootin a usb for the Debian net install
 - Choose minimal server for installation. Follow the menu. 
 - Grub is a problem cuz it thinks that usb is the primary device. Not sure how it worked but somehow I got to Lilo installation and it worked well there after. Had to go back in menu multiple times. 
