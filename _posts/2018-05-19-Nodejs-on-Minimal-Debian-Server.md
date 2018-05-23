@@ -4,7 +4,7 @@ title:  "Nodejs on a Minimal Debian Server"
 date:   2018-05-19
 desc: " My notes on installing Nodejs on a minimal Debian Server and other things"
 keywords: "OS, linux , Debian, Nodejs, npm "
-categories: [Predictions]
+categories: [FOSS, Lab]
 tags: [OS, Debian, linux, Nodejs]
 icon: icon-fire-alt
 ---
