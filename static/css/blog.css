@@ -61,16 +61,16 @@
   font-size: .778em;
 }
 
-.article link { 
+.article a:link { 
   color: #00f;
 }
-.article visited {
+.article a:visited {
   color: #009; 
 }
-.article hover {
+.article a:hover {
   color: #06f; 
 }
-.article active {
+.article a:active {
   color: #0cf; 
 }
 
