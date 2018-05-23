@@ -4,7 +4,7 @@ title:  "Hacking Nexus 2012 into a Slick Linux Terminal"
 date:   2018-04-30
 desc: "Upgrading Nexus 2012 to LineageOS14.1 grouper using TWRP recovery. And installing Termux "
 keywords: "OS, linux , Android, Mobile, "
-categories: [Predictions]
+categories: [FOSS, Lab]
 tags: [OS, mobile, linux, Android]
 icon: icon-fire-alt
 ---
