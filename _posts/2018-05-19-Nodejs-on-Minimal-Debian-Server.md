@@ -59,6 +59,12 @@ This will allow FBTerm to use the keyboard shortcuts. Without key board shortcut
 
 FBterm rocks with zsh and powerline status bar. 
 
+# Tmux
+---
+Tmux, among any things is a multimplexer, session manager and keeps ssh sessions alive even when you log off ( NOT power off) the computer. Installing is a breeze `apt install tmux`.  Tmux is FBTerm friendly. Means it runs very well with FbTerm. You can obviously create multiple windows with FBTerm but Tmux takes it to the new levels. For example FBTerm doesn't allow you to split a screen into multiple panes. You can do the same with other console terminals such as `dvtm` (or I guess with `i3` ) but Tmux gets lot more done. The man page for Tmux is a bit involved. If you are starting  , I would suggest this [cheat dheat](https://gist.github.com/andreyvit/2921703) 
+
+The idea of Tmux on a server is very simple. I will be doing a lot of work on this server. Many windows with many panes. Whenever I take a break , I can detach the Tmux session and log off. Come back and attch to the same session again. Its simliar to restoring all the apps back in same state when you come back to your Mac. Only better cuz you can connect to this session from a remote computer ( or tablet ) through ssh. Whats even more - your session can have multiple ssh sessions alive. 
+
 # Browser
 ---
 `apt install lynx`
