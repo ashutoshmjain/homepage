@@ -18,7 +18,7 @@ Sending two kids to a modest public college in California means 250,000 dollars.
 
 > Bottom line, an average middle class American can´t even imagine financial independence till early sixties
 
-**This means, we are pushing most experienced Americans away from starting their own small businesses, indulging in innovation or even politics. The system is designed in a fashion that normal risk averse people must continue to work till they are too old to do anything else**
+**This means, we are pushing most experienced Americans away from starting their own small businesses, leveraging their life long experience to invest in meaningful  innovation or even participate actively in politics. The system is designed in a fashion that normal risk averse people must continue to work till they are too old to do anything else**
 
 Financial security is a basic requirement for middle class people to use their experience in creating something new or improving upon something they already know.
 
