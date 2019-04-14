@@ -35,7 +35,8 @@ The most surprising news ,however, was [WSL](https://blogs.windows.com/buildinga
 
 There are few downsides. I was expecting lot more features on the web version of office 365. Web version is still far from being business grade. You still need Desktop applications to do something worthwhile. Mac version of Desktop apps have caught up with Windows but for Linux users, there is no choice. I hope Microsoft will return the favor of WSL and make office apps available to Linux users.
 
-
+## Update April 2019 
+MS is among the best performing stock in big tech, beating Apple , Google , Amazon and Facebook comforatbly. Windows 10 adoption is strong. Azure is very strong,. The acqusitions of Linked in and Github are very well thought thru. 
 
 
 
