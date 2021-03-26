@@ -1,87 +1,24 @@
 
-- name: Cloud Computing
-  percentage: 12
-
-- name: Program Management
-  percentage: 45
-
 - name: IT strategy
   percentage: 100
-  
-- name: Service Delivery
-  percentage: 37 
   
 - name: Business Process Design
   percentage: 100  
     
-- name: Project Management
-  percentage: 23
-
 - name: Solution Architecture
   percentage: 100
 
-- name: Pre-Sales
-  percentage: 18
+- name: Program Management
+  percentage: 45
 
-- name: Business Intelligence
-  percentage: 61 
-
-- name: Vendor Management
-  percentage: 17
-
-- name: ERP
-  percentage: 58
-  
-- name: Offshoring
-  percentage: 13 
-  
-- name: Integration
-  percentage: 48
-
-- name: Software Project Management
-  percentage: 13
-  
-- name: SAP Cloud Products
-  percentage: 43
-  
-- name: ITSM
-  percentage: 11
-  
 - name: Enterprise Architecture
   percentage: 31  
   
-- name: Business Development
-  percentage: 11 
-  
-- name: Requirements Analysis
-  percentage: 24
-  
-- name: Solution Selling
-  percentage: 8  
-  
-- name: SAP R/3
-  percentage: 23 
- 
-- name: Resource Management
-  percentage: 7  
- 
 - name: Enterprise Software
   percentage: 24
   
-- name: Global Delivery
-  percentage: 7 
-  
-- name: SAP Implementations
-  percentage: 10
-  
-- name: Outsourcing 
-  percentage: 6  
-    
-- name: SDLC
+- name: SDLC and Dev Ops
   percentage: 13
-  
-- name: Project Portfolio Management
-  percentage: 4  
   
 
   
