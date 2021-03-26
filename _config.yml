@@ -18,10 +18,10 @@ author:
   twitter_username: 'https://twitter.com/ashutoshmjain'
   medium_username: 'https://medium.com/@ashutoshmjain'
   email: 'amj@smbstack.com'
-  facebook_username: 'ashutoshmjain'
+    #  facebook_username: 'ashutoshmjain'
   github_username: 'ashutoshmjain'
   avatar: 'static/img/landing/pf_twitter.jpg'
-  desc: 'team player | program manager | solution seller & architect | open source enthusiast | regular blogger | daily runner'
+  desc: 'open source enthusiast | regular blogger | daily runner'
 # comment
 #changyan:
   # appid: cysfY7ULn
