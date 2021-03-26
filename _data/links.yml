@@ -5,29 +5,29 @@
   website: 'https://smbstack.com/'
   email: 'amj@smbstack.com'
 
-- last_name: Think
-  first_name: SAP
-  desc: 'Design Discussions on building enterprise backbone thru ERP, CRM, SCM, Fin and HR solutions'
-  website: 'https://thinkinginsap.com/'
-  email: 'amj@thinkinginsap.com'
-
-- last_name: 86
-  first_name: Reckers
-  desc: 'A web magazine of class of 86-90- National Institute of Technology Kurukshetra'
-  website: 'https://86reckers.com/'
-  email: 'amj@smbstack.com'
-  
-- last_name: SAP
-  first_name: HANA
-  desc: 'My Notes and Thougts on SAP HANA'
-  website: 'https://hanaintegrator.wordpress.com/'
-  email: 'ashutoshmjain@gmail.com'
-  
-- last_name: SAP
-  first_name: Gurus
-  desc: 'SAP community on Google Plus'
-  website: 'https://plus.google.com/communities/100566131890898507591'
-  email: 'ashutoshmjain@gmail.com'  
+    #- last_name: Think
+    #  first_name: SAP
+    #  desc: 'Design Discussions on building enterprise backbone thru ERP, CRM, SCM, Fin and HR solutions'
+    #  website: 'https://thinkinginsap.com/'
+    #  email: 'amj@thinkinginsap.com'
+    #
+    #- last_name: 86
+    #  first_name: Reckers
+    #  desc: 'A web magazine of class of 86-90- National Institute of Technology Kurukshetra'
+    #  website: 'https://86reckers.com/'
+    #  email: 'amj@smbstack.com'
+    #  
+    #- last_name: SAP
+    #  first_name: HANA
+    #  desc: 'My Notes and Thougts on SAP HANA'
+    #  website: 'https://hanaintegrator.wordpress.com/'
+    #  email: 'ashutoshmjain@gmail.com'
+    #  
+    #- last_name: SAP
+    #  first_name: Gurus
+    #  desc: 'SAP community on Google Plus'
+    #  website: 'https://plus.google.com/communities/100566131890898507591'
+    #  email: 'ashutoshmjain@gmail.com'  
   
 - last_name: Madan
   first_name: Maholvi
