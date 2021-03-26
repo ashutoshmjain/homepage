@@ -1,16 +1,16 @@
 # careers section data
 - name:
-    detail: Break from corporations. 
+    detail: Learning new Skills. 
     i18n: gapYear
   desc:
-    detail: Exploring new developemnet paradigm and how to apply in enterprise envioronment. Focus - configuration management with Nixos ; native graph database Neo4J and google cloud platform. 
-      Spent six months in India duing Covid lockdown.
+    detail: Exploring new development paradigm and how to apply in enterprise environment. Focus - configuration management with Nixos ; native graph database Neo4J and google cloud platform. 
+      Spent six months in India during Covid lockdown.
     i18n: gapYear_desc
   date:
     detail: Jan 2020
     i18n: gapYear_date
   job:
-    detail: Finacially Independent, debt free and self funded.
+    detail: Taking a break from active work to learn the new tricks of the technology. Things have changed upside down but for the greater good. I started from the basics - getting used to command line. Working my way through vim , tmux , git ; exploring various ditros and finally settling on nixOS. I think declarative configuration management is the future for enterprise dev ops. Spent lot of time exploring data bases - finally zero-ed on Neo4J - a native graph. As I am getting comfortable withe new tool-set, things are looking very exciting .. 
     i18n: gapYear_job
   icon: fa-cloud
 
