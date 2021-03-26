@@ -1,5 +1,21 @@
 # careers section data
 - name:
+    detail: Break from corporations. 
+    i18n: gapYear
+  desc:
+    detail: Exploring new developemnet paradigm and how to apply in enterprise envioronment. Focus - configuration management with Nixos ; native graph database Neo4J and google cloud platform. 
+      Spent six months in India duing Covid lockdown.
+    i18n: gapYear_desc
+  date:
+    detail: Jan 2020
+    i18n: gapYear_date
+  job:
+    detail: Finacially Independent, debt free and self funded.
+    i18n: gapYear_job
+  icon: fa-cloud
+
+
+- name:
     detail: Director Enterprise Applications
     i18n: NTT
   desc:
