@@ -1,12 +1,12 @@
 # blog page sections
 - name: Blog
-  href: '/homepage/blog/'
+  href: '/blog/'
 
 - name: Free & Open
-  href: '/homepage/foss/'
+  href: '/foss/'
 
 - name: Inspirations
-  href: '/homepage/inspirations/'
+  href: '/inspirations/'
 
 #- name: Bernie
 #  href: '/homepage/bernie/'
@@ -15,10 +15,10 @@
 #  href: '/homepage/science/'
 
 - name: Predictions
-  href: '/homepage/predictions/'
+  href: '/predictions/'
 
 - name: Business Apps
-  href: '/homepage/apps/'
+  href: '/apps/'
 
 - name: Home Lab
-  href: '/homepage/lab/'
+  href: '/lab/'
