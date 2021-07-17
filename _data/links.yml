@@ -1,21 +1,22 @@
 # links section data
-- last_name: SMB
-  first_name: Stack
+
+- last_name: Stack
+  first_name: SMB
   desc: 'Systems integration cool tips for Small and Medium Businesses'
   website: 'https://smbstack.com/'
   email: 'amj@smbstack.com'
 
-    - last_name: Uvaach  
-      first_name: Arjuna
-      desc: 'A new perspective on Bhagvad Gita and a new format for the tech savvy readers'
-      website: 'https://gita.shutri.com/'
-      email: 'amj@shutri.com'
+- last_name: Uvaach  
+  first_name: Arjuna
+  desc: 'A new perspective on Bhagvad Gita and a new format for the tech savvy readers'
+  website: 'https://gita.shutri.com/'
+  email: 'amj@shutri.com'
     
-    - last_name: Shayri
-      first_name: Hindi Urdu
-      desc: 'A collections of poems I love'
-      website: 'https://poems.shutri.com/'
-      email: 'amj@shutri.com'
+- last_name: Shayri
+  first_name: Hindi Urdu
+  desc: 'A collections of poems I love'
+  website: 'https://poems.shutri.com/'
+  email: 'amj@shutri.com'
       
     #- last_name: SAP
     #  first_name: HANA
