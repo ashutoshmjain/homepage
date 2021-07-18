@@ -4,7 +4,7 @@
   first_name: SMB
   desc: 'Systems integration cool tips for Small and Medium Businesses'
   website: 'https://smbstack.com/'
-  email: 'amj@smbstack.com'
+  email: 'amj@shutri.com'
 
 - last_name: Uvaach  
   first_name: Arjuna
@@ -18,23 +18,8 @@
   website: 'https://poems.shutri.com/'
   email: 'amj@shutri.com'
       
-    #- last_name: SAP
-    #  first_name: HANA
-    #  desc: 'My Notes and Thougts on SAP HANA'
-    #  website: 'https://hanaintegrator.wordpress.com/'
-    #  email: 'ashutoshmjain@gmail.com'
-    #  
-    #- last_name: SAP
-    #  first_name: Gurus
-    #  desc: 'SAP community on Google Plus'
-    #  website: 'https://plus.google.com/communities/100566131890898507591'
-    #  email: 'ashutoshmjain@gmail.com'  
-  
-    #- last_name: Madan
-    #  first_name: Maholvi
-    #  desc: 'Hindi poetry'
-    #  website: 'http://madan.shutri.com/ '
-    #  email: 'amj@smbstack.com'  
-    #  
-  
-   
+- last_name: Naad
+  first_name: Podcast
+  desc: 'Naad means "Voice" - the loud voice. When a lion roars outside in open jungle - it is a Naad. Likewsise , the vice of our soul is Anhat Naad. The voice of our experience. Our emotions. Our knowledge and our being. This Podcast is to understand the internal voice by looking at some of the greatest pieces of literature.
+  website: 'https://open.audio/channels/naad'
+  email: 'amj@shutri.com'
